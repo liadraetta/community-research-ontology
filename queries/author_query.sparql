@@ -14,14 +14,14 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 CONSTRUCT {
   ?reoid a  reo:Person;
         reo:authorName ?reoname;
-        reo:authorSurname ?reosurname.
-        reo:authorSurname ?reosurname.
-        reo:authorSurname ?reosurname.
-        reo:authorSurname ?reosurname.
-        reo:authorSurname ?reosurname.
-        reo:authorSurname ?reosurname.
-        reo:authorSurname ?reosurname.
-        reo:authorSurname ?reosurname.
+        reo:authorSurname ?reosurname;
+        reo:authorSurname ?reosurname;
+        reo:authorGender ?reogenre;
+        reo:authorNationality ?reonationality;
+        reo:authorEmail ?reoemail;
+        reo:UGOVID ?reougovId;
+        reo:orcidId ?reoorcid;
+        reo:hasRole ?reorole;
 
 
 } WHERE {
@@ -32,7 +32,6 @@ CONSTRUCT {
             xyz:Genere ?genre;
             xyz:Nazionalita ?nationality;
             xyz:Email ?email;
-            xyz:IRISID ?irisId;
             xyz:UGOVID ?ugovId;
             xyz:ORCID ?orcid;
             xyz:Ruolo ?role;
