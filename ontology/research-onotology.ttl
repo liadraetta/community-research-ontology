@@ -33,13 +33,6 @@ skos:definition rdf:type owl:AnnotationProperty ;
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ScientificDirectorOf
-:ScientificDirectorOf rdf:type owl:ObjectProperty ;
-                      rdfs:domain :Person ;
-                      rdfs:range :Project ,
-                                 :PublicEngagement .
-
-
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#authoredBy
 :authoredBy rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
@@ -60,8 +53,7 @@ skos:definition rdf:type owl:AnnotationProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#funds
 :funds rdf:type owl:ObjectProperty ;
-       rdfs:domain :Organization ,
-                   :Person ;
+       rdfs:domain :Organization ;
        rdfs:range :Project ,
                   :PublicEngagement .
 
@@ -95,6 +87,13 @@ skos:definition rdf:type owl:AnnotationProperty ;
          rdfs:range reo:Role .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasTopic
+:hasTopic rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain reo:Work ;
+          rdfs:range reo:Topic .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isAuthorOf
 :isAuthorOf rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
@@ -121,26 +120,7 @@ skos:definition rdf:type owl:AnnotationProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdfs:domain :Project ,
                         :PublicEngagement ;
-            rdfs:range :Organization ,
-                       :Person .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isOrganizedBy
-:isOrganizedBy rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf owl:topObjectProperty ;
-               rdfs:domain :PublicEngagement ;
-               rdfs:range :Organization .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isPartOf
-:isPartOf rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain :Department ,
-                      :Person ,
-                      reo:Work ;
-          rdfs:range :Organization ,
-                     :Project ,
-                     :PublicEngagement .
+            rdfs:range :Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isRelatedTo
@@ -148,8 +128,14 @@ skos:definition rdf:type owl:AnnotationProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain :Project ,
                          reo:Work ;
-             rdfs:range reo:ERCPanel ,
-                        reo:keyword .
+             rdfs:range reo:ERCPanel .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isScientificDirectorOf
+:isScientificDirectorOf rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Person ;
+                        rdfs:range :Project ,
+                                   :PublicEngagement .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isSubOrganizationOF
@@ -179,9 +165,7 @@ skos:definition rdf:type owl:AnnotationProperty ;
 reo:manages rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdfs:domain :Person ;
-            rdfs:range :Organization ,
-                       :Project ,
-                       :PublicEngagement .
+            rdfs:range :Organization .
 
 
 #################################################################
@@ -1229,8 +1213,7 @@ reo:technicalAndAdministrativeStaff rdf:type owl:Class ;
                                                                       :editedBy :Springer_Science_and_Business_Media_Deutschland_GmbH ;
                                                                       :hasKeyword :Commonsense_Reasoning ,
                                                                                   :Frame_Semantics ,
-                                                                                  :_AI ;
-                                                                      :isPartOf :_Social_Participation_and_Inclusion_through_Cultural_Engagement .
+                                                                                  :_AI .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Beaterice_Bucciarelli
@@ -1271,7 +1254,6 @@ reo:technicalAndAdministrativeStaff rdf:type owl:Class ;
                     :hasAffiliaton :DepartmentofHumanities ;
                     :hasRole :AssociateProfessorSecondTier ;
                     :isAuthorOf :_rhétorique_et_réalité ;
-                    :isPartOf :UniversityOfTurin ;
                     :IRISID "16130"^^xsd:string ;
                     :UGOVID "2095"^^xsd:string ;
                     :affiliationStart "019-01-09"^^xsd:string ;
@@ -1352,7 +1334,6 @@ reo:technicalAndAdministrativeStaff rdf:type owl:Class ;
                  :hasRole :AssociateProfessorSecondTier ;
                  :isAuthorOf :HaMor_at_the_Profiling_Hate_Speech_Spreaders_on_Twitter ,
                              :Ontology-Based_Visualisation_of_Cultural_Heritage ;
-                 :isPartOf :UniversityOfTurin ;
                  :AuthorName "Rossana Damiano"^^xsd:string ;
                  :orcidId "0000-0001-9866-2843"^^xsd:string .
 
