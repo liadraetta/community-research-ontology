@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Pagina-1" id="G8kjAlk_GBHAxWzY2wQV">
-    <mxGraphModel dx="1613" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -260,13 +260,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-95" value="org:Organization" style="graphMlID=n4;shape=rect;rounded=1;arcsize=30;fillColor=#ffff00;strokeColor=#000000;strokeWidth=1.0" parent="1" vertex="1">
-          <mxGeometry x="440" y="800" width="91.97" height="54" as="geometry" />
+          <mxGeometry x="447.95" y="693" width="91.97" height="54" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-96" value="org:Department" style="graphMlID=n4;shape=rect;rounded=1;arcsize=30;fillColor=#ffff00;strokeColor=#000000;strokeWidth=1.0" parent="1" vertex="1">
-          <mxGeometry x="340" y="906" width="100" height="44" as="geometry" />
+          <mxGeometry x="347.95" y="820" width="100" height="44" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-97" value="reo:University" style="graphMlID=n4;shape=rect;rounded=1;arcsize=30;fillColor=#ffff00;strokeColor=#000000;strokeWidth=1.0" parent="1" vertex="1">
-          <mxGeometry x="540" y="906" width="81.96822102864604" height="44" as="geometry" />
+          <mxGeometry x="540" y="820" width="81.96822102864604" height="44" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-98" value="" style="endArrow=classic;html=1;textDirection=ltr;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.395;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-96" target="cSvHSWAlFdiokaMuMZuH-95" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -302,7 +302,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-105" value="dipartimento Di Info - UNITO" style="graphMlID=n9;shape=ellipse;fillColor=#ff99cc;strokeColor=#000000;strokeWidth=3.0;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;spacingRight=1;spacing=17;" parent="1" vertex="1">
-          <mxGeometry x="380" y="1020" width="20" height="20" as="geometry" />
+          <mxGeometry x="387.95" y="950" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-107" value="" style="endArrow=classic;html=1;textDirection=ltr;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-105" target="cSvHSWAlFdiokaMuMZuH-96" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -316,7 +316,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-111" value="Università di Torino" style="graphMlID=n9;shape=ellipse;fillColor=#ff99cc;strokeColor=#000000;strokeWidth=3.0;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;spacingRight=1;spacing=17;" parent="1" vertex="1">
-          <mxGeometry x="570.98" y="1090" width="20" height="20" as="geometry" />
+          <mxGeometry x="570.98" y="1020" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-112" value="" style="graphMlID=e0;rounded=0;endArrow=block;strokeColor=#000080;strokeWidth=1.0;startArrow=oval;startFill=1;endFill=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="cSvHSWAlFdiokaMuMZuH-90" target="cSvHSWAlFdiokaMuMZuH-111" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -340,12 +340,12 @@
             <mxPoint x="19.95" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSvHSWAlFdiokaMuMZuH-116" value="" style="graphMlID=e0;rounded=0;endArrow=block;strokeColor=#000080;strokeWidth=1.0;startArrow=oval;startFill=1;endFill=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-105" edge="1">
+        <mxCell id="cSvHSWAlFdiokaMuMZuH-116" value="" style="graphMlID=e0;rounded=0;endArrow=block;strokeColor=#000080;strokeWidth=1.0;startArrow=oval;startFill=1;endFill=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.112;entryY=0.218;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-105" edge="1" target="cSvHSWAlFdiokaMuMZuH-111">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="1030.0818375889874" as="sourcePoint" />
-            <mxPoint x="570" y="1090" as="targetPoint" />
+            <mxPoint x="570" y="1030" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="460" y="1080" />
+              <mxPoint x="480" y="1000" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -355,7 +355,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-118" value="dul:OrganizationType" style="graphMlID=n4;shape=rect;rounded=1;arcsize=30;fillColor=#ffff00;strokeColor=#000000;strokeWidth=1.0" parent="1" vertex="1">
-          <mxGeometry x="365.98" y="1150" width="114.97" height="52" as="geometry" />
+          <mxGeometry x="387.95000000000005" y="1084" width="114.97" height="52" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-119" value="" style="graphMlID=e0;rounded=0;endArrow=block;strokeColor=#000080;strokeWidth=1.0;startArrow=oval;startFill=1;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-111" target="cSvHSWAlFdiokaMuMZuH-121" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -369,7 +369,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-121" value="University" style="graphMlID=n9;shape=ellipse;fillColor=#ff99cc;strokeColor=#000000;strokeWidth=3.0;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;spacingRight=1;spacing=17;" parent="1" vertex="1">
-          <mxGeometry x="570.98" y="1170" width="20" height="20" as="geometry" />
+          <mxGeometry x="570.98" y="1100" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-122" value="" style="endArrow=classic;html=1;textDirection=ltr;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-121" target="cSvHSWAlFdiokaMuMZuH-118" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -383,7 +383,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-124" value="4I SRL" style="graphMlID=n9;shape=ellipse;fillColor=#ff99cc;strokeColor=#000000;strokeWidth=3.0;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;spacingRight=1;spacing=17;" parent="1" vertex="1">
-          <mxGeometry x="670" y="817" width="20" height="20" as="geometry" />
+          <mxGeometry x="711.97" y="710" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-126" value="" style="endArrow=classic;html=1;textDirection=ltr;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-124" target="cSvHSWAlFdiokaMuMZuH-95" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -397,7 +397,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-128" value="Società rl" style="graphMlID=n9;shape=ellipse;fillColor=#ff99cc;strokeColor=#000000;strokeWidth=3.0;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;spacingRight=1;spacing=17;" parent="1" vertex="1">
-          <mxGeometry x="720" y="918" width="20" height="20" as="geometry" />
+          <mxGeometry x="711.97" y="832" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-129" value="" style="graphMlID=e0;rounded=0;endArrow=block;strokeColor=#000080;strokeWidth=1.0;startArrow=oval;startFill=1;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-124" target="cSvHSWAlFdiokaMuMZuH-128" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -415,8 +415,8 @@
             <mxPoint x="530" y="1070" as="sourcePoint" />
             <mxPoint x="677.95" y="1070" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="730" y="1252" />
-              <mxPoint x="414" y="1252" />
+              <mxPoint x="722" y="1170" />
+              <mxPoint x="445" y="1170" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -426,7 +426,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-135" value="Scienze matematiche e Informatiche" style="graphMlID=n9;shape=ellipse;fillColor=#ff99cc;strokeColor=#000000;strokeWidth=3.0;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;spacingRight=1;spacing=17;" parent="1" vertex="1">
-          <mxGeometry x="142.95" y="1190" width="20" height="20" as="geometry" />
+          <mxGeometry x="142.95" y="1100" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-136" value="" style="graphMlID=e0;rounded=0;endArrow=block;strokeColor=#000080;strokeWidth=1.0;startArrow=oval;startFill=1;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="cSvHSWAlFdiokaMuMZuH-90" target="cSvHSWAlFdiokaMuMZuH-135" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -440,7 +440,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-139" value="reo:AccademinArea" style="graphMlID=n4;shape=rect;rounded=1;arcsize=30;fillColor=#ffff00;strokeColor=#000000;strokeWidth=1.0" parent="1" vertex="1">
-          <mxGeometry x="100" y="1270" width="105.91" height="54" as="geometry" />
+          <mxGeometry x="94.09" y="1150" width="105.91" height="54" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-140" value="" style="endArrow=classic;html=1;textDirection=ltr;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-135" target="cSvHSWAlFdiokaMuMZuH-139" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
