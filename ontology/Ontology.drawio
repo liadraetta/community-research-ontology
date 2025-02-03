@@ -35,7 +35,7 @@
         <mxCell id="cSvHSWAlFdiokaMuMZuH-9" value="bookChapter" style="graphMlID=n9;shape=ellipse;fillColor=#ff99cc;strokeColor=#000000;strokeWidth=3.0;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;spacingRight=1;spacing=17;" parent="1" vertex="1">
           <mxGeometry x="220" y="358" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cSvHSWAlFdiokaMuMZuH-10" value="dul:Type" style="graphMlID=n4;shape=rect;rounded=1;arcsize=30;fillColor=#ffff00;strokeColor=#000000;strokeWidth=1.0" parent="1" vertex="1">
+        <mxCell id="cSvHSWAlFdiokaMuMZuH-10" value="reo:Type" style="graphMlID=n4;shape=rect;rounded=1;arcsize=30;fillColor=#ffff00;strokeColor=#000000;strokeWidth=1.0" parent="1" vertex="1">
           <mxGeometry x="365.98" y="278" width="81.96822102864604" height="44" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-11" value="" style="endArrow=classic;html=1;textDirection=ltr;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-9" target="R0x8hRrcfpRgSqjq78sh-1" edge="1">
@@ -440,7 +440,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-139" value="reo:AccademinArea" style="graphMlID=n4;shape=rect;rounded=1;arcsize=30;fillColor=#ffff00;strokeColor=#000000;strokeWidth=1.0" parent="1" vertex="1">
-          <mxGeometry x="94.09" y="1150" width="105.91" height="54" as="geometry" />
+          <mxGeometry x="100" y="1150" width="105.91" height="54" as="geometry" />
         </mxCell>
         <mxCell id="cSvHSWAlFdiokaMuMZuH-140" value="" style="endArrow=classic;html=1;textDirection=ltr;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cSvHSWAlFdiokaMuMZuH-135" target="cSvHSWAlFdiokaMuMZuH-139" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
