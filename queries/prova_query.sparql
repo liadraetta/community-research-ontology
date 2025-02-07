@@ -23,21 +23,15 @@ CONSTRUCT {
         reo:authorNationality ?reonationality;
         reo:authorEmail ?reoemail;
         reo:UGOVID ?reougovId;
-        reo:IRISID ?reoid;
-        reo:orcidId ?reoorcid;
+        reo:IRISID ?id;
         reo:registrationNumber ?reoRegistrationNumber;
         reo:scopusID ?reoscopus;
         reo:orcidId ?reoorcid;
         reo:affiliationStart ?reoAffiliationStart;
         reo:affiliationEnd ?reoAffiliationEnd;
-        dul:hasRole ?reorole;
-        reo:hsaMinisterialAreaAffiliation ?reoministerialArea.
+        dul:hasRole ?reorole.
     ?reorole a dul:Role;
-        skos:altLabel ?reoQualification.
-    ?reoministerialArea a reo:AcademinArea;
-        skos:narrower ?reoScientificArea.
-
-
+        #skos:altLabel reo:reoQualification.
 
 } WHERE {
   SERVICE <x-sparql-anything:csv.headers=true,location=data/authors.csv> {
@@ -55,13 +49,11 @@ CONSTRUCT {
             xyz:Affiliazione-Matricola ?registrationNumber;
             xyz:Ruolo ?role;
             xyz:Qualifica ?qualification;
-            xyz:Struttura ?affiliation;
-            xyz:Area-ministeriale ?ministerialArea;
-            xyz:Gruppo-Scientifico-Disciplinare ?scientificArea
-            #xyz:Parole_chiave_ERC ?keyWordERC;
-            #xyz:Nazione_di_nascita ?countryOfBird;
-            #xyz:Totale_pubblicazioni ?totalPubblication.
-
+            xyz:Affiliazione ?affiliation;
+            xyz:Area_ministeriale ?ministerialArea;
+            xyz:Parole_chiave_ERC ?keyWordERC;
+            xyz:Nazione_di_nascita ?countryOfBird;
+            xyz:Totale_pubblicazioni ?totalPubblication.
 
   }
   BIND(CONCAT(STR(?name), " ", STR(?surname)) AS ?fullName)
@@ -75,13 +67,16 @@ CONSTRUCT {
   BIND(IRI(CONCAT(STR(reo:), ?irisId )) AS ?reoirisId) .
   BIND(IRI(CONCAT(STR(reo:), ?ugovId )) AS ?reougovId) .
   BIND(IRI(CONCAT(STR(reo:), ?orcid )) AS ?reoorcid) .
+  BIND(IRI(CONCAT(STR(reo:), ?role )) AS ?reorole) .
+  BIND(IRI(CONCAT(STR(reo:), ?affiliation )) AS ?reoaffiliation) .
+  BIND(IRI(CONCAT(STR(reo:), ?ministerialArea )) AS ?reoministerialArea) .
+  BIND(IRI(CONCAT(STR(reo:), ?keyWordERC )) AS ?reokeyWordERC) .
+  BIND(IRI(CONCAT(STR(reo:), ?countryOfBird )) AS ?reocountryOfBird) .
+  BIND(IRI(CONCAT(STR(reo:), ?totalPubblication )) AS ?reototalPubblication) .
   BIND(IRI(CONCAT(STR(reo:), ?scopus )) AS ?reoscopus) .
   BIND(IRI(CONCAT(STR(reo:), ?affiliationStart )) AS ?reoAffiliationStart) .
   BIND(IRI(CONCAT(STR(reo:), ?affiliationEnd )) AS ?reoAffiliationEnd) .
   BIND(IRI(CONCAT(STR(reo:), ?registrationNumber )) AS ?reoRegistrationNumber) .
-  BIND(IRI(CONCAT(STR(reo:), ?role )) AS ?reorole) .
   BIND(IRI(CONCAT(STR(reo:), ?qualification )) AS ?reoQualification) .
-  BIND(IRI(CONCAT(STR(reo:), ?ministerialArea )) AS ?reoministerialArea) .
-  BIND(IRI(CONCAT(STR(reo:), ?scientificArea )) AS ?reoScientificArea) .
 
 }

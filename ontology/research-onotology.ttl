@@ -331,7 +331,7 @@ reo:URL rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#VATNumber
 reo:VATNumber rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:subPropertyOf reo:organizationProperties ;
               rdfs:domain org:Organization .
 
 
@@ -415,13 +415,6 @@ reo:endDate rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#fiscalCode
-reo:fiscalCode rdf:type owl:DatatypeProperty ;
-               rdfs:subPropertyOf owl:topDataProperty ;
-               rdfs:domain org:Organization ;
-               rdfs:range xsd:string .
-
-
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasLexicalForm
 reo:hasLexicalForm rdf:type owl:DatatypeProperty ;
                    rdfs:domain soa:Keyword ;
@@ -458,6 +451,11 @@ reo:institutionalInitiative rdf:type owl:DatatypeProperty ;
 reo:internationalCo-authors rdf:type owl:DatatypeProperty ;
                             rdfs:subPropertyOf reo:workProperties ;
                             rdfs:domain <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Work> .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isExternalOrganization
+reo:isExternalOrganization rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf reo:organizationProperties .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isOpenAccess
@@ -501,9 +499,24 @@ reo:orcidId rdf:type owl:DatatypeProperty ;
             rdfs:domain foaf:Person .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#organizationAcronym
+reo:organizationAcronym rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf reo:organizationProperties .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#organizationName
+reo:organizationName rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf reo:organizationProperties .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#organizationProperties
 reo:organizationProperties rdf:type owl:DatatypeProperty ;
                            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#organizationStartDate
+reo:organizationStartDate rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf reo:organizationProperties .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#pagesNumber
@@ -535,6 +548,11 @@ reo:refereeType rdf:type owl:DatatypeProperty ;
                 rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#registrationNumber
+reo:registrationNumber rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf reo:authorProperties .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#scopeOfImpact
 reo:scopeOfImpact rdf:type owl:DatatypeProperty ;
                   rdfs:domain reo:PublicEngagement ;
@@ -563,12 +581,6 @@ reo:startDate rdf:type owl:DatatypeProperty ;
               rdfs:domain frapo:Project ,
                           reo:PublicEngagement ;
               rdfs:range xsd:dateTime .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#startingPage
-reo:startingPage rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty ;
-                 rdfs:domain <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Work> .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#totalFunding

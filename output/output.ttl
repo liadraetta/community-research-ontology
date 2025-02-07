@@ -1,0 +1,1507 @@
+@prefix dul:    <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reo:    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix urb:    <http://purl.archive.org/urbooks#> .
+@prefix urw:    <http://purl.archive.org/urwriters#> .
+@prefix xml:    <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+reo:andras-horvath  rdf:type    foaf:Person ;
+        rdfs:label              "Andras HORVATH" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:157 ;
+        reo:UGOVID              reo:10093 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/04/05/2015> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/andras.horvath@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Andras ;
+        reo:authorNationality   reo:Ungheria ;
+        reo:authorSurname       reo:HORVATH ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-8210-545X ;
+        reo:registrationNumber  reo:061246 ;
+        reo:scopusID            reo: .
+
+reo:giovanni-quattrone
+        rdf:type                foaf:Person ;
+        rdfs:label              "Giovanni QUATTRONE" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:79776 ;
+        reo:UGOVID              reo:334546 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/22/04/2019> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/giovanni.quattrone@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Giovanni ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:QUATTRONE ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-9219-8437 ;
+        reo:registrationNumber  reo:650312 ;
+        reo:scopusID            reo: .
+
+reo:luigi-di-caro  rdf:type     foaf:Person ;
+        rdfs:label              "Luigi DI-CARO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:18266 ;
+        reo:UGOVID              reo:25071 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/luigi.dicaro@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Luigi ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:DI-CARO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-7570-637X ;
+        reo:registrationNumber  reo:037573 ;
+        reo:scopusID            reo:26534198600 .
+
+reo:matteo-sereno  rdf:type     foaf:Person ;
+        rdfs:label              "Matteo SERENO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:13626 ;
+        reo:UGOVID              reo:1832 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/10/2031> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2006> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/matteo.sereno@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Matteo ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:SERENO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-5339-3456 ;
+        reo:registrationNumber  reo:013393 ;
+        reo:scopusID            reo:7005050480 .
+
+reo:francesco-bergadano
+        rdf:type                foaf:Person ;
+        rdfs:label              "Francesco BERGADANO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:19028 ;
+        reo:UGOVID              reo:3023 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2033> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/01/2000> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/francesco.bergadano@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Francesco ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BERGADANO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-2567-336X ;
+        reo:registrationNumber  reo:013238 ;
+        reo:scopusID            reo: .
+
+reo:marino-segnan  rdf:type     foaf:Person ;
+        rdfs:label              "Marino SEGNAN" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:11107 ;
+        reo:UGOVID              reo:15676 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/05/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/01/2005> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/marino.segnan@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Marino ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:SEGNAN ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-7253-7945 ;
+        reo:registrationNumber  reo:062071 ;
+        reo:scopusID            reo: .
+
+reo:ferruccio-damiani
+        rdf:type                foaf:Person ;
+        rdfs:label              "Ferruccio DAMIANI" ;
+        dul:hasRole             reo:014005 ;
+        reo:IRISID              reo:DMNFRC68P23A182Y ;
+        reo:UGOVID              reo:17640 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/28/12/2021> ;
+        reo:affiliationStart    reo: ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/ferruccio.damiani@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Ferruccio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:DAMIANI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:INFORMATICA ;
+        reo:orcidId             reo:2420 ;
+        reo:registrationNumber  reo: ;
+        reo:scopusID            reo:FmFRiaAAAAAJ .
+
+reo:mirko-polato  rdf:type      foaf:Person ;
+        rdfs:label              "Mirko POLATO" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:114657 ;
+        reo:UGOVID              reo:399822 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/30/06/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/07/2021> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/mirko.polato@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Mirko ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:POLATO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-4890-5020 ;
+        reo:registrationNumber  reo:663300 ;
+        reo:scopusID            reo:56401862500 .
+
+reo:marco-aldinucci  rdf:type   foaf:Person ;
+        rdfs:label              "Marco ALDINUCCI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:24800 ;
+        reo:UGOVID              reo:92069 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2019> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/marco.aldinucci@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Marco ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:ALDINUCCI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-8788-0829 ;
+        reo:registrationNumber  reo:014512 ;
+        reo:scopusID            reo: .
+
+reo:roberto-esposito  rdf:type  foaf:Person ;
+        rdfs:label              "Roberto ESPOSITO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:20080 ;
+        reo:UGOVID              reo:4052 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/roberto.esposito@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Roberto ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:ESPOSITO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-5366-292X ;
+        reo:registrationNumber  reo:032021 ;
+        reo:scopusID            reo:35753188100 .
+
+reo:Docenti-di-ruolo-di-IIa-fascia
+        rdf:type       dul:Role ;
+        skos:altLabel  reo:Professori-Associati .
+
+reo:enrico-bini  rdf:type       foaf:Person ;
+        rdfs:label              "Enrico BINI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:52473 ;
+        reo:UGOVID              reo:258386 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2016> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/enrico.bini@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Enrico ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BINI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-9205-584X ;
+        reo:registrationNumber  reo:632331 ;
+        reo:scopusID            reo:7006329088 .
+
+reo:noemi-mauro  rdf:type       foaf:Person ;
+        rdfs:label              "Noemi MAURO" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:46333 ;
+        reo:UGOVID              reo:142652 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/30/11/2030> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/12/2021> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/noemi.mauro@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Noemi ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:MAURO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-8234-3266 ;
+        reo:registrationNumber  reo:629127 ;
+        reo:scopusID            reo:57191504166 .
+
+reo:gian--luca-pozzato
+        rdf:type                foaf:Person ;
+        rdfs:label              "Gian--Luca POZZATO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:13167 ;
+        reo:UGOVID              reo:16736 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/07/2024> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/gianluca.pozzato@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Gian--Luca ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:POZZATO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-3952-4624 ;
+        reo:registrationNumber  reo:034648 ;
+        reo:scopusID            reo: .
+
+reo:014005  rdf:type   dul:Role ;
+        skos:altLabel  reo:Docenti-di-ruolo-di-Ia-fascia .
+
+reo:liliana-ardissono
+        rdf:type                foaf:Person ;
+        rdfs:label              "Liliana ARDISSONO" ;
+        dul:hasRole             reo:013903 ;
+        reo:IRISID              reo:RDSLLN66P68E379J ;
+        reo:UGOVID              reo:15281 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/04/2021> ;
+        reo:affiliationStart    reo: ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/liliana.ardissono@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Liliana ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:ARDISSONO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:INFORMATICA ;
+        reo:orcidId             reo:1979 ;
+        reo:registrationNumber  reo: ;
+        reo:scopusID            reo: .
+
+reo:fabio-ciravegna  rdf:type   foaf:Person ;
+        rdfs:label              "Fabio CIRAVEGNA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:120559 ;
+        reo:UGOVID              reo:417078 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/10/2034> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/fabio.ciravegna@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Fabio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:CIRAVEGNA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-5817-4810 ;
+        reo:registrationNumber  reo:668871 ;
+        reo:scopusID            reo: .
+
+reo:simone-pernice  rdf:type    foaf:Person ;
+        rdfs:label              "Simone PERNICE" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:38404 ;
+        reo:UGOVID              reo:158848 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/03/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/04/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/simone.pernice@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Simone ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:PERNICE ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-7124-4676 ;
+        reo:registrationNumber  reo:623765 ;
+        reo:scopusID            reo: .
+
+reo:guido-boella  rdf:type      foaf:Person ;
+        rdfs:label              "Guido BOELLA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:17629 ;
+        reo:UGOVID              reo:2419 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2015> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/guido.boella@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Guido ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BOELLA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-8804-3379 ;
+        reo:registrationNumber  reo:014004 ;
+        reo:scopusID            reo: .
+
+<http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/ugo-de'-liguoro>
+        rdf:type                foaf:Person ;
+        rdfs:label              "Ugo DE'-LIGUORO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:18817 ;
+        reo:UGOVID              reo:2845 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2031> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2001> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/ugo.deliguoro@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Ugo ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/DE'-LIGUORO> ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-4609-2783 ;
+        reo:registrationNumber  reo:013654 ;
+        reo:scopusID            reo: .
+
+reo:roberto-nai  rdf:type       foaf:Person ;
+        rdfs:label              "ROBERTO NAI" ;
+        dul:hasRole             reo:Assegnisti ;
+        reo:IRISID              reo:120386 ;
+        reo:UGOVID              reo:416974 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/12/2025> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/01/2025> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/roberto.nai@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:ROBERTO ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:NAI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-4031-5376 ;
+        reo:registrationNumber  reo:668843 ;
+        reo:scopusID            reo:57889262400 .
+
+reo:fabiana-vernero  rdf:type   foaf:Person ;
+        rdfs:label              "Fabiana VERNERO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:18276 ;
+        reo:UGOVID              reo:25080 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2021> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/fabiana.vernero@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Fabiana ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:VERNERO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-8093-5943 ;
+        reo:registrationNumber  reo:038226 ;
+        reo:scopusID            reo: .
+
+reo:emilio-sulis  rdf:type      foaf:Person ;
+        rdfs:label              "Emilio SULIS" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:1876 ;
+        reo:UGOVID              reo:104412 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/01/2027> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/02/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/emilio.sulis@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Emilio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:SULIS ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-1746-3733 ;
+        reo:registrationNumber  reo:613539 ;
+        reo:scopusID            reo: .
+
+reo:rossano-gaeta  rdf:type     foaf:Person ;
+        rdfs:label              "Rossano GAETA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:15288 ;
+        reo:UGOVID              reo:1981 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/28/12/2021> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/rossano.gaeta@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Rossano ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:GAETA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-6521-403X ;
+        reo:registrationNumber  reo:013905 ;
+        reo:scopusID            reo: .
+
+reo:cristina-gena  rdf:type     foaf:Person ;
+        rdfs:label              "Cristina GENA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:13998 ;
+        reo:UGOVID              reo:18225 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/04/05/2015> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/cristina.gena@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Cristina ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:GENA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-0049-6213 ;
+        reo:registrationNumber  reo:014360 ;
+        reo:scopusID            reo:6507316953 .
+
+reo:luca-roversi  rdf:type      foaf:Person ;
+        rdfs:label              "Luca ROVERSI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:16857 ;
+        reo:UGOVID              reo:2187 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2002> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/luca.roversi@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Luca ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:ROVERSI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-1871-6109 ;
+        reo:registrationNumber  reo:013941 ;
+        reo:scopusID            reo:486586 .
+
+reo:doriana-medic  rdf:type     foaf:Person ;
+        rdfs:label              "Doriana MEDIC" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:127074 ;
+        reo:UGOVID              reo:424074 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/09/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/09/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/doriana.medic@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Doriana ;
+        reo:authorNationality   reo:Serbia ;
+        reo:authorSurname       reo:MEDIC ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-7163-5375 ;
+        reo:registrationNumber  reo:670935 ;
+        reo:scopusID            reo:57190272717 .
+
+reo:013903  rdf:type   dul:Role ;
+        skos:altLabel  reo:Docenti-di-ruolo-di-Ia-fascia .
+
+reo:daniele-gunetti  rdf:type   foaf:Person ;
+        rdfs:label              "Daniele GUNETTI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:19001 ;
+        reo:UGOVID              reo:2709 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2033> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2001> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/daniele.gunetti@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Daniele ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:GUNETTI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-9757-0821 ;
+        reo:registrationNumber  reo:013602 ;
+        reo:scopusID            reo: .
+
+reo:enrico-mensa  rdf:type      foaf:Person ;
+        rdfs:label              "Enrico MENSA" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:50387 ;
+        reo:UGOVID              reo:149857 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/05/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/05/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/enrico.mensa@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Enrico ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:MENSA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-7743-4999 ;
+        reo:registrationNumber  reo:630799 ;
+        reo:scopusID            reo: .
+
+reo:davide-cavagnino  rdf:type  foaf:Person ;
+        rdfs:label              "Davide CAVAGNINO" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:20036 ;
+        reo:UGOVID              reo:3906 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/12/2035> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2001> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/davide.cavagnino@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Davide ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:CAVAGNINO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-4981-0285 ;
+        reo:registrationNumber  reo:031518 ;
+        reo:scopusID            reo: .
+
+reo:vincenzo-lombardo
+        rdf:type                foaf:Person ;
+        rdfs:label              "Vincenzo LOMBARDO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:17109 ;
+        reo:UGOVID              reo:2272 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2034> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/12/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/vincenzo.lombardo@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Vincenzo ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:LOMBARDO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-8166-9827 ;
+        reo:registrationNumber  reo:013498 ;
+        reo:scopusID            reo:7003332038 .
+
+reo:michele-paolo-bocca-garetto
+        rdf:type                foaf:Person ;
+        rdfs:label              "Michele-Paolo BOCCA-GARETTO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:16272 ;
+        reo:UGOVID              reo:21167 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/03/2018> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/michele.garetto@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Michele-Paolo ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BOCCA-GARETTO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-4955-9003 ;
+        reo:registrationNumber  reo:014400 ;
+        reo:scopusID            reo: .
+
+reo:luca-console  rdf:type      foaf:Person ;
+        rdfs:label              "Luca CONSOLE" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:16765 ;
+        reo:UGOVID              reo:2176 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2032> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2000> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/luca.console@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Luca ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:CONSOLE ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-2948-5622 ;
+        reo:registrationNumber  reo:013484 ;
+        reo:scopusID            reo: .
+
+reo:attilio-fiandrotti
+        rdf:type                foaf:Person ;
+        rdfs:label              "Attilio FIANDROTTI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:99710 ;
+        reo:UGOVID              reo:375474 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/30/04/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/attilio.fiandrotti@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Attilio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:FIANDROTTI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-9991-6822 ;
+        reo:registrationNumber  reo:657170 ;
+        reo:scopusID            reo: .
+
+reo:roberto-micalizio
+        rdf:type                foaf:Person ;
+        rdfs:label              "Roberto MICALIZIO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:15938 ;
+        reo:UGOVID              reo:20704 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/03/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/roberto.micalizio@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Roberto ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:MICALIZIO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-9336-0651 ;
+        reo:registrationNumber  reo:062714 ;
+        reo:scopusID            reo: .
+
+reo:matteo-baldoni  rdf:type    foaf:Person ;
+        rdfs:label              "Matteo BALDONI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:16878 ;
+        reo:UGOVID              reo:2189 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/28/12/2021> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/matteo.baldoni@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Matteo ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BALDONI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-9294-0408 ;
+        reo:registrationNumber  reo:013943 ;
+        reo:scopusID            reo: .
+
+reo:valerio-basile  rdf:type    foaf:Person ;
+        rdfs:label              "Valerio BASILE" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:54486 ;
+        reo:UGOVID              reo:271462 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/28/02/2025> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2019> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/valerio.basile@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Valerio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BASILE ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-8110-6832 ;
+        reo:registrationNumber  reo:634446 ;
+        reo:scopusID            reo: .
+
+reo:susanna-donatelli
+        rdf:type                foaf:Person ;
+        rdfs:label              "Susanna DONATELLI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:19029 ;
+        reo:UGOVID              reo:3024 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2030> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2002> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/susanna.donatelli@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Susanna ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:DONATELLI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-0911-8457 ;
+        reo:registrationNumber  reo:013239 ;
+        reo:scopusID            reo: .
+
+reo:stefano-berardi  rdf:type   foaf:Person ;
+        rdfs:label              "Stefano BERARDI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:18947 ;
+        reo:UGOVID              reo:2931 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2032> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2001> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/stefano.berardi@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Stefano ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BERARDI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-5427-0020 ;
+        reo:registrationNumber  reo:013231 ;
+        reo:scopusID            reo: .
+
+reo:viviana-bono  rdf:type      foaf:Person ;
+        rdfs:label              "Viviana BONO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:18618 ;
+        reo:UGOVID              reo:2625 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/01/2005> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/viviana.bono@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Viviana ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BONO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-2533-0511 ;
+        reo:registrationNumber  reo:014039 ;
+        reo:scopusID            reo: .
+
+reo:rossana-damiano  rdf:type   foaf:Person ;
+        rdfs:label              "Rossana DAMIANO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:15319 ;
+        reo:UGOVID              reo:1988 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/04/2019> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/rossana.damiano@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Rossana ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:DAMIANO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-9866-2843 ;
+        reo:registrationNumber  reo:030079 ;
+        reo:scopusID            reo:7103083846 .
+
+reo:diego-magro  rdf:type       foaf:Person ;
+        rdfs:label              "Diego MAGRO" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:604 ;
+        reo:UGOVID              reo:10186 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/01/2005> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/diego.magro@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Diego ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:MAGRO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-9681-0080 ;
+        reo:registrationNumber  reo:061253 ;
+        reo:scopusID            reo: .
+
+reo:gianluca-torta  rdf:type    foaf:Person ;
+        rdfs:label              "Gianluca TORTA" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:8847 ;
+        reo:UGOVID              reo:13322 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2005> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/gianluca.torta@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Gianluca ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:TORTA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-4276-7213 ;
+        reo:registrationNumber  reo:034137 ;
+        reo:scopusID            reo: .
+
+reo:Ricercatori-a-tempo-determinato
+        rdf:type       dul:Role ;
+        skos:altLabel  <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/RICERCATORI--LEGGE-240/10---T.-DET.> .
+
+reo:luca-anselma  rdf:type      foaf:Person ;
+        rdfs:label              "Luca ANSELMA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:10047 ;
+        reo:UGOVID              reo:14588 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/luca.anselma@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Luca ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:ANSELMA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-2292-6480 ;
+        reo:registrationNumber  reo:033516 ;
+        reo:scopusID            reo:6506377194 .
+
+reo:daniele-paolo-radicioni
+        rdf:type                foaf:Person ;
+        rdfs:label              "Daniele-Paolo RADICIONI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:10750 ;
+        reo:UGOVID              reo:15248 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/12/2021> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/daniele.radicioni@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Daniele-Paolo ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:RADICIONI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-0443-7720 ;
+        reo:registrationNumber  reo:033604 ;
+        reo:scopusID            reo: .
+
+reo:alessandro-mazzei
+        rdf:type                foaf:Person ;
+        rdfs:label              "Alessandro MAZZEI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:10074 ;
+        reo:UGOVID              reo:14618 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/23/12/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/alessandro.mazzei@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Alessandro ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:MAZZEI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-3072-0108 ;
+        reo:registrationNumber  reo:034031 ;
+        reo:scopusID            reo: .
+
+reo:elisa-marengo  rdf:type     foaf:Person ;
+        rdfs:label              "Elisa MARENGO" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:24215 ;
+        reo:UGOVID              reo:91304 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/30/09/2030> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2024> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/elisa.marengo@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Elisa ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:MARENGO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-1879-2088 ;
+        reo:registrationNumber  reo:038407 ;
+        reo:scopusID            reo: .
+
+reo:viviana-patti  rdf:type     foaf:Person ;
+        rdfs:label              "Viviana PATTI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:27616 ;
+        reo:UGOVID              reo:9886 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/03/2018> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/viviana.patti@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Viviana ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:PATTI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-5991-370X ;
+        reo:registrationNumber  reo:061670 ;
+        reo:scopusID            reo: .
+
+reo:gianluca-rizzo  rdf:type    foaf:Person ;
+        rdfs:label              "Gianluca RIZZO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:231618 ;
+        reo:UGOVID              reo:484195 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/30/12/2020> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/gianluca.rizzo@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Gianluca ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:RIZZO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo: ;
+        reo:registrationNumber  reo:703000 ;
+        reo:scopusID            reo: .
+
+reo:massimiliano-de-pierro
+        rdf:type                foaf:Person ;
+        rdfs:label              "Massimiliano DE-PIERRO" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:20076 ;
+        reo:UGOVID              reo:4046 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2005> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/massimiliano.depierro@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Massimiliano ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:DE-PIERRO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-8843-0667 ;
+        reo:registrationNumber  reo:032015 ;
+        reo:scopusID            reo: .
+
+reo:agata-marta-soccini
+        rdf:type                foaf:Person ;
+        rdfs:label              "Agata-Marta SOCCINI" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:9773 ;
+        reo:UGOVID              reo:143141 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/01/2027> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/02/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/agatamarta.soccini@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Agata-Marta ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:SOCCINI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-7571-8637 ;
+        reo:registrationNumber  reo:619549 ;
+        reo:scopusID            reo: .
+
+reo:matteo-delsanto  rdf:type   foaf:Person ;
+        rdfs:label              "MATTEO DELSANTO" ;
+        dul:hasRole             reo:Assegnisti ;
+        reo:IRISID              reo:104400 ;
+        reo:UGOVID              reo:383416 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/01/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/02/2024> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/matteo.delsanto@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:MATTEO ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:DELSANTO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-7582-9185 ;
+        reo:registrationNumber  reo:658806 ;
+        reo:scopusID            reo: .
+
+reo:valentina-gliozzi
+        rdf:type                foaf:Person ;
+        rdfs:label              "Valentina GLIOZZI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:16214 ;
+        reo:UGOVID              reo:2109 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/04/2019> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/valentina.gliozzi@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Valentina ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:GLIOZZI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-1045-8018 ;
+        reo:registrationNumber  reo:030117 ;
+        reo:scopusID            reo: .
+
+reo:iacopo-colonnelli
+        rdf:type                foaf:Person ;
+        rdfs:label              "Iacopo COLONNELLI" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:82133 ;
+        reo:UGOVID              reo:343465 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/03/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/03/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/iacopo.colonnelli@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Iacopo ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:COLONNELLI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-9290-2017 ;
+        reo:registrationNumber  reo:644859 ;
+        reo:scopusID            reo:57208128139 .
+
+reo:claudia-picardi  rdf:type   foaf:Person ;
+        rdfs:label              "Claudia PICARDI" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:17847 ;
+        reo:UGOVID              reo:2441 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/01/2005> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/claudia.picardi@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Claudia ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:PICARDI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-1170-1913 ;
+        reo:registrationNumber  reo:030208 ;
+        reo:scopusID            reo: .
+
+reo:Docenti-di-ruolo-di-Ia-fascia
+        rdf:type       dul:Role ;
+        skos:altLabel  reo:Professori-Ordinari .
+
+reo:Ricercatori  rdf:type  dul:Role ;
+        skos:altLabel  reo:Ricercatori-Universitari .
+
+reo:claudio-schifanella
+        rdf:type                foaf:Person ;
+        rdfs:label              "Claudio SCHIFANELLA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:12588 ;
+        reo:UGOVID              reo:16825 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2021> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/claudio.schifanella@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Claudio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:SCHIFANELLA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-7449-6529 ;
+        reo:registrationNumber  reo:034652 ;
+        reo:scopusID            reo: .
+
+reo:maria-luisa-sapino
+        rdf:type                foaf:Person ;
+        rdfs:label              "Maria-Luisa SAPINO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:14410 ;
+        reo:UGOVID              reo:1833 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2033> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2007> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/marialuisa.sapino@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Maria-Luisa ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:SAPINO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-7621-3753 ;
+        reo:registrationNumber  reo:013394 ;
+        reo:scopusID            reo: .
+
+reo:marco-grangetto  rdf:type   foaf:Person ;
+        rdfs:label              "Marco GRANGETTO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:17846 ;
+        reo:UGOVID              reo:24409 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/22/12/2017> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/marco.grangetto@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Marco ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:GRANGETTO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-2709-7864 ;
+        reo:registrationNumber  reo:014469 ;
+        reo:scopusID            reo: .
+
+reo:felice-cardone  rdf:type    foaf:Person ;
+        rdfs:label              "Felice CARDONE" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:24603 ;
+        reo:UGOVID              reo:91503 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2030> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2001> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/felice.cardone@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Felice ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:CARDONE ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-4841-614X ;
+        reo:registrationNumber  reo:014503 ;
+        reo:scopusID            reo: .
+
+reo:luca-luigi-paolini
+        rdf:type                foaf:Person ;
+        rdfs:label              "Luca-Luigi PAOLINI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:11094 ;
+        reo:UGOVID              reo:15651 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2021> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/luca.paolini@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Luca-Luigi ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:PAOLINI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-4126-0170 ;
+        reo:registrationNumber  reo:062161 ;
+        reo:scopusID            reo:6602743423 .
+
+reo:robert-renè-maria-birke
+        rdf:type                foaf:Person ;
+        rdfs:label              "Robert-Renè-Maria BIRKE" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:134533 ;
+        reo:UGOVID              reo:431298 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2025> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/robert.birke@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Robert-Renè-Maria ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BIRKE ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-1144-3707 ;
+        reo:registrationNumber  reo:674773 ;
+        reo:scopusID            reo:23990122000 .
+
+reo:cristina-bosco  rdf:type    foaf:Person ;
+        rdfs:label              "Cristina BOSCO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:13245 ;
+        reo:UGOVID              reo:1780 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2034> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/12/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/cristina.bosco@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Cristina ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BOSCO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-8857-4484 ;
+        reo:registrationNumber  reo:030041 ;
+        reo:scopusID            reo: .
+
+reo:rossano-schifanella
+        rdf:type                foaf:Person ;
+        rdfs:label              "Rossano SCHIFANELLA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:13538 ;
+        reo:UGOVID              reo:16738 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/03/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/rossano.schifanella@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Rossano ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:SCHIFANELLA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-3745-5792 ;
+        reo:registrationNumber  reo:034650 ;
+        reo:scopusID            reo: .
+
+reo:amon-rapp  rdf:type         foaf:Person ;
+        rdfs:label              "Amon RAPP" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:1726 ;
+        reo:UGOVID              reo:103992 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/amon.rapp@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Amon ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:RAPP ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-3855-9961 ;
+        reo:registrationNumber  reo:613314 ;
+        reo:scopusID            reo:23398572100 .
+
+reo:maurizio-lucenteforte
+        rdf:type                foaf:Person ;
+        rdfs:label              "Maurizio LUCENTEFORTE" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:18626 ;
+        reo:UGOVID              reo:2632 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/06/2033> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/03/2000> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/maurizio.lucenteforte@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Maurizio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:LUCENTEFORTE ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-6102-3474 ;
+        reo:registrationNumber  reo:014046 ;
+        reo:scopusID            reo: .
+
+reo:andrea-bracciali  rdf:type  foaf:Person ;
+        rdfs:label              "Andrea BRACCIALI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:150526 ;
+        reo:UGOVID              reo:447090 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/andrea.bracciali@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Andrea ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BRACCIALI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-1451-9260 ;
+        reo:registrationNumber  reo:684398 ;
+        reo:scopusID            reo:8922231000 .
+
+reo:giorgio-audrito  rdf:type   foaf:Person ;
+        rdfs:label              "Giorgio AUDRITO" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:1892 ;
+        reo:UGOVID              reo:104429 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2025> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/09/2020> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/giorgio.audrito@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Giorgio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:AUDRITO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-2319-0375 ;
+        reo:registrationNumber  reo:613534 ;
+        reo:scopusID            reo: .
+
+reo:rosa-meo  rdf:type          foaf:Person ;
+        rdfs:label              "Rosa MEO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-Ia-fascia ;
+        reo:IRISID              reo:17561 ;
+        reo:UGOVID              reo:2410 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/rosa.meo@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Rosa ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:MEO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-0434-4850 ;
+        reo:registrationNumber  reo:013995 ;
+        reo:scopusID            reo: .
+
+reo:marco-botta  rdf:type       foaf:Person ;
+        rdfs:label              "Marco BOTTA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:13634 ;
+        reo:UGOVID              reo:1836 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2033> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2001> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/marco.botta@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Marco ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BOTTA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-2747-8517 ;
+        reo:registrationNumber  reo:013397 ;
+        reo:scopusID            reo: .
+
+reo:sara-capecchi  rdf:type     foaf:Person ;
+        rdfs:label              "Sara CAPECCHI" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:18829 ;
+        reo:UGOVID              reo:28513 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/15/12/2010> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/sara.capecchi@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Sara ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:CAPECCHI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-6157-2932 ;
+        reo:registrationNumber  reo:063090 ;
+        reo:scopusID            reo: .
+
+reo:paolo-castagno  rdf:type    foaf:Person ;
+        rdfs:label              "Paolo CASTAGNO" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:7456 ;
+        reo:UGOVID              reo:123251 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2027> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/02/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/paolo.castagno@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Paolo ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:CASTAGNO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-1349-1844 ;
+        reo:registrationNumber  reo:618292 ;
+        reo:scopusID            reo:57189045064 .
+
+reo:federica-cena  rdf:type     foaf:Person ;
+        rdfs:label              "Federica CENA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:14255 ;
+        reo:UGOVID              reo:17183 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/28/12/2018> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/federica.cena@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Federica ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:CENA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-3481-3360 ;
+        reo:registrationNumber  reo:034733 ;
+        reo:scopusID            reo: .
+
+reo:ruggero-gaetano-pensa
+        rdf:type                foaf:Person ;
+        rdfs:label              "Ruggero-Gaetano PENSA" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:23988 ;
+        reo:UGOVID              reo:92385 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/04/2019> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/ruggero.pensa@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Ruggero-Gaetano ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:PENSA ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-5145-3438 ;
+        reo:registrationNumber  reo:063292 ;
+        reo:scopusID            reo:8984218100 .
+
+reo:jeremy-james-sproston
+        rdf:type                foaf:Person ;
+        rdfs:label              "Jeremy-James SPROSTON" ;
+        dul:hasRole             reo:Ricercatori ;
+        reo:IRISID              reo:167 ;
+        reo:UGOVID              reo:10101 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2002> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/jeremy.sproston@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Jeremy-James ;
+        reo:authorNationality   reo:Regno-Unito ;
+        reo:authorSurname       reo:SPROSTON ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-2101-6821 ;
+        reo:registrationNumber  reo:061715 ;
+        reo:scopusID            reo: .
+
+reo:valerio-bioglio  rdf:type   foaf:Person ;
+        rdfs:label              "Valerio BIOGLIO" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:17894 ;
+        reo:UGOVID              reo:24466 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/10/2025> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/31/10/2022> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/valerio.bioglio@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Valerio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BIOGLIO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-8418-5986 ;
+        reo:registrationNumber  reo:038078 ;
+        reo:scopusID            reo:35270977100 .
+
+reo:elvio-gilberto-amparore
+        rdf:type                foaf:Person ;
+        rdfs:label              "Elvio-Gilberto AMPARORE" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:26486 ;
+        reo:UGOVID              reo:96343 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/10/2025> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2019> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/elviogilberto.amparore@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Elvio-Gilberto ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:AMPARORE ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-1147-8985 ;
+        reo:registrationNumber  reo:001193 ;
+        reo:scopusID            reo: .
+
+reo:marco-beccuti  rdf:type     foaf:Person ;
+        rdfs:label              "Marco BECCUTI" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:13252 ;
+        reo:UGOVID              reo:17819 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2020> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/marco.beccuti@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Marco ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BECCUTI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-6125-9460 ;
+        reo:registrationNumber  reo:035453 ;
+        reo:scopusID            reo:8285239400 .
+
+reo:Assegnisti  rdf:type  dul:Role ;
+        skos:altLabel  reo:ASSEGNI-DI-RICERCA .
+
+reo:cristina-baroglio
+        rdf:type                foaf:Person ;
+        rdfs:label              "Cristina BAROGLIO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:15285 ;
+        reo:UGOVID              reo:1980 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/11/2005> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/cristina.baroglio@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Cristina ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:BAROGLIO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-2070-0616 ;
+        reo:registrationNumber  reo:013904 ;
+        reo:scopusID            reo: .
+
+reo:francesca-cordero
+        rdf:type                foaf:Person ;
+        rdfs:label              "Francesca CORDERO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:13250 ;
+        reo:UGOVID              reo:17817 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/07/2020> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/francesca.cordero@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Francesca ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:CORDERO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-3143-3330 ;
+        reo:registrationNumber  reo:035451 ;
+        reo:scopusID            reo: .
+
+reo:marco-antonio-stranisci
+        rdf:type                foaf:Person ;
+        rdfs:label              "Marco-Antonio STRANISCI" ;
+        dul:hasRole             reo:Assegnisti ;
+        reo:IRISID              reo:104398 ;
+        reo:UGOVID              reo:383414 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/01/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/01/2024> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/marcoantonio.stranisci@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Marco-Antonio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:STRANISCI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0001-9337-7250 ;
+        reo:registrationNumber  reo:658804 ;
+        reo:scopusID            reo: .
+
+reo:alessia-antelmi  rdf:type   foaf:Person ;
+        rdfs:label              "Alessia ANTELMI" ;
+        dul:hasRole             reo:Ricercatori-a-tempo-determinato ;
+        reo:IRISID              reo:149313 ;
+        reo:UGOVID              reo:446362 ;
+        reo:affiliationEnd      <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/04/2026> ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/04/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/alessia.antelmi@unito.it> ;
+        reo:authorGender        reo:Femminile ;
+        reo:authorName          reo:Alessia ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:ANTELMI ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0002-6366-0546 ;
+        reo:registrationNumber  reo:684005 ;
+        reo:scopusID            reo:57023742800 .
+
+reo:idilio-drago  rdf:type      foaf:Person ;
+        rdfs:label              "Idilio DRAGO" ;
+        dul:hasRole             reo:Docenti-di-ruolo-di-IIa-fascia ;
+        reo:IRISID              reo:99186 ;
+        reo:UGOVID              reo:374408 ;
+        reo:affiliationEnd      reo: ;
+        reo:affiliationStart    <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/01/04/2023> ;
+        reo:authorEmail         <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/idilio.drago@unito.it> ;
+        reo:authorGender        reo:Maschile ;
+        reo:authorName          reo:Idilio ;
+        reo:authorNationality   reo:Italia ;
+        reo:authorSurname       reo:DRAGO ;
+        reo:hsaMinisterialAreaAffiliation
+                reo:AREA-MIN.-01---Scienze-matematiche-e-informatiche ;
+        reo:orcidId             reo:0000-0003-1932-1261 ;
+        reo:registrationNumber  reo:656985 ;
+        reo:scopusID            reo:25926966100 .
