@@ -47,11 +47,8 @@ CONSTRUCT {
         skos:altLabel ?reoQualification.
     ?reoministerialArea a reo:AcademinArea;
         skos:narrower ?reoScientificArea.
-    ?reoAffiliation a org:Department;
+    ?reoAffiliation a org:Department.
         #skos:narrower ?reoScientificArea.
-
-
-
 } WHERE {
   SERVICE <x-sparql-anything:csv.headers=true,location=data/authors.csv> {
     []      xyz:ID-IRIS ?id;
