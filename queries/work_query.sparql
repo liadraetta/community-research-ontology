@@ -15,13 +15,15 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX org: <http://www.w3.org/ns/org#>
 PREFIX soa: <https://semopenalex.org/ontology/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
 
 
 #java -jar sparql-anything.jar -q queries/query.sparql > output.ttl
 CONSTRUCT {
     ?work a soa:Work;
-        dcterms:title "titolo";
-        reo:haspPubblicationYear ?reoPubblicationYear;
+        dcterms:title ?title;
+        dcterms:abstract ?abstract;
+        fabio:haspPubblicationYear ?reoPubblicationYear;
         reo:hasType ?reoWorkType.
     ?reoWorkType a reo:WorkType.
     #rdf:Property ?reoTitle;
@@ -33,6 +35,7 @@ CONSTRUCT {
   SERVICE <x-sparql-anything:csv.headers=true,location=data/pubblications.csv> {
     []      xyz:ID-prodotto ?id;
             xyz:Titolo ?title;
+            xyz:Abstract ?abstract;
             xyz:first-author ?firstAuthor;
             xyz:Titolo ?title;
             xyz:Anno-di-pubblicazione ?pubblicationYear;
@@ -42,8 +45,6 @@ CONSTRUCT {
   BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?id, "-", ?firstAuthor), " ", "-")))) AS ?work) .
   BIND(IRI(CONCAT(STR(reo:), ?id )) AS ?reoid).
   BIND(IRI(CONCAT(STR(reo:), ?firstAuthor )) AS ?reFirstAuthor).
-  BIND(STR(?title) AS ?stringTitle)
-  BIND(IRI(CONCAT(STR(reo:), ?stringTitle )) AS ?reoStringTitle).
   BIND(IRI(CONCAT(STR(reo:), ?pubblicationYear )) AS ?reoPubblicationYear).
   BIND(IRI(CONCAT(STR(reo:), ?workType )) AS ?reoWorkType).
 
