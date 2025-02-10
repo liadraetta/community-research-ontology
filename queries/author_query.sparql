@@ -6,12 +6,14 @@ PREFIX urw: <http://purl.archive.org/urwriters#>
 PREFIX schema: <http://schema.org/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>
-PREFIX reo: <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/>
+PREFIX reo: <ttp://www.semanticweb.org/research-ontology/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX org: <http://www.w3.org/ns/org#>
+
 
 #java -jar sparql-anything.jar -q queries/query.sparql > output.ttl
 CONSTRUCT {
@@ -31,11 +33,22 @@ CONSTRUCT {
         reo:affiliationStart ?reoAffiliationStart;
         reo:affiliationEnd ?reoAffiliationEnd;
         dul:hasRole ?reorole;
-        reo:hsaMinisterialAreaAffiliation ?reoministerialArea.
+        reo:hsaMinisterialAreaAffiliation ?reoministerialArea;
+        reo:impactHistory ?reoImpactHistory;
+        reo:hasCurrentAffiliation ?reoAffiliation;
+        reo:hasTopic: ?reoercKeywords;
+        reo:hasTopic: ?reoKeywords;
+        reo:countryOfBirth: ?reoCountryOfBird;
+        reo:placeOfBirth: ?reoPlaceOfBirth;
+        reo:IRISTotalPubblication: ?reoIRIStotalPubblication;
+        reo:ScopusTotalPubblication: ?reoScopusTotalPubblication;
+        reo:WosTotalPubblication: ?reoWosTotalPubblication.
     ?reorole a dul:Role;
         skos:altLabel ?reoQualification.
     ?reoministerialArea a reo:AcademinArea;
         skos:narrower ?reoScientificArea.
+    ?reoAffiliation a org:Department;
+        #skos:narrower ?reoScientificArea.
 
 
 
@@ -57,12 +70,15 @@ CONSTRUCT {
             xyz:Qualifica ?qualification;
             xyz:Struttura ?affiliation;
             xyz:Area-ministeriale ?ministerialArea;
-            xyz:Gruppo-Scientifico-Disciplinare ?scientificArea
-            #xyz:Parole_chiave_ERC ?keyWordERC;
-            #xyz:Nazione_di_nascita ?countryOfBird;
-            #xyz:Totale_pubblicazioni ?totalPubblication.
-
-
+            xyz:Gruppo-Scientifico-Disciplinare ?scientificArea;
+            xyz:Impact-History ?impactHistory;
+            xyz:Parole-chiave-ERC ?ercKeywords;
+            xyz:Parole-chiave ?keywords;
+            xyz:Nazione-di-nascita ?countryOfBird;
+            xyz:Luogo-di-nascita ?placeOfBirth;
+            xyz:Pubblicazioni-Totale-IRIS ?IRISTotalPubblication;
+            xyz:Totale-Scopus ?ScopusTotalPubblication;
+            xyz:Totale-Wos ?WosTotalPubblication;
   }
   BIND(CONCAT(STR(?name), " ", STR(?surname)) AS ?fullName)
   BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?name, "-", ?surname), " ", "-")))) AS ?person)
@@ -83,5 +99,18 @@ CONSTRUCT {
   BIND(IRI(CONCAT(STR(reo:), ?qualification )) AS ?reoQualification) .
   BIND(IRI(CONCAT(STR(reo:), ?ministerialArea )) AS ?reoministerialArea) .
   BIND(IRI(CONCAT(STR(reo:), ?scientificArea )) AS ?reoScientificArea) .
+  BIND(IRI(CONCAT(STR(reo:), ?impactHistory )) AS ?reoImpactHistory) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?affiliation, "-department"), " ", "-")))) AS ?reoAffiliation) .
+  BIND(IRI(CONCAT(STR(reo:), ?ercKeywords )) AS ?reoercKeywords) .
+  BIND(IRI(CONCAT(STR(reo:), ?keywords )) AS ?reoKeywords) .
+  BIND(IRI(CONCAT(STR(reo:), ?countryOfBird )) AS ?reoCountryOfBird) .
+  BIND(IRI(CONCAT(STR(reo:), ?placeOfBirth )) AS ?reoPlaceOfBirth) .
+  BIND(IRI(CONCAT(STR(reo:), ?IRISTotalPubblication )) AS ?reoIRIStotalPubblication) .
+  BIND(IRI(CONCAT(STR(reo:), ?ScopusTotalPubblication )) AS ?reoScopustotalPubblication) .
+  BIND(IRI(CONCAT(STR(reo:), ?WosTotalPubblication )) AS ?reoWostotalPubblication) .
+
+  #BIND(IRI(CONCAT(STR(reo:), ?affiliation )) AS ?reoAffiliation) .
+  #BIND(IRI(CONCAT(STR(reo:), ?affiliation )) AS ?reoAffiliation) .
+  #BIND(IRI(CONCAT(STR(reo:), ?affiliation )) AS ?reoAffiliation) .
 
 }
