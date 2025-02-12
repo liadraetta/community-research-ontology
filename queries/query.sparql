@@ -34,7 +34,7 @@ CONSTRUCT {
         #skos:altLabel reo:reoQualification.
 
 } WHERE {
-  SERVICE <x-sparql-anything:csv.headers=true,location=data/authors.csv> {
+  SERVICE <x-sparql-anything:csv.headers=true,location=data/organizations.csv> {
     []      xyz:ID-IRIS ?id;
             xyz:Nome ?name;
             xyz:Cognome ?surname;
