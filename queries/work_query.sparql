@@ -16,6 +16,7 @@ PREFIX org: <http://www.w3.org/ns/org#>
 PREFIX soa: <https://semopenalex.org/ontology/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX frapo: <http://purl.org/cerif/frapo/>
 
 
 #java -jar sparql-anything.jar -q queries/query.sparql > output.ttl
@@ -24,12 +25,29 @@ CONSTRUCT {
         dcterms:title ?title;
         dcterms:abstract ?abstract;
         fabio:haspPubblicationYear ?reoPubblicationYear;
-        reo:hasType ?reoWorkType.
+        reo:hasType ?reoWorkType;
+        #capire come gestire il first author
+        reo:hasFirstAuthor ?firstAuthor;
+        reo:isAuthoredBy ?person;
+        reo:numberOfAuthor ?reoauthorsNumber;
+        reo:internationalCoauthors ?reoInternationalCoauthors;
+        reo:numberOfCurrentlyAffiliatedAuthors ?reoCurrentAffiliatedAuthors;
+        reo:relevance ?reoRelevance;
+        dcterms:language ?reolanguage;
+        reo:ISSNCode ?reoISSNJournal;
+        reo:DOICode ?reoDOICode;
+        reo:url ?reoURL;
+        reo:hasTopic ?keywords;
+        reo:hasTopic ?ERCPanel;
+        reo:conferenceName ?conference;
+        reo:impactFactor ?reoImpactFactor;
+        reo:openAccessType ?openAccessType;
+        reo:refereeType ?refereeType;
+        reo:isProducedBy ?reoProjectID.
     ?reoWorkType a reo:WorkType.
-    #rdf:Property ?reoTitle;
-
-
-
+    ?person a foaf:Person.
+    ?keywords a soa:Keyword.
+    ?project a frapo:Project.
 
 } WHERE {
   SERVICE <x-sparql-anything:csv.headers=true,location=data/pubblications.csv> {
@@ -40,14 +58,41 @@ CONSTRUCT {
             xyz:Titolo ?title;
             xyz:Anno-di-pubblicazione ?pubblicationYear;
             xyz:Tipologia ?workType;
+            xyz:autore-nome ?authorName;
+            xyz:autore-cognome ?authorSurnname;
+            xyz:Curatori ?authorsNumber;
+            xyz:Presenza-coautori-internazionali ?internationalCoauthors;
+            xyz:curatori-attualmente-afferenti ?currentAffiliatedAuthors;
+            xyz:Rilevanza ?relevance;
+            xyz:Lingua ?language;
+            xyz:RivistaISSN ?ISSNJournal;
+            xyz:scopusDOI ?DOICode;
+            xyz:URL ?url;
+            xyz:Parole-chiave ?keywords;
+            xyz:ERCPanel ?ERCPanel;
+            xyz:convegno ?conference;
+            xyz:Id-progetto ?projectID;
+            xyz:Nome-progetto ?projectName;
+            xyz:Impact-factor ?impactFactor;
+            xyz:open-access-type ?openAccessType;
+            xyz:Tipo-di-referaggio ?refereeType;
   }
-  BIND(CONCAT(STR(?name), " ", STR(?surname)) AS ?fullName)
+  BIND(CONCAT(STR(?name), " ", STR(?impactFactor)) AS ?reoImpactFactor) .
+  BIND(CONCAT(STR(?name), " ", STR(?surname)) AS ?fullName) .
   BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?id, "-", ?firstAuthor), " ", "-")))) AS ?work) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?projectName, "-", ?projectID), " ", "-")))) AS ?project) .
   BIND(IRI(CONCAT(STR(reo:), ?id )) AS ?reoid).
   BIND(IRI(CONCAT(STR(reo:), ?firstAuthor )) AS ?reFirstAuthor).
   BIND(IRI(CONCAT(STR(reo:), ?pubblicationYear )) AS ?reoPubblicationYear).
   BIND(IRI(CONCAT(STR(reo:), ?workType )) AS ?reoWorkType).
-
-
-
+  BIND(IRI(CONCAT(STR(reo:), ?authorsNumber )) AS ?reoauthorsNumber).
+  BIND(IRI(CONCAT(STR(reo:), ?internationalCoauthors )) AS ?reoInternationalCoauthors).
+  BIND(IRI(CONCAT(STR(reo:), ?currentAffiliatedAuthors )) AS ?reoCurrentAffiliatedAuthors).
+  BIND(IRI(CONCAT(STR(reo:), ?relevance )) AS ?reoRelevance).
+  BIND(IRI(CONCAT(STR(reo:), ?language )) AS ?reolanguage).
+  #BIND(IRI(CONCAT(STR(reo:), ?ISSNJournal )) AS ?reoISSNJournal) .
+  BIND(IRI(CONCAT(STR(reo:), ?DOICode )) AS ?reoDOICode) .
+  BIND(IRI(CONCAT(STR(reo:), ?url )) AS ?reoURL) .
+  BIND(IRI(CONCAT(STR(reo:), ?projectID )) AS ?reoProjectID) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?authorName, "-", ?authorSurnname), " ", "-")))) AS ?person) .
 }
