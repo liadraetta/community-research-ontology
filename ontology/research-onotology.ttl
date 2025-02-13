@@ -36,6 +36,15 @@ skos:definition rdf:type owl:AnnotationProperty ;
 #    Object Properties
 #################################################################
 
+###  http://purl.org/cerif/frapo/isFundedBy
+frapo:isFundedBy rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 owl:inverseOf reo:funds ;
+                 rdfs:domain frapo:Project ,
+                             reo:PublicEngagement ;
+                 rdfs:range org:Organization .
+
+
 ###  http://purl.org/dc/terms/hasScientificDirector
 dct:hasScientificDirector rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf owl:topObjectProperty ;
@@ -44,7 +53,6 @@ dct:hasScientificDirector rdf:type owl:ObjectProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#funds
 reo:funds rdf:type owl:ObjectProperty ;
-          owl:inverseOf reo:isFundedBy ;
           rdfs:domain org:Organization ;
           rdfs:range frapo:Project ,
                      reo:PublicEngagement .
@@ -64,6 +72,14 @@ reo:hasCurrentRole rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf owl:topObjectProperty ;
                    rdfs:domain foaf:Person ;
                    rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasFirstAuthor
+reo:hasFirstAuthor rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   owl:inverseOf reo:isFirstAuthorOf ;
+                   rdfs:domain soa:Work ;
+                   rdfs:range foaf:Person .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasMinisterialAreaAffiliation
@@ -115,17 +131,8 @@ reo:isAuthoredBy rdf:type owl:ObjectProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isFirstAuthorOf
 reo:isFirstAuthorOf rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf owl:topObjectProperty ;
-                    owl:inverseOf :hasFirstAuthor ;
                     rdfs:domain foaf:Person ;
                     rdfs:range soa:Work .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isFundedBy
-reo:isFundedBy rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf owl:topObjectProperty ;
-               rdfs:domain frapo:Project ,
-                           reo:PublicEngagement ;
-               rdfs:range org:Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isPorducedBy
@@ -164,13 +171,6 @@ reo:takesPartIn rdf:type owl:ObjectProperty ;
                             foaf:Person ;
                 rdfs:range frapo:Project ,
                            reo:PublicEngagement .
-
-
-###  http://www.semanticweb.org/research-ontology#hasFirstAuthor
-:hasFirstAuthor rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf owl:topObjectProperty ;
-                rdfs:domain soa:Work ;
-                rdfs:range foaf:Person .
 
 
 ###  http://www.semanticweb.org/research-ontology/isAdministrativeReferent
@@ -213,6 +213,32 @@ org:isSubOrganizationOF rdf:type owl:ObjectProperty ;
 #################################################################
 #    Data properties
 #################################################################
+
+###  http://purl.org/cerif/frapo/hasAcronym
+frapo:hasAcronym rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf reo:projectProperties .
+
+
+###  http://purl.org/cerif/frapo/hasEndDate
+frapo:hasEndDate rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf reo:projectProperties ;
+                 rdfs:domain frapo:Project ,
+                             reo:PublicEngagement ;
+                 rdfs:range xsd:dateTime .
+
+
+###  http://purl.org/cerif/frapo/hasStartDate
+frapo:hasStartDate rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf reo:projectProperties ;
+                   rdfs:domain frapo:Project ,
+                               reo:PublicEngagement ;
+                   rdfs:range xsd:dateTime .
+
+
+###  http://purl.org/cerif/frapo/hasTemporalDuration
+frapo:hasTemporalDuration rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf reo:projectProperties .
+
 
 ###  http://purl.org/dc/terms/abstract
 dct:abstract rdf:type owl:DatatypeProperty ;
@@ -328,12 +354,6 @@ reo:UGOVID rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#VATNumber
-reo:VATNumber rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf reo:organizationProperties ;
-              rdfs:domain org:Organization .
-
-
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#WosCode
 reo:WosCode rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf reo:workProperties ;
@@ -365,13 +385,6 @@ reo:authorEmail rdf:type owl:DatatypeProperty ;
                 rdfs:domain foaf:Person .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#authorGender
-reo:authorGender rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf reo:authorProperties ;
-                 rdfs:domain foaf:Person ;
-                 rdfs:range xsd:string .
-
-
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#authorProperties
 reo:authorProperties rdf:type owl:DatatypeProperty .
 
@@ -394,6 +407,11 @@ reo:callForProjectName rdf:type owl:DatatypeProperty ;
                        rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#conferenceName
+reo:conferenceName rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf reo:workProperties .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#contractNumber
 reo:contractNumber rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf reo:projectProperties ,
@@ -409,14 +427,6 @@ reo:countryOfBirth rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#dateOfBirth
 reo:dateOfBirth rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf reo:authorProperties .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#endDate
-reo:endDate rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf reo:projectProperties ;
-            rdfs:domain frapo:Project ,
-                        reo:PublicEngagement ;
-            rdfs:range xsd:dateTime .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasInternationalCoauthors
@@ -501,6 +511,11 @@ reo:numberOfAuthors rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf reo:workProperties .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#numberOfCurrentlyAffiliatedAuthors
+reo:numberOfCurrentlyAffiliatedAuthors rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf reo:workProperties .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#openAccessType
 reo:openAccessType rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf reo:workProperties ;
@@ -511,11 +526,6 @@ reo:openAccessType rdf:type owl:DatatypeProperty ;
 reo:orcidId rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf reo:authorProperties ;
             rdfs:domain foaf:Person .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#organizationAcronym
-reo:organizationAcronym rdf:type owl:DatatypeProperty ;
-                        rdfs:subPropertyOf reo:organizationProperties .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#organizationName
@@ -572,6 +582,11 @@ reo:registrationNumber rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf reo:authorProperties .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#relevance
+reo:relevance rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf reo:workProperties .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#scopeOfImpact
 reo:scopeOfImpact rdf:type owl:DatatypeProperty ;
                   rdfs:domain reo:PublicEngagement ;
@@ -594,14 +609,6 @@ reo:site rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf reo:publicEngagementProperties .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#startDate
-reo:startDate rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf reo:projectProperties ;
-              rdfs:domain frapo:Project ,
-                          reo:PublicEngagement ;
-              rdfs:range xsd:dateTime .
-
-
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#totalFunding
 reo:totalFunding rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf reo:publicEngagementProperties .
@@ -617,28 +624,19 @@ reo:url rdf:type owl:DatatypeProperty ;
                     ] .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#vatNumber
+reo:vatNumber rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf reo:organizationProperties ;
+              rdfs:domain org:Organization .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#workProperties
 reo:workProperties rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/research-ontology#conferenceName
-:conferenceName rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf reo:workProperties .
-
-
-###  http://www.semanticweb.org/research-ontology#numberOfCurrentlyAffiliatedAuthors
-:numberOfCurrentlyAffiliatedAuthors rdf:type owl:DatatypeProperty ;
-                                    rdfs:subPropertyOf reo:workProperties .
-
-
-###  http://www.semanticweb.org/research-ontology#relevance
-:relevance rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf reo:workProperties .
-
-
-###  http://www.semanticweb.org/research-ontology/months
-<http://www.semanticweb.org/research-ontology/months> rdf:type owl:DatatypeProperty ;
-                                                      rdfs:subPropertyOf reo:projectProperties .
+###  http://www.semanticweb.org/research-ontology/hasFundingAmount
+<http://www.semanticweb.org/research-ontology/hasFundingAmount> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf reo:projectProperties .
 
 
 ###  http://www.semanticweb.org/research-ontology/pubblicationNumber
@@ -651,9 +649,11 @@ reo:workProperties rdf:type owl:DatatypeProperty .
                                                             rdfs:subPropertyOf reo:projectProperties .
 
 
-###  http://www.semanticweb.org/research-ontology/totalCost
-<http://www.semanticweb.org/research-ontology/totalCost> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf reo:projectProperties .
+###  http://xmlns.com/foaf/0.1/gender
+foaf:gender rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf reo:authorProperties ;
+            rdfs:domain foaf:Person ;
+            rdfs:range xsd:string .
 
 
 #################################################################
@@ -830,8 +830,8 @@ reo:Elisabetta_Berardi rdf:type owl:NamedIndividual ,
                        reo:isAuthorOf reo:_rhétorique_et_réalité ;
                        reo:IRISID "16130"^^xsd:string ;
                        reo:UGOVID "2095"^^xsd:string ;
-                       reo:authorGender "famale"^^xsd:string ;
-                       reo:orcidId "0000-0003-0120-426X"^^xsd:string .
+                       reo:orcidId "0000-0003-0120-426X"^^xsd:string ;
+                       foaf:gender "famale"^^xsd:string .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#European_Commission
@@ -844,8 +844,8 @@ reo:European_Commission rdf:type owl:NamedIndividual ,
 reo:Federico_Abate_Daga rdf:type owl:NamedIndividual ;
                         reo:hasCurrentRole reo:Techincal_and_amministrative_staff ;
                         reo:AuthorName "Federico Abate Daga"^^xsd:string ;
-                        reo:authorGender "male"^^xsd:string ;
-                        reo:orcidId "rp67966"^^xsd:string .
+                        reo:orcidId "rp67966"^^xsd:string ;
+                        foaf:gender "male"^^xsd:string .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Frame_Semantics
@@ -949,7 +949,7 @@ reo:_Preliminary_studies_of_a_LSQR-based_application_in_perspective_of_exascale_
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_Social_Participation_and_Inclusion_through_Cultural_Engagement
 reo:_Social_Participation_and_Inclusion_through_Cultural_Engagement rdf:type owl:NamedIndividual ,
                                                                              frapo:Project ;
-                                                                    reo:isFundedBy reo:European_Commission .
+                                                                    frapo:isFundedBy reo:European_Commission .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_rhétorique_et_réalité

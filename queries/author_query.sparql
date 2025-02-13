@@ -24,7 +24,7 @@ CONSTRUCT {
         reo:authorGender ?reogenre;
         reo:authorNationality ?reonationality;
         reo:authorEmail ?reoemail;
-        reo:UGOVID ?reougovId;
+        reo:ugovId ?reougovId;
         reo:IRISID ?reoid;
         reo:orcidId ?reoorcid;
         reo:registrationNumber ?reoRegistrationNumber;
@@ -42,7 +42,7 @@ CONSTRUCT {
         reo:placeOfBirth: ?reoPlaceOfBirth;
         reo:IRISTotalPubblication: ?reoIRIStotalPubblication;
         reo:ScopusTotalPubblication: ?reoScopusTotalPubblication;
-        reo:WosTotalPubblication: ?reoWosTotalPubblication;
+        reo:WosTotalPubblication: ?reoWosTotalPubblication.
     ?reorole a dul:Role;
         skos:altLabel ?reoQualification.
     ?reoministerialArea a reo:AcademinArea;
@@ -79,7 +79,7 @@ CONSTRUCT {
 
   }
   BIND(CONCAT(STR(?name), " ", STR(?surname)) AS ?fullName)
-  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?name, "-", ?surname), " ", "-")))) AS ?person)
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?surname, "-", ?name), " ", "-")))) AS ?person)
   BIND(IRI(CONCAT(STR(reo:), ?id )) AS ?reoid).
   BIND(IRI(CONCAT(STR(reo:), ?name )) AS ?reoname).
   BIND(IRI(CONCAT(STR(reo:), ?surname )) AS ?reosurname) .

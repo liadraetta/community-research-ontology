@@ -1,0 +1,109 @@
+PREFIX fx: <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>
+PREFIX reo: <http://www.semanticweb.org/research-ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX frapo: <http://purl.org/cerif/frapo/>
+
+CONSTRUCT {
+    ?project a frapo:Project;
+        dcterms:title ?title;
+        dcterms:abstract ?abstract;
+        frapo:hasAcronym ?acronym;
+        frapo:hasStartDate ?startDate;
+        frapo:hasEndDate ?endDate;
+        frapo:hasTemporalDuration ?duration;
+        frapo:isFundedBy ?fundingBody;
+        reo:hasFundingAmount ?reoTotalCost;
+        dcterms:hasScientificDirector ?pi;
+        reo:researchPurpose ?reoResearchPurpose;
+        reo:hasTopic ?ercPanel, ?reoTematicArea , ?reoKeyword;
+        reo:hasType ?reoProjectType;
+        reo:projectState ?reoProjectState;
+        reo:ugovID ?reoUGOVId;
+        reo:hasPnrrFunds ?reoPnrrFunds;
+        reo:hasCurrentAffiliation ?reoDepartments;
+        reo:hasAdministrativeReferent ?reoAdministrativeReferent;
+        reo:isPartecipatedBy ?reoInternalPartecipation, ?reocoordinators ;
+        reo:isLinkedTo ?publicEngagementIniziative;
+        frapo:hasOutput ?pubblications;
+        reo:url ?reoUrl.
+    ?person a foaf:Person.
+    ?reoProjectType a reo:ProjectType;
+        skos:narrower ?reoBroaderType.
+    ?organization a org:Organization;
+        reo:ID ?reoOrganizationID;
+        rdfs:label ?organizationLabel.
+    ?publicEngagementIniziative a reo:PublicEngagement
+
+#    ?reofundingBody a org:Organization.
+#    ?reoResearchField a skos:Concept.
+#    ?keyword a skos:Concept.
+} WHERE {
+  SERVICE <x-sparql-anything:csv.headers=true,location=data/projects.csv> {
+    []      xyz:id-iris ?id;
+            xyz:Titolo-Progetto ?title;
+            xyz:Abstract ?abstract;
+            xyz:Acronimo-Progetto ?acronym;
+            xyz:Data-inizio ?startDate;
+            xyz:Data-fine ?endDate;
+            xyz:Durata ?duration;
+            xyz:Stato-Progetto ?projectState;
+            xyz:Enti-finanziatori ?fundingBody;
+            xyz:Costo-Totale ?totalCost;
+            xyz:Responsabili-Scientifici ?pi;
+            xyz:Natura-della-ricerca ?researchPurpose;
+            xyz:Parole-chiave ?keyword;
+            xyz:Settori-ERC ?ercPanel;
+            xyz:Identificativo-UGOV ?UGOVId;
+            xyz:Tipologia-Progetto ?projectType;
+            xyz:Macro-tipologia-progetto ?broaderType;
+            xyz:fondi-PNRR ?PNRRFunds;
+            xyz:Dipartimenti ?departments;
+            xyz:Referente-amministrativo ?administrativeReferent;
+            xyz:Partecipanti-interni ?internalPartecipation;
+            xyz:Enti-finanziatori-ID-Interno ?organizationID;
+            xyz:Enti-finanziatori-Tipologia ?organizationLabel;
+            xyz:Coordinatori ?coordinators;
+            xyz:Iniziative-Public-EngagementIDIRS ?publicEngagement;
+            xyz:Area-Tematica ?tematicArea;
+            xyz:Pubblicazioni-collegate ?pubblications;
+            xyz:url ?url.
+
+
+#TODO: separare righe di partnerID e creare Organization con PArtner-ID e coordinatori
+#TODO: separare colonne keyword, ERC, Area temtica
+#TODO: fare il controllo sul campo publicEngagement
+
+  }
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?coordinators), " ", "-")))) AS ?reocoordinators).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?id, "-", ?title), " ", "-")))) AS ?project).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(CONCAT(?organizationID, "-organization")))) AS ?organization) .
+  BIND(IRI(CONCAT(STR(reo:), ?organizationID )) AS ?reoOrganizationID) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(CONCAT(?publicEngagement, "-publicEngagement")))) AS ?publicEngagementIniziative) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?pi), " ", "-")))) AS ?person)
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?researchPurpose), " ", "-")))) AS ?reoResearchPurpose).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?administrativeReferent), " ", "-")))) AS ?reoAdministrativeReferent).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?internalPartecipation), " ", "-")))) AS ?reoInternalPartecipation).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?projectType), " ", "-")))) AS ?reoProjectType).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?broaderType), " ", "-")))) AS ?reoBroaderType).
+  BIND(IRI(CONCAT(STR(reo:), ?url )) AS ?reoUrl) .
+  BIND(IRI(CONCAT(STR(reo:), ?totalCost )) AS ?reoTotalCost) .
+  BIND(IRI(CONCAT(STR(reo:), ?tematicArea )) AS ?reoTematicArea) .
+  BIND(IRI(CONCAT(STR(reo:), ?projectState )) AS ?reoProjectState) .
+  BIND(IRI(CONCAT(STR(reo:), ?UGOVId )) AS ?reoUGOVId) .
+  BIND(IRI(CONCAT(STR(reo:), ?pnrrFunds )) AS ?reoPnrrFunds) .
+  BIND(IRI(CONCAT(STR(reo:), ?departments )) AS ?reoDepartments) .
+#  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?organizationType), " ", "-")))) AS ?reoOrganizationType)
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(?pi, " ", "-")))) AS ?reopi).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(?fundingBody, " ", "-")))) AS ?reofundingBody).
+#  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(?researchField, " ", "-")))) AS ?reoResearchField).
+#  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(?keyword, " ", "-")))) AS ?reoKeyword).
+}
