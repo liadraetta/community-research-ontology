@@ -13,14 +13,14 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX soa: <https://semopenalex.org/ontology/>
 
 
 #java -jar sparql-anything.jar -q queries/query.sparql > output.ttl
 CONSTRUCT {
     ?person a foaf:Person;
         rdfs:label ?fullName;
-        reo:authorName ?reoname;
-        reo:authorSurname ?reosurname;
+        reo:authorName ?reofullName;
         reo:authorGender ?reogenre;
         reo:authorNationality ?reonationality;
         reo:authorEmail ?reoemail;
@@ -29,21 +29,19 @@ CONSTRUCT {
         reo:orcidId ?reoorcid;
         reo:registrationNumber ?reoRegistrationNumber;
         reo:scopusID ?reoscopus;
-        reo:orcidId ?reoorcid;
         reo:affiliationStart ?reoAffiliationStart;
         reo:affiliationEnd ?reoAffiliationEnd;
-        dul:hasRole ?reorole;
+        dul:hasRole ?role;
         reo:hsaMinisterialAreaAffiliation ?reoministerialArea;
         reo:impactHistory ?reoImpactHistory;
         reo:hasCurrentAffiliation ?reoAffiliation;
-        reo:hasTopic: ?reoercKeywords;
-        reo:hasTopic: ?reoKeywords;
+        soa:hasTopic: ?reoercKeywords, ?reoKeywords;
         reo:countryOfBirth: ?reoCountryOfBird;
         reo:placeOfBirth: ?reoPlaceOfBirth;
         reo:IRISTotalPubblication: ?reoIRIStotalPubblication;
         reo:ScopusTotalPubblication: ?reoScopusTotalPubblication;
         reo:WosTotalPubblication: ?reoWosTotalPubblication.
-    ?reorole a dul:Role;
+    ?role a dul:Role;
         skos:altLabel ?reoQualification.
     ?reoministerialArea a reo:AcademinArea;
         skos:narrower ?reoScientificArea.
@@ -75,11 +73,12 @@ CONSTRUCT {
             xyz:Luogo-di-nascita ?placeOfBirth;
             xyz:Pubblicazioni-Totale-IRIS ?IRISTotalPubblication;
             xyz:Totale-Scopus ?ScopusTotalPubblication;
-            xyz:Totale-Wos ?WosTotalPubblication;
+            xyz:Totale-Wos ?WosTotalPubblication.
 
   }
-  BIND(CONCAT(STR(?name), " ", STR(?surname)) AS ?fullName)
-  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?surname, "-", ?name), " ", "-")))) AS ?person)
+  BIND(CONCAT(STR(?name), " ", STR(?surname)) AS ?fullName).
+  BIND(IRI(CONCAT(STR(reo:), ?fullName )) AS ?reofullName).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?surname, "-", ?name), " ", "-")))) AS ?person).
   BIND(IRI(CONCAT(STR(reo:), ?id )) AS ?reoid).
   BIND(IRI(CONCAT(STR(reo:), ?name )) AS ?reoname).
   BIND(IRI(CONCAT(STR(reo:), ?surname )) AS ?reosurname) .
@@ -108,5 +107,4 @@ CONSTRUCT {
   BIND(IRI(CONCAT(STR(reo:), ?WosTotalPubblication )) AS ?reoWostotalPubblication) .
 
   #BIND(IRI(CONCAT(STR(reo:), ?affiliation )) AS ?reoAffiliation) .
-
 }

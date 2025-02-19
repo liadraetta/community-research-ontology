@@ -1,0 +1,139 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dul:     <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix frapo:   <http://purl.org/cerif/frapo/> .
+@prefix fx:      <http://sparql.xyz/facade-x/ns/> .
+@prefix org:     <http://www.w3.org/ns/org#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reo:     <http://www.semanticweb.org/research-ontology/> .
+@prefix schema:  <http://schema.org/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix soa:     <https://semopenalex.org/ontology/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:     <http://sparql.xyz/facade-x/data/> .
+
+reo:bulgarelli-daniela
+        rdf:type  foaf:Person .
+
+reo:gena-cristina  rdf:type  foaf:Person .
+
+reo:micheletti-cremasco-margherita
+        rdf:type  foaf:Person .
+
+reo:migliore-sandra  rdf:type  foaf:Person .
+
+reo:stano-simona  rdf:type  foaf:Person .
+
+reo:martire-luca  rdf:type  foaf:Person .
+
+reo:organizzazione-di-iniziative-di-valorizzazione-consultazione-e-condivisione-della-ricerca
+        rdf:type  reo:PublicEngagementType .
+
+reo:scienze-della-terra
+        rdf:type  org:Department .
+
+reo:ferrini-francesco-maria
+        rdf:type  foaf:Person .
+
+reo:bonatti-irene  rdf:type  foaf:Person .
+
+reo:cagliero-cecilia-lucia
+        rdf:type  foaf:Person .
+
+<http://www.semanticweb.org/research-ontology/-organization>
+        rdf:type  org:Organization .
+
+reo:cottone-erika  rdf:type  foaf:Person .
+
+reo:cerrato-giuseppina
+        rdf:type  foaf:Person .
+
+reo:long-joelle  rdf:type  foaf:Person .
+
+reo:15986-publicengagement
+        rdf:type                       reo:PublicEngagement ;
+        dcterms:created                "13/12/21" ;
+        dcterms:description            "Un giorno all’Università ha come obiettivo avvicinare le allieve e gli allievi della scuola primaria e dallo scorso anno della secondaria di primo grado al mondo dell’alta formazione permettendo ai partecipanti di viverla come opportunità accessibile a tutti e promuovendo la ricerca come occasione di crescita e scoperta che accompagna lungo tutto il percorso della vita." ;
+        dcterms:hasScientificDirector  reo:gallo-giovanni ;
+        dcterms:subject                "" ;
+        dcterms:title                  "Bambine e bambini: un giorno all'Università" ;
+        reo:hasCurrentAffiliation      reo:scienze-della-terra ;
+        reo:hasEndDate                 "31/05/22" ;
+        reo:hasFundingAmount           "0" ;
+        reo:hasLocation                "Dipartimento di UniTo" ;
+        reo:hasPartner                 reo: ;
+        reo:hasTemporalDuration        "243" ;
+        reo:hasType                    reo:organizzazione-di-iniziative-di-valorizzazione-consultazione-e-condivisione-della-ricerca ;
+        reo:involvementType            "CHIMICA" ;
+        reo:isPartecipatedBy           reo:di-gaetano-cornelia , reo:orso-francesca , reo:bonatti-irene , reo:ferrara-francesca , reo:cagliero-cecilia-lucia , reo:cottone-erika , reo:paruzzo-francesca , reo:giorgis-marta , reo:bulgarelli-daniela , reo:valetti-francesca , reo:marino-anna , reo:ferrini-francesco-maria , reo:ulrich-silvia , reo:cerrato-giuseppina , reo:gallo-giovanni , reo:masino-andrea , reo:migliore-sandra , reo:mussat-sartor-rocco , reo:gena-cristina , reo:long-joelle , reo:stano-simona , reo:capecchi-sara , reo:micheletti-cremasco-margherita , reo:martire-luca , reo:belluso-elena , reo:tullio-viviana-cristina , reo:ugazio-elena , reo:ardissono-liliana , reo:concilio-carmelina ;
+        reo:islinkedTO                 "" , "Secondaria I grado studenti (420)" ;
+        reo:url                        "https://www.unito.it/eventi/notte-europea-dei-ricercatori-2021" ;
+        soa:hasTopic                   "" , "SH3_11 - Social aspects of learning curriculum studies educational policies" .
+
+reo:capecchi-sara  rdf:type  foaf:Person .
+
+reo:giorgis-marta  rdf:type  foaf:Person .
+
+reo:di-gaetano-cornelia
+        rdf:type  foaf:Person .
+
+reo:ferrara-francesca
+        rdf:type  foaf:Person .
+
+reo:valetti-francesca
+        rdf:type  foaf:Person .
+
+reo:paruzzo-francesca
+        rdf:type  foaf:Person .
+
+<http://www.semanticweb.org/research-ontology/-publicengagement>
+        rdf:type                       reo:PublicEngagement ;
+        dcterms:created                "" ;
+        dcterms:description            "" ;
+        dcterms:hasScientificDirector  reo: ;
+        dcterms:subject                "" ;
+        dcterms:title                  "" ;
+        reo:hasCurrentAffiliation      reo: ;
+        reo:hasEndDate                 "" ;
+        reo:hasFundingAmount           "" ;
+        reo:hasLocation                "" ;
+        reo:hasPartner                 reo: ;
+        reo:hasTemporalDuration        "" ;
+        reo:hasType                    reo: ;
+        reo:involvementType            "" ;
+        reo:isPartecipatedBy           <http://www.semanticweb.org/research-ontology/-> , reo: ;
+        reo:islinkedTO                 "" ;
+        reo:url                        "" ;
+        soa:hasTopic                   "" .
+
+reo:orso-francesca  rdf:type  foaf:Person .
+
+reo:ulrich-silvia  rdf:type  foaf:Person .
+
+reo:masino-andrea  rdf:type  foaf:Person .
+
+reo:ardissono-liliana
+        rdf:type  foaf:Person .
+
+reo:    rdf:type  org:Department , foaf:Person , reo:PublicEngagementType .
+
+reo:tullio-viviana-cristina
+        rdf:type  foaf:Person .
+
+reo:gallo-giovanni  rdf:type  foaf:Person .
+
+reo:marino-anna  rdf:type  foaf:Person .
+
+<http://www.semanticweb.org/research-ontology/->
+        rdf:type  foaf:Person .
+
+reo:concilio-carmelina
+        rdf:type  foaf:Person .
+
+reo:ugazio-elena  rdf:type  foaf:Person .
+
+reo:belluso-elena  rdf:type  foaf:Person .
+
+reo:mussat-sartor-rocco
+        rdf:type  foaf:Person .

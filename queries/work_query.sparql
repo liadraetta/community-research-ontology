@@ -17,6 +17,7 @@ PREFIX soa: <https://semopenalex.org/ontology/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX fabio: <http://purl.org/spar/fabio/>
 PREFIX frapo: <http://purl.org/cerif/frapo/>
+PREFIX soa: <https://semopenalex.org/ontology/>
 
 
 #java -jar sparql-anything.jar -q queries/query.sparql > output.ttl
@@ -37,8 +38,7 @@ CONSTRUCT {
         reo:ISSNCode ?reoISSNJournal;
         reo:DOICode ?reoDOICode;
         reo:url ?reoURL;
-        reo:hasTopic ?keywords;
-        reo:hasTopic ?ERCPanel;
+        soa:hasTopic ?keywords, ?ERCPanel;
         reo:conferenceName ?conference;
         reo:impactFactor ?reoImpactFactor;
         reo:openAccessType ?openAccessType;

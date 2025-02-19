@@ -96,14 +96,6 @@ reo:hasPartner rdf:type owl:ObjectProperty ;
                rdfs:range org:Organization .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasTopic
-reo:hasTopic rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain frapo:Project ,
-                         soa:Work ;
-             rdfs:range soa:Topic .
-
-
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasType
 reo:hasType rdf:type owl:ObjectProperty ;
             rdfs:domain frapo:Project ,
@@ -135,8 +127,14 @@ reo:isFirstAuthorOf rdf:type owl:ObjectProperty ;
                     rdfs:range soa:Work .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isPorducedBy
-reo:isPorducedBy rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isPartecipatedBy
+reo:isPartecipatedBy rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     owl:inverseOf reo:takesPartIn .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isProducedBy
+reo:isProducedBy rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
                  owl:inverseOf reo:produces ;
                  rdfs:domain soa:Work ;
@@ -184,8 +182,10 @@ reo:takesPartIn rdf:type owl:ObjectProperty ;
 ###  http://www.semanticweb.org/research-ontology/isLinkedTo
 <http://www.semanticweb.org/research-ontology/isLinkedTo> rdf:type owl:ObjectProperty ;
                                                           rdfs:subPropertyOf owl:topObjectProperty ;
-                                                          rdfs:domain frapo:Project ;
-                                                          rdfs:range reo:PublicEngagement .
+                                                          rdfs:domain frapo:Project ,
+                                                                      reo:PublicEngagement ;
+                                                          rdfs:range frapo:Project ,
+                                                                     reo:PublicEngagement .
 
 
 ###  http://www.semanticweb.org/research-ontology/manages
@@ -210,6 +210,14 @@ org:isSubOrganizationOF rdf:type owl:ObjectProperty ;
                         rdfs:range frapo:University .
 
 
+###  https://semopenalex.org/ontology/hasTopic
+soa:hasTopic rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain frapo:Project ,
+                         soa:Work ;
+             rdfs:range soa:Topic .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -221,7 +229,7 @@ frapo:hasAcronym rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.org/cerif/frapo/hasEndDate
 frapo:hasEndDate rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf reo:projectProperties ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
                  rdfs:domain frapo:Project ,
                              reo:PublicEngagement ;
                  rdfs:range xsd:dateTime .
@@ -229,7 +237,7 @@ frapo:hasEndDate rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.org/cerif/frapo/hasStartDate
 frapo:hasStartDate rdf:type owl:DatatypeProperty ;
-                   rdfs:subPropertyOf reo:projectProperties ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
                    rdfs:domain frapo:Project ,
                                reo:PublicEngagement ;
                    rdfs:range xsd:dateTime .
@@ -237,7 +245,7 @@ frapo:hasStartDate rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.org/cerif/frapo/hasTemporalDuration
 frapo:hasTemporalDuration rdf:type owl:DatatypeProperty ;
-                          rdfs:subPropertyOf reo:projectProperties .
+                          rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  http://purl.org/dc/terms/abstract
@@ -441,6 +449,11 @@ reo:hasLexicalForm rdf:type owl:DatatypeProperty ;
                    rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasLocation
+reo:hasLocation rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf reo:publicEngagementProperties .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasVolume
 reo:hasVolume rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
@@ -470,6 +483,11 @@ reo:iniziativeYear rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#institutionalInitiative
 reo:institutionalInitiative rdf:type owl:DatatypeProperty ;
                             rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#involvementType
+reo:involvementType rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf reo:publicEngagementProperties .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isExternalOrganization
@@ -604,16 +622,6 @@ reo:scopusID rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf reo:authorProperties .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#site
-reo:site rdf:type owl:DatatypeProperty ;
-         rdfs:subPropertyOf reo:publicEngagementProperties .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#totalFunding
-reo:totalFunding rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf reo:publicEngagementProperties .
-
-
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#url
 reo:url rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf reo:workProperties ;
@@ -636,7 +644,7 @@ reo:workProperties rdf:type owl:DatatypeProperty .
 
 ###  http://www.semanticweb.org/research-ontology/hasFundingAmount
 <http://www.semanticweb.org/research-ontology/hasFundingAmount> rdf:type owl:DatatypeProperty ;
-                                                                rdfs:subPropertyOf reo:projectProperties .
+                                                                rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  http://www.semanticweb.org/research-ontology/pubblicationNumber

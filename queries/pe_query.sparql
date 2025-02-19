@@ -1,0 +1,79 @@
+PREFIX fx: <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>
+PREFIX reo: <http://www.semanticweb.org/research-ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX frapo: <http://purl.org/cerif/frapo/>
+PREFIX soa: <https://semopenalex.org/ontology/>
+#Id-risorsa,Tipologia-risorsa,Data-creazione,Anno-inizio,IdentificativoIRIS,Titolo,Descrizione,Sede,Durata,Data-fine,Responsabili,Partecipanti,Dipartimenti,EntiPartner-ID,Enti-Descrizione,Aree-scientifiche-coinvolte,Obbiettivi,Tipologia-coinvolgimento,Pubblici-Coinvolti,Finanziamenti-esterni,Link,Settori-Erc,SSD,Parole-chiave,Iniziative-figlieIDIRIS,Iniziative-padreIDIRIS,Centri-ricerca-collegatiIDIRIS,Progetti-collegati
+#Id-risorsa,Tipologia-risorsa,Data-creazione,Anno-inizio,IdentificativoIRIS,Titolo,Descrizione,Sede,Durata,Data-fine,Responsabili,Partecipanti,Dipartimenti,EntiPartner-ID,Enti-Descrizione,Aree-scientifiche-coinvolte,Obbiettivi,Tipologia-coinvolgimento,Pubblici-Coinvolti,Finanziamenti-esterni,Link,Settori-Erc,SSD,Parole-chiave,Iniziative-figlieIDIRIS,Iniziative-padreIDIRIS,Centri-ricerca-collegatiIDIRIS,Progetti-collegati
+CONSTRUCT {
+    ?initiative a reo:PublicEngagement;
+        dcterms:title ?title;
+        dcterms:description ?description;
+        dcterms:created ?creationDate;
+        reo:islinkedTO ?childInitiative, ?parentInitiative;
+        reo:hasType ?reoInitiativeType;
+        reo:hasLocation ?location;
+        reo:hasTemporalDuration ?daysDuration;
+        reo:hasEndDate ?endDate;
+        dcterms:hasScientificDirector ?ReoResponsible;
+        reo:isPartecipatedBy ?ReoPartecipants;
+        reo:hasCurrentAffiliation ?reoDepartment;
+        reo:hasPartner ?partnerID;
+        reo:involvementType ?audience;
+        reo:hasFundingAmount ?funding;
+        reo:url ?link;
+        soa:hasTopic ?sector, ?keyword, ?scientificArea.
+    ?reoInitiativeType a reo:PublicEngagementType.
+    ?ReoResponsible a foaf:Person.
+    ?ReoPartecipants a foaf:Person.
+    ?reoDepartment a org:Department.
+    ?organization a org:Organization.
+} WHERE {
+  SERVICE <x-sparql-anything:csv.headers=true,location=data/prova_split.csv> {
+    []      xyz:Id-risorsa ?id;
+            xyz:Tipologia-risorsa ?initiativeType;
+            xyz:Data-creazione ?creationDate;
+#            xyz:Anno-inizio ?startYear;
+#            xyz:IdentificativoIRIS ?irisID;
+            xyz:Titolo ?title;
+            xyz:Descrizione ?description;
+            xyz:Sede ?location;
+            xyz:Durata ?duration;
+            xyz:Data-fine ?endDate;
+            xyz:Responsabili ?responsible;
+            xyz:Partecipanti ?participant;
+            xyz:Dipartimenti ?department;
+            xyz:EntiPartner-ID ?partner;
+            xyz:Aree-scientifiche-coinvolte ?scientificArea;
+#            xyz:Obbiettivi ?objective;
+#            xyz:Tipologia-coinvolgimento ?involvementType;
+            xyz:Pubblici-Coinvolti ?audience;
+            xyz:Finanziamenti-esterni ?funding;
+            xyz:Link ?link;
+            xyz:Settori-Erc ?sector;
+            xyz:Parole-chiave ?keyword;
+            xyz:Iniziative-figlieIDIRIS ?childInitiative;
+            xyz:Iniziative-padreIDIRIS ?parentInitiative;
+#            xyz:Centri-ricerca-collegatiIDIRIS ?researchCenter;
+
+  }
+  BIND(IRI(CONCAT(STR(reo:), ?partner )) AS ?partnerID) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(CONCAT(?partner, "-organization")))) AS ?organization) .
+  BIND(IRI(CONCAT(STR(reo:), CONCAT(?duration, "-days"))) AS ?daysDuration) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(CONCAT(?id, "-publicEngagement")))) AS ?initiative) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?participant), " ", "-")))) AS ?ReoPartecipants).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?responsible), " ", "-")))) AS ?ReoResponsible).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?initiativeType), " ", "-")))) AS ?reoInitiativeType).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?department), " ", "-")))) AS ?reoDepartment).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?partner), " ", "-")))) AS ?reoPartner).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?researchCenter), " ", "-")))) AS ?reoResearchCenter).
+}

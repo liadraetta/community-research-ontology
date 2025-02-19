@@ -11,6 +11,7 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX org: <http://www.w3.org/ns/org#>
 PREFIX frapo: <http://purl.org/cerif/frapo/>
+PREFIX soa: <https://semopenalex.org/ontology/>
 
 CONSTRUCT {
     ?project a frapo:Project;
@@ -24,7 +25,7 @@ CONSTRUCT {
         reo:hasFundingAmount ?reoTotalCost;
         dcterms:hasScientificDirector ?pi;
         reo:researchPurpose ?reoResearchPurpose;
-        reo:hasTopic ?ercPanel, ?reoTematicArea , ?reoKeyword;
+        soa:hasTopic ?ercPanel, ?reoTematicArea , ?reoKeyword;
         reo:hasType ?reoProjectType;
         reo:projectState ?reoProjectState;
         reo:ugovID ?reoUGOVId;
@@ -42,10 +43,6 @@ CONSTRUCT {
         reo:ID ?reoOrganizationID;
         rdfs:label ?organizationLabel.
     ?publicEngagementIniziative a reo:PublicEngagement
-
-#    ?reofundingBody a org:Organization.
-#    ?reoResearchField a skos:Concept.
-#    ?keyword a skos:Concept.
 } WHERE {
   SERVICE <x-sparql-anything:csv.headers=true,location=data/projects.csv> {
     []      xyz:id-iris ?id;
@@ -101,9 +98,6 @@ CONSTRUCT {
   BIND(IRI(CONCAT(STR(reo:), ?UGOVId )) AS ?reoUGOVId) .
   BIND(IRI(CONCAT(STR(reo:), ?pnrrFunds )) AS ?reoPnrrFunds) .
   BIND(IRI(CONCAT(STR(reo:), ?departments )) AS ?reoDepartments) .
-#  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?organizationType), " ", "-")))) AS ?reoOrganizationType)
   BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(?pi, " ", "-")))) AS ?reopi).
   BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(?fundingBody, " ", "-")))) AS ?reofundingBody).
-#  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(?researchField, " ", "-")))) AS ?reoResearchField).
-#  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(?keyword, " ", "-")))) AS ?reoKeyword).
 }
