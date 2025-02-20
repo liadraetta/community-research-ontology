@@ -1,0 +1,49 @@
+PREFIX fx: <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX urb: <http://purl.archive.org/urbooks#>
+PREFIX urw: <http://purl.archive.org/urwriters#>
+PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>
+PREFIX reo: <ttp://www.semanticweb.org/research-ontology/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX soa: <https://semopenalex.org/ontology/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX frapo: <http://purl.org/cerif/frapo/>
+PREFIX soa: <https://semopenalex.org/ontology/>
+
+#java -jar sparql-anything.jar -q queries/organizaton_query.sparql > output/organization_output.ttl
+CONSTRUCT {
+    ?organization a org:Organization;
+        rdfs:label ?organizationName;
+        reo:hasType ?reoOrganizationType;
+        reo:ID ?reoId;
+        reo:vatNumber ?reoVatNumber;
+        reo:organizationStartDate ?reoStartDate;
+        reo:isEsternalOrganization "yes".
+    ?reoOrganizationType a reo:OrganizationType;
+        rdfs:label ?organizationType.
+
+} WHERE {
+    #INSERIRE PATH COMPLETO
+  SERVICE <x-sparql-anything:csv.headers=true,location=/Users/liadraetta/Desktop/community-research-ontology/data/preprocessed/organizations.csv> {
+    []      xyz:ID ?id;
+            xyz:Titolo ?organizationName;
+            xyz:Tipologia-organizzazione ?organizationType;
+            xyz:Partita-IVA ?vatNumber;
+            xyz:Inizio ?startDate;
+  }
+  BIND(IRI(CONCAT(STR(reo:), LCASE(CONCAT(?id, "-organization")))) AS ?organization) .
+  BIND(IRI(CONCAT(STR(reo:), ?id)) AS ?reoId) .
+  BIND(IRI(CONCAT(STR(reo:), ?vatNumber)) AS ?reoVatNumber) .
+  BIND(IRI(CONCAT(STR(reo:), ?startDate)) AS ?reoStartDate) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?organizationType), " ", "-")))) AS ?reoOrganizationType)
+
+}

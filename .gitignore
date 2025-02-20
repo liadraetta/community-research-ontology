@@ -1,3 +1,6 @@
 sparql-anything.jar
-/data/pubblications.csv
-/data/prova_split.csv
+/myenv/
+/data/preprocessed/
+/data/row/
+/output/
+/output/

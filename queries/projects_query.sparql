@@ -44,7 +44,7 @@ CONSTRUCT {
         rdfs:label ?organizationLabel.
     ?publicEngagementIniziative a reo:PublicEngagement
 } WHERE {
-  SERVICE <x-sparql-anything:csv.headers=true,location=data/projects.csv> {
+  SERVICE <x-sparql-anything:csv.headers=true,location=/Users/liadraetta/Desktop/community-research-ontology/data/preprocessed/projects_preprocessed.csv> {
     []      xyz:id-iris ?id;
             xyz:Titolo-Progetto ?title;
             xyz:Abstract ?abstract;
@@ -76,8 +76,6 @@ CONSTRUCT {
 
 
 #TODO: separare righe di partnerID e creare Organization con PArtner-ID e coordinatori
-#TODO: separare colonne keyword, ERC, Area temtica
-#TODO: fare il controllo sul campo publicEngagement
 
   }
   BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?coordinators), " ", "-")))) AS ?reocoordinators).

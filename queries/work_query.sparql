@@ -27,10 +27,10 @@ CONSTRUCT {
         dcterms:abstract ?abstract;
         fabio:haspPubblicationYear ?reoPubblicationYear;
         reo:hasType ?reoWorkType;
-        #capire come gestire il first author
-        reo:hasFirstAuthor ?firstAuthor;
-        reo:isAuthoredBy ?person;
-        reo:numberOfAuthor ?reoauthorsNumber;
+#        #capire come gestire il first author
+#        reo:hasFirstAuthor ?reoFullName;
+        reo:isAuthoredBy ?reoFullName, ?reoAuthors;
+#        reo:numberOfAuthor ?reoAuthors;
         reo:internationalCoauthors ?reoInternationalCoauthors;
         reo:numberOfCurrentlyAffiliatedAuthors ?reoCurrentAffiliatedAuthors;
         reo:relevance ?reoRelevance;
@@ -38,24 +38,24 @@ CONSTRUCT {
         reo:ISSNCode ?reoISSNJournal;
         reo:DOICode ?reoDOICode;
         reo:url ?reoURL;
-        soa:hasTopic ?keywords, ?ERCPanel;
+        soa:hasTopic ?reoKeyword, ?reoERCPanel;
         reo:conferenceName ?conference;
         reo:impactFactor ?reoImpactFactor;
         reo:openAccessType ?openAccessType;
         reo:refereeType ?refereeType;
         reo:isProducedBy ?reoProjectID.
     ?reoWorkType a reo:WorkType.
-    ?person a foaf:Person.
-    ?keywords a soa:Keyword.
+    ?reoFullName a foaf:Person.
+    ?reoAuthors a foaf:Person.
+    ?reoKeyword a soa:Keyword.
     ?project a frapo:Project.
 
 } WHERE {
-  SERVICE <x-sparql-anything:csv.headers=true,location=data/pubblications.csv> {
+  SERVICE <x-sparql-anything:csv.headers=true,location=/Users/liadraetta/Desktop/community-research-ontology/data/preprocessed/pubblications_preprocessed.csv> {
     []      xyz:ID-prodotto ?id;
             xyz:Titolo ?title;
             xyz:Abstract ?abstract;
-            xyz:first-author ?firstAuthor;
-            xyz:Titolo ?title;
+#            xyz:first-author ?firstAuthor;
             xyz:Anno-di-pubblicazione ?pubblicationYear;
             xyz:Tipologia ?workType;
             xyz:autore-nome ?authorName;
@@ -72,26 +72,30 @@ CONSTRUCT {
             xyz:ERCPanel ?ERCPanel;
             xyz:convegno ?conference;
             xyz:Id-progetto ?projectID;
-            xyz:Nome-progetto ?projectName;
+#            xyz:Nome-progetto ?projectName;
             xyz:Impact-factor ?impactFactor;
             xyz:open-access-type ?openAccessType;
             xyz:Tipo-di-referaggio ?refereeType;
   }
+
   BIND(CONCAT(STR(?name), " ", STR(?impactFactor)) AS ?reoImpactFactor) .
-  BIND(CONCAT(STR(?name), " ", STR(?surname)) AS ?fullName) .
-  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?id, "-", ?firstAuthor), " ", "-")))) AS ?work) .
+  BIND(CONCAT(STR(?authorName), " ", STR(?authorSurnname)) AS ?fullName) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?fullName), " ", "-")))) AS ?reoFullName).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?id, "-", ?fullName), " ", "-")))) AS ?work) .
   BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?projectName, "-", ?projectID), " ", "-")))) AS ?project) .
   BIND(IRI(CONCAT(STR(reo:), ?id )) AS ?reoid).
   BIND(IRI(CONCAT(STR(reo:), ?firstAuthor )) AS ?reFirstAuthor).
   BIND(IRI(CONCAT(STR(reo:), ?pubblicationYear )) AS ?reoPubblicationYear).
   BIND(IRI(CONCAT(STR(reo:), ?workType )) AS ?reoWorkType).
-  BIND(IRI(CONCAT(STR(reo:), ?authorsNumber )) AS ?reoauthorsNumber).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?authorsNumber), " ", "-")))) AS ?reoAuthors).
   BIND(IRI(CONCAT(STR(reo:), ?internationalCoauthors )) AS ?reoInternationalCoauthors).
-  BIND(IRI(CONCAT(STR(reo:), ?currentAffiliatedAuthors )) AS ?reoCurrentAffiliatedAuthors).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(?currentAffiliatedAuthors ))) AS ?reoCurrentAffiliatedAuthors).
   BIND(IRI(CONCAT(STR(reo:), ?relevance )) AS ?reoRelevance).
   BIND(IRI(CONCAT(STR(reo:), ?language )) AS ?reolanguage).
-  #BIND(IRI(CONCAT(STR(reo:), ?ISSNJournal )) AS ?reoISSNJournal) .
+  BIND(IRI(CONCAT(STR(reo:), ?ISSNJournal )) AS ?reoISSNJournal) .
   BIND(IRI(CONCAT(STR(reo:), ?DOICode )) AS ?reoDOICode) .
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?keywords), " ", "-")))) AS ?reoKeyword).
+  BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?ERCPanel), " ", "-")))) AS ?reoERCPanel).
   BIND(IRI(CONCAT(STR(reo:), ?url )) AS ?reoURL) .
   BIND(IRI(CONCAT(STR(reo:), ?projectID )) AS ?reoProjectID) .
   BIND(IRI(CONCAT(STR(reo:), LCASE(REPLACE(CONCAT(?authorName, "-", ?authorSurnname), " ", "-")))) AS ?person) .

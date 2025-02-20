@@ -117,15 +117,6 @@ reo:74690-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:00211270160 .
 
-reo:74033-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "IGA TECHNOLOGY SERVICES S.R.L." ;
-        reo:ID                      reo:74033 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:02584950303 .
-
 reo:200700-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "SENSO DEVICES INC." ;
@@ -134,6 +125,15 @@ reo:200700-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2021> ;
         reo:vatNumber               reo:47-5093904 .
+
+reo:74033-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "IGA TECHNOLOGY SERVICES S.R.L." ;
+        reo:ID                      reo:74033 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:02584950303 .
 
 reo:74011-organization
         rdf:type                    org:Organization ;
@@ -164,7 +164,7 @@ reo:73558-organization
 
 reo:74528-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "HOKKAIDO UNIVERSITY CREATIVE RESEARCH INSTITUTION \"CRIS\"" ;
+        rdfs:label                  "HOKKAIDO UNIVERSITY CREATIVE RESEARCH INSTITUTION CRIS" ;
         reo:ID                      reo:74528 ;
         reo:hasType                 reo:università ;
         reo:isEsternalOrganization  "yes" ;
@@ -182,7 +182,7 @@ reo:73498-organization
 
 reo:74468-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "T.E.\"N\". TORINO EXPRESS NEW s.r.l." ;
+        rdfs:label                  "T.E.N. TORINO EXPRESS NEW s.r.l." ;
         reo:ID                      reo:74468 ;
         reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
@@ -198,10 +198,6 @@ reo:73536-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:06201090013 .
 
-<ttp://www.semanticweb.org/research-ontology/-i-consumatori-e-l'euro>
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  " i Consumatori e l'Euro" .
-
 reo:74506-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Classpi Digital S.r.l." ;
@@ -210,6 +206,10 @@ reo:74506-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:05364061001 .
+
+<ttp://www.semanticweb.org/research-ontology/-i-consumatori-e-l'euro>
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  " i Consumatori e l'Euro" .
 
 reo:73476-organization
         rdf:type                    org:Organization ;
@@ -292,14 +292,14 @@ reo:74342-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:12333490154 .
 
-reo:74919-organization
+reo:86200-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Population Association of America" ;
-        reo:ID                      reo:74919 ;
-        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
+        rdfs:label                  "CSK Food Enrichment CV" ;
+        reo:ID                      reo:86200 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo: .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2015> ;
+        reo:vatNumber               reo:853553452B01 .
 
 reo:74320-organization
         rdf:type                    org:Organization ;
@@ -310,14 +310,14 @@ reo:74320-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:02350010019 .
 
-reo:86200-organization
+reo:74919-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "CSK Food Enrichment CV" ;
-        reo:ID                      reo:86200 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        rdfs:label                  "Population Association of America" ;
+        reo:ID                      reo:74919 ;
+        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2015> ;
-        reo:vatNumber               reo:853553452B01 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo: .
 
 reo:74859-organization
         rdf:type                    org:Organization ;
@@ -375,7 +375,7 @@ reo:73594-organization
 
 reo:73632-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "C.R.S.A. \"BASILE CARAMIA\"" ;
+        rdfs:label                  "C.R.S.A. BASILE CARAMIA" ;
         reo:ID                      reo:73632 ;
         reo:hasType                 reo:enti-di-ricerca ;
         reo:isEsternalOrganization  "yes" ;
@@ -526,15 +526,6 @@ reo:73963-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:B97267405 .
 
-reo:73268-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Comune di BRA" ;
-        reo:ID                      reo:73268 ;
-        reo:hasType                 reo:comuni ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:00493130041 .
-
 reo:74933-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "CLEAN OFFICE SC SEDE OPERATIVA" ;
@@ -543,6 +534,15 @@ reo:74933-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:09162190012 .
+
+reo:73268-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Comune di BRA" ;
+        reo:ID                      reo:73268 ;
+        reo:hasType                 reo:comuni ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:00493130041 .
 
 reo:129400-organization
         rdf:type                    org:Organization ;
@@ -553,14 +553,14 @@ reo:129400-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2021> ;
         reo:vatNumber               reo: .
 
-reo:73941-organization
+reo:74178-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "VETRERIE BETTI S.N.C. DI PIERCARLO MORINO & C." ;
-        reo:ID                      reo:73941 ;
-        reo:hasType                 reo:società-in-nome-collettivo ;
+        rdfs:label                  "JACOBS UNIVERSITY BREMEN" ;
+        reo:ID                      reo:74178 ;
+        reo:hasType                 reo:università ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:00862750056 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:199098639 .
 
 reo:73306-organization
         rdf:type                    org:Organization ;
@@ -579,6 +579,15 @@ reo:74873-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:09809610158 .
 
+reo:73941-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "VETRERIE BETTI S.N.C. DI PIERCARLO MORINO & C." ;
+        reo:ID                      reo:73941 ;
+        reo:hasType                 reo:società-in-nome-collettivo ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:00862750056 .
+
 reo:74911-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Grand Hotel San Marino S.p.a." ;
@@ -587,15 +596,6 @@ reo:74911-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo: .
-
-reo:74178-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "JACOBS UNIVERSITY BREMEN" ;
-        reo:ID                      reo:74178 ;
-        reo:hasType                 reo:università ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:199098639 .
 
 reo:73246-organization
         rdf:type                    org:Organization ;
@@ -904,10 +904,6 @@ reo:73815-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:01334340492 .
 
-reo:imprese-individuali-commerciali
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  "Imprese individuali commerciali" .
-
 reo:73755-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "OMNI PREX" ;
@@ -915,6 +911,10 @@ reo:73755-organization
         reo:hasType                 <ttp://www.semanticweb.org/research-ontology/-s.l.> ;
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   reo: .
+
+reo:imprese-individuali-commerciali
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  "Imprese individuali commerciali" .
 
 reo:73695-organization
         rdf:type                    org:Organization ;
@@ -1017,7 +1017,7 @@ reo:74561-organization
 
 reo:99400-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Fondazione Istituto Piemontese \"Antonio Gramsci\"" ;
+        rdfs:label                  "Fondazione Istituto Piemontese Antonio Gramsci" ;
         reo:ID                      reo:99400 ;
         reo:hasType                 reo:fondazioni ;
         reo:isEsternalOrganization  "yes" ;
@@ -1060,6 +1060,15 @@ reo:73369-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:02574410011 .
 
+reo:79400-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "VISHAY SEMICONDUCTOR ITALIANA SPA" ;
+        reo:ID                      reo:79400 ;
+        reo:hasType                 reo:società-per-azioni ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2013> ;
+        reo:vatNumber               reo:00475790010 .
+
 reo:74339-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "STUDIO ING." ;
@@ -1087,14 +1096,14 @@ reo:74974-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo: .
 
-reo:79400-organization
+reo:80300-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "VISHAY SEMICONDUCTOR ITALIANA SPA" ;
-        reo:ID                      reo:79400 ;
-        reo:hasType                 reo:società-per-azioni ;
+        rdfs:label                  "SPANDIDOS PUBLICATIONS Ltd P.O.B 18179 ATHENS 116 10 GREECE  18179" ;
+        reo:ID                      reo:80300 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2013> ;
-        reo:vatNumber               reo:00475790010 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2002> ;
+        reo:vatNumber               reo:099522884 .
 
 reo:74279-organization
         rdf:type                    org:Organization ;
@@ -1104,15 +1113,6 @@ reo:74279-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:06635851212 .
-
-reo:80300-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "SPANDIDOS PUBLICATIONS Ltd P.O.B 18179 ATHENS 116 10 GREECE  18179" ;
-        reo:ID                      reo:80300 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2002> ;
-        reo:vatNumber               reo:099522884 .
 
 reo:73347-organization
         rdf:type                    org:Organization ;
@@ -1132,15 +1132,6 @@ reo:74317-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:818494232B01 .
 
-reo:74952-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Agricultural Institute of Canada" ;
-        reo:ID                      reo:74952 ;
-        reo:hasType                 reo:enti-di-ricerca ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo: .
-
 reo:73287-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "ZIA s.r.l. Soluzioni informatiche integrate" ;
@@ -1150,14 +1141,14 @@ reo:73287-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:06432300017 .
 
-reo:74257-organization
+reo:74952-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "EDITRICE SAIE s.r.l." ;
-        reo:ID                      reo:74257 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        rdfs:label                  "Agricultural Institute of Canada" ;
+        reo:ID                      reo:74952 ;
+        reo:hasType                 reo:enti-di-ricerca ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:00492410014 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo: .
 
 reo:85900-organization
         rdf:type                    org:Organization ;
@@ -1167,6 +1158,15 @@ reo:85900-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2015> ;
         reo:vatNumber               reo:02258200043 .
+
+reo:74257-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "EDITRICE SAIE s.r.l." ;
+        reo:ID                      reo:74257 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:00492410014 .
 
 reo:73325-organization
         rdf:type                    org:Organization ;
@@ -1204,15 +1204,6 @@ reo:74930-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:01735260018 .
 
-reo:74235-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "LA.MET S.p.a." ;
-        reo:ID                      reo:74235 ;
-        reo:hasType                 reo:società-per-azioni ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:10768940156 .
-
 reo:75900-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "STUDIO GIBELLI - PAGLIERO - RIBETTO - COMMERCIALISTI ASSOCIATI." ;
@@ -1221,6 +1212,15 @@ reo:75900-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:06147540014 .
+
+reo:74235-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "LA.MET S.p.a." ;
+        reo:ID                      reo:74235 ;
+        reo:hasType                 reo:società-per-azioni ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:10768940156 .
 
 reo:73303-organization
         rdf:type                    org:Organization ;
@@ -1311,15 +1311,6 @@ reo:74648-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:U65301577 .
 
-reo:74626-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Shinda Edizioni S.r.l. SEDE OPERATIVA:" ;
-        reo:ID                      reo:74626 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:06828740966 .
-
 reo:177200-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "SAF España" ;
@@ -1328,6 +1319,15 @@ reo:177200-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2023> ;
         reo:vatNumber               reo:G54795406 .
+
+reo:74626-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Shinda Edizioni S.r.l. SEDE OPERATIVA:" ;
+        reo:ID                      reo:74626 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:06828740966 .
 
 reo:73443-organization
         rdf:type                    org:Organization ;
@@ -1428,14 +1428,14 @@ reo:73856-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:10050900017 .
 
-reo:73796-organization
+reo:88200-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ASL 106 TERAMO" ;
-        reo:ID                      reo:73796 ;
-        reo:hasType                 reo:enti-ospedalieri ;
+        rdfs:label                  "ASSOCIAZIONE FORMAZIONE & SALUTE" ;
+        reo:ID                      reo:88200 ;
+        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:00115590671 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2016> ;
+        reo:vatNumber               reo: .
 
 reo:74826-organization
         rdf:type                    org:Organization ;
@@ -1450,14 +1450,14 @@ reo:lavoratori-autonomi---professionisti
         rdf:type    reo:OrganizationType ;
         rdfs:label  "Lavoratori autonomi - Professionisti" .
 
-reo:88200-organization
+reo:73796-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ASSOCIAZIONE FORMAZIONE & SALUTE" ;
-        reo:ID                      reo:88200 ;
-        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
+        rdfs:label                  "ASL 106 TERAMO" ;
+        reo:ID                      reo:73796 ;
+        reo:hasType                 reo:enti-ospedalieri ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2016> ;
-        reo:vatNumber               reo: .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:00115590671 .
 
 reo:74766-organization
         rdf:type                    org:Organization ;
@@ -1766,7 +1766,7 @@ reo:74809-organization
 
 reo:73588-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "SAVT - SINDACATO AUTONOMO VALDOSTANO \"TRAVAILLEURS\"" ;
+        rdfs:label                  "SAVT - SINDACATO AUTONOMO VALDOSTANO TRAVAILLEURS" ;
         reo:ID                      reo:73588 ;
         reo:hasType                 reo:ente-non-soggetto-iva ;
         reo:isEsternalOrganization  "yes" ;
@@ -1969,7 +1969,7 @@ reo:74949-organization
 
 reo:74290-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "VALPERGA S.A.S. \"I SOLITI AMICI\"" ;
+        rdfs:label                  "VALPERGA S.A.S. I SOLITI AMICI" ;
         reo:ID                      reo:74290 ;
         reo:hasType                 reo:società-in-accomandita-semplice ;
         reo:isEsternalOrganization  "yes" ;
@@ -2299,7 +2299,7 @@ reo:74415-organization
 
 reo:87900-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Università Commerciale \"Luigi Bocconi\" MILANO" ;
+        rdfs:label                  "Università Commerciale Luigi Bocconi MILANO" ;
         reo:ID                      reo:87900 ;
         reo:hasType                 reo:università ;
         reo:isEsternalOrganization  "yes" ;
@@ -2476,15 +2476,6 @@ reo:73601-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:97569210012 .
 
-reo:74473-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "A.E.I.O.U di" ;
-        reo:ID                      reo:74473 ;
-        reo:hasType                 reo:imprese-individuali-commerciali ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/27/02/2014> ;
-        reo:vatNumber               reo:01154290157 .
-
 reo:195700-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "APRFLYTECH STORE SRL" ;
@@ -2493,6 +2484,15 @@ reo:195700-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2023> ;
         reo:vatNumber               reo:10507930963 .
+
+reo:74473-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "A.E.I.O.U di" ;
+        reo:ID                      reo:74473 ;
+        reo:hasType                 reo:imprese-individuali-commerciali ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/27/02/2014> ;
+        reo:vatNumber               reo:01154290157 .
 
 reo:73541-organization
         rdf:type                    org:Organization ;
@@ -2654,9 +2654,14 @@ reo:74207-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:97005670589 .
 
-reo:camere-di-commercio
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  "Camere di commercio" .
+reo:74147-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "SAI GLOBAL ITALIA S.R.L." ;
+        reo:ID                      reo:74147 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:06586110014 .
 
 reo:81100-organization
         rdf:type                    org:Organization ;
@@ -2667,14 +2672,9 @@ reo:81100-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2001> ;
         reo:vatNumber               reo:Q2818002D .
 
-reo:74147-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "SAI GLOBAL ITALIA S.R.L." ;
-        reo:ID                      reo:74147 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:06586110014 .
+reo:camere-di-commercio
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  "Camere di commercio" .
 
 reo:74087-organization
         rdf:type                    org:Organization ;
@@ -2750,6 +2750,10 @@ reo:73377-organization
 reo:ministeri  rdf:type  reo:OrganizationType ;
         rdfs:label  "Ministeri" .
 
+<ttp://www.semanticweb.org/research-ontology/-giuridici-e-finanziari-dell'agenzia-sanitaria-e-sociale-regionale>
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  " GIURIDICI E FINANZIARI DELL'AGENZIA SANITARIA E SOCIALE REGIONALE" .
+
 reo:73355-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "BIOPHARM S.R.L." ;
@@ -2758,10 +2762,6 @@ reo:73355-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:04623750967 .
-
-<ttp://www.semanticweb.org/research-ontology/-giuridici-e-finanziari-dell'agenzia-sanitaria-e-sociale-regionale>
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  " GIURIDICI E FINANZIARI DELL'AGENZIA SANITARIA E SOCIALE REGIONALE" .
 
 reo:73990-organization
         rdf:type                    org:Organization ;
@@ -2949,15 +2949,6 @@ reo:73724-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:06408420013 .
 
-reo:89000-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "ELETTRONICA GIORDANO SRL" ;
-        reo:ID                      reo:89000 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
-        reo:vatNumber               reo:02253630046 .
-
 reo:74596-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "NODOTTO s.r.l." ;
@@ -2966,6 +2957,15 @@ reo:74596-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:09728510018 .
+
+reo:89000-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "ELETTRONICA GIORDANO SRL" ;
+        reo:ID                      reo:89000 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
+        reo:vatNumber               reo:02253630046 .
 
 reo:73664-organization
         rdf:type                    org:Organization ;
@@ -2987,7 +2987,7 @@ reo:74634-organization
 
 reo:73702-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Associazione italiana di studi cooperativi \"Luigi Luzzatti\"" ;
+        rdfs:label                  "Associazione italiana di studi cooperativi Luigi Luzzatti" ;
         reo:ID                      reo:73702 ;
         reo:hasType                 reo:associazioni-tra-artisti-e-professionisti ;
         reo:isEsternalOrganization  "yes" ;
@@ -3220,7 +3220,7 @@ reo:73516-organization
 
 reo:74388-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ISTITUTO ISTRUZIONE SUPERIORE \"B. VITTONE\"" ;
+        rdfs:label                  "ISTITUTO ISTRUZIONE SUPERIORE B. VITTONE" ;
         reo:ID                      reo:74388 ;
         reo:hasType                 reo:enti-pubblici-non-economici ;
         reo:isEsternalOrganization  "yes" ;
@@ -3272,14 +3272,6 @@ reo:73374-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:22335020 .
 
-reo:74344-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "GT1 SRL VIA VALPERGA CALUSO" ;
-        reo:ID                      reo:74344 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/-18-10125> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   reo: .
-
 reo:94300-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "O.R.A. Agricola" ;
@@ -3288,6 +3280,14 @@ reo:94300-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2020> ;
         reo:vatNumber               reo: .
+
+reo:74344-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "GT1 SRL VIA VALPERGA CALUSO" ;
+        reo:ID                      reo:74344 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/-18-10125> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   reo: .
 
 reo:73412-organization
         rdf:type                    org:Organization ;
@@ -3333,14 +3333,14 @@ reo:74322-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:208729256 .
 
-reo:89900-organization
+reo:73869-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ORSI ACADEMY" ;
-        reo:ID                      reo:89900 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        rdfs:label                  "Mangimificio Il Palazzetto Srl" ;
+        reo:ID                      reo:73869 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2018> ;
-        reo:vatNumber               reo:0568472953 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:01444140055 .
 
 reo:73292-organization
         rdf:type                    org:Organization ;
@@ -3351,14 +3351,14 @@ reo:73292-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:CHE-116.267.986 .
 
-reo:73330-organization
+reo:73929-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "PARALLELI - Istituto Euromediterraneo del Nord Ovest" ;
-        reo:ID                      reo:73330 ;
-        reo:hasType                 reo:enti-pubblici-non-economici ;
+        rdfs:label                  "COVANCE CLINICAL DEVELOPMENT SRL" ;
+        reo:ID                      reo:73929 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2008> ;
-        reo:vatNumber               reo:97665610016 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:04493920963 .
 
 reo:74262-organization
         rdf:type                    org:Organization ;
@@ -3369,6 +3369,24 @@ reo:74262-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/08/06/2010> ;
         reo:vatNumber               reo:06669210012 .
 
+reo:73330-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "PARALLELI - Istituto Euromediterraneo del Nord Ovest" ;
+        reo:ID                      reo:73330 ;
+        reo:hasType                 reo:enti-pubblici-non-economici ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2008> ;
+        reo:vatNumber               reo:97665610016 .
+
+reo:89900-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "ORSI ACADEMY" ;
+        reo:ID                      reo:89900 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2018> ;
+        reo:vatNumber               reo:0568472953 .
+
 reo:74300-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "BIANCHINI ROBERTO Articoli militari" ;
@@ -3377,32 +3395,6 @@ reo:74300-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/12/07/2010> ;
         reo:vatNumber               reo:05659940018 .
-
-reo:73929-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "COVANCE CLINICAL DEVELOPMENT SRL" ;
-        reo:ID                      reo:73929 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:04493920963 .
-
-reo:90800-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "CE.S.BI.N - CENTRO STUDI BIONATURALISTICI SRL" ;
-        reo:ID                      reo:90800 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2018> ;
-        reo:vatNumber               reo:02135030993 .
-
-reo:74839-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "MedKoo Biosciences" ;
-        reo:ID                      reo:74839 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/-inc.> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   reo: .
 
 reo:73270-organization
         rdf:type                    org:Organization ;
@@ -3413,14 +3405,23 @@ reo:73270-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:09970140019 .
 
-reo:73869-organization
+reo:90800-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Mangimificio Il Palazzetto Srl" ;
-        reo:ID                      reo:73869 ;
+        rdfs:label                  "CE.S.BI.N - CENTRO STUDI BIONATURALISTICI SRL" ;
+        reo:ID                      reo:90800 ;
         reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:01444140055 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2018> ;
+        reo:vatNumber               reo:02135030993 .
+
+reo:80800-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "METODI ASSCOM & ALEPH SRL" ;
+        reo:ID                      reo:80800 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2000> ;
+        reo:vatNumber               reo:12719160157 .
 
 reo:74240-organization
         rdf:type                    org:Organization ;
@@ -3431,6 +3432,14 @@ reo:74240-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:08802380017 .
 
+reo:74839-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "MedKoo Biosciences" ;
+        reo:ID                      reo:74839 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/-inc.> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   reo: .
+
 reo:73907-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "TABACCHERIA EDICOLA MINIMARKET DI COSTANTINI GIANLUCA" ;
@@ -3439,15 +3448,6 @@ reo:73907-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/19/04/2011> ;
         reo:vatNumber               reo:06498480018 .
-
-reo:74779-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "ALEA SRL" ;
-        reo:ID                      reo:74779 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:07749590019 .
 
 reo:79900-organization
         rdf:type                    org:Organization ;
@@ -3467,14 +3467,14 @@ reo:74180-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:04915630018 .
 
-reo:80800-organization
+reo:74779-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "METODI ASSCOM & ALEPH SRL" ;
-        reo:ID                      reo:80800 ;
+        rdfs:label                  "ALEA SRL" ;
+        reo:ID                      reo:74779 ;
         reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2000> ;
-        reo:vatNumber               reo:12719160157 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:07749590019 .
 
 reo:73847-organization
         rdf:type                    org:Organization ;
@@ -3978,7 +3978,7 @@ reo:74918-organization
 
 reo:126300-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Università Telematica \"LEONARDO da VINCI\"" ;
+        rdfs:label                  "Università Telematica LEONARDO da VINCI" ;
         reo:ID                      reo:126300 ;
         reo:hasType                 reo: ;
         reo:isEsternalOrganization  "yes" ;
@@ -4119,15 +4119,6 @@ reo:73984-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo: .
 
-reo:73289-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "RICCA di Vanacore Mario" ;
-        reo:ID                      reo:73289 ;
-        reo:hasType                 reo:imprese-individuali-commerciali ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/21/09/2012> ;
-        reo:vatNumber               reo:08054300010 .
-
 reo:74954-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "LA CROCETTA S.R.L." ;
@@ -4136,6 +4127,15 @@ reo:74954-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:06182330016 .
+
+reo:73289-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "RICCA di Vanacore Mario" ;
+        reo:ID                      reo:73289 ;
+        reo:hasType                 reo:imprese-individuali-commerciali ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/21/09/2012> ;
+        reo:vatNumber               reo:08054300010 .
 
 reo:73327-organization
         rdf:type                    org:Organization ;
@@ -4182,6 +4182,15 @@ reo:73267-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:03437480407 .
 
+reo:74910-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Teco René Koch" ;
+        reo:ID                      reo:74910 ;
+        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo: .
+
 reo:73305-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Selleck Chemicals" ;
@@ -4190,14 +4199,6 @@ reo:73305-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo: .
-
-reo:73940-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Tribunale di Sorveglianza" ;
-        reo:ID                      reo:73940 ;
-        reo:hasType                 reo:organi-ed-amministrazioni-dello-stato ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   reo:80102790013 .
 
 reo:74872-organization
         rdf:type                    org:Organization ;
@@ -4208,14 +4209,13 @@ reo:74872-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:00575681200 .
 
-reo:74910-organization
+reo:73940-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Teco René Koch" ;
-        reo:ID                      reo:74910 ;
-        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
+        rdfs:label                  "Tribunale di Sorveglianza" ;
+        reo:ID                      reo:73940 ;
+        reo:hasType                 reo:organi-ed-amministrazioni-dello-stato ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo: .
+        reo:organizationStartDate   reo:80102790013 .
 
 reo:74177-organization
         rdf:type                    org:Organization ;
@@ -4808,7 +4808,7 @@ reo:74174-organization
 
 reo:73242-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Università Telematica \"UNITELMA Sapienza\"" ;
+        rdfs:label                  "Università Telematica UNITELMA Sapienza" ;
         reo:ID                      reo:73242 ;
         reo:hasType                 reo:enti-pubblici-non-economici ;
         reo:isEsternalOrganization  "yes" ;
@@ -4842,15 +4842,6 @@ reo:74152-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:04654610874 .
 
-reo:85100-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "AES LABORATOIRE ITALIA SRL" ;
-        reo:ID                      reo:85100 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2004> ;
-        reo:vatNumber               reo:04131060966 .
-
 reo:73819-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "C.AER.S.A.S. DI Autino Giovanni & C." ;
@@ -4859,6 +4850,15 @@ reo:73819-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:05511210014 .
+
+reo:85100-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "AES LABORATOIRE ITALIA SRL" ;
+        reo:ID                      reo:85100 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2004> ;
+        reo:vatNumber               reo:04131060966 .
 
 reo:74092-organization
         rdf:type                    org:Organization ;
@@ -5242,15 +5242,6 @@ reo:79500-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/1999> ;
         reo:vatNumber               reo:03222370722 .
 
-reo:74379-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "POLITEKO DI GUARINI PIETRO" ;
-        reo:ID                      reo:74379 ;
-        reo:hasType                 reo:imprese-individuali-commerciali ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/25/10/2012> ;
-        reo:vatNumber               reo:07197290013 .
-
 reo:80400-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "LABOGEN Srl - Unipersonale SEDE LEGALE" ;
@@ -5259,6 +5250,15 @@ reo:80400-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2002> ;
         reo:vatNumber               reo:12571650154 .
+
+reo:74379-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "POLITEKO DI GUARINI PIETRO" ;
+        reo:ID                      reo:74379 ;
+        reo:hasType                 reo:imprese-individuali-commerciali ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/25/10/2012> ;
+        reo:vatNumber               reo:07197290013 .
 
 reo:73447-organization
         rdf:type                    org:Organization ;
@@ -5458,14 +5458,14 @@ reo:73521-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:98765432445 .
 
-reo:73461-organization
+reo:123600-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "TARA SRL" ;
-        reo:ID                      reo:73461 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        rdfs:label                  "RAPPRESENTA.TO (Tealdi Jacopo)" ;
+        reo:ID                      reo:123600 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/liste/associazioni-studentesche> ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:06488730018 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2021> ;
+        reo:vatNumber               reo: .
 
 <ttp://www.semanticweb.org/research-ontology/-2/a-44042>
         rdf:type    reo:OrganizationType ;
@@ -5480,14 +5480,14 @@ reo:74393-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:384125062 .
 
-reo:123600-organization
+reo:73461-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "RAPPRESENTA.TO (Tealdi Jacopo)" ;
-        reo:ID                      reo:123600 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/liste/associazioni-studentesche> ;
+        rdfs:label                  "TARA SRL" ;
+        reo:ID                      reo:73461 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2021> ;
-        reo:vatNumber               reo: .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:06488730018 .
 
 reo:74371-organization
         rdf:type                    org:Organization ;
@@ -6437,7 +6437,7 @@ reo:73789-organization
 
 reo:74160-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Riserva \"La Regina\" SNC" ;
+        rdfs:label                  "Riserva La Regina SNC" ;
         reo:ID                      reo:74160 ;
         reo:hasType                 reo:società-in-nome-collettivo ;
         reo:isEsternalOrganization  "yes" ;
@@ -6479,15 +6479,6 @@ reo:73805-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:U57532824 .
 
-reo:74677-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "GARDEN PLANET S.R.L." ;
-        reo:ID                      reo:74677 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:09664880011 .
-
 reo:149100-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Comune di Anagni" ;
@@ -6496,6 +6487,15 @@ reo:149100-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2022> ;
         reo:vatNumber               reo:00104250600 .
+
+reo:74677-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "GARDEN PLANET S.R.L." ;
+        reo:ID                      reo:74677 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:09664880011 .
 
 reo:73745-organization
         rdf:type                    org:Organization ;
@@ -6542,14 +6542,9 @@ reo:73723-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:01031820192 .
 
-reo:73663-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "UNIVERSITE' FRANCOIS RABELAIS" ;
-        reo:ID                      reo:73663 ;
-        reo:hasType                 reo:università ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:34193708005 .
+reo:ente-pubblico-non-soggetto-iva
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  "Ente pubblico non soggetto IVA" .
 
 reo:74595-organization
         rdf:type                    org:Organization ;
@@ -6560,9 +6555,14 @@ reo:74595-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:01888220033 .
 
-reo:ente-pubblico-non-soggetto-iva
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  "Ente pubblico non soggetto IVA" .
+reo:73663-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "UNIVERSITE' FRANCOIS RABELAIS" ;
+        reo:ID                      reo:73663 ;
+        reo:hasType                 reo:università ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:34193708005 .
 
 reo:74633-organization
         rdf:type                    org:Organization ;
@@ -6992,15 +6992,6 @@ reo:74816-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo: .
 
-reo:120900-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Pompiers de l'Urgence Internationale" ;
-        reo:ID                      reo:120900 ;
-        reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2021> ;
-        reo:vatNumber               reo: .
-
 reo:99100-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "CUNIGRANDA DI PERANO DANILO" ;
@@ -7008,6 +6999,15 @@ reo:99100-organization
         reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2020> ;
+        reo:vatNumber               reo: .
+
+reo:120900-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Pompiers de l'Urgence Internationale" ;
+        reo:ID                      reo:120900 ;
+        reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2021> ;
         reo:vatNumber               reo: .
 
 reo:73786-organization
@@ -7037,15 +7037,6 @@ reo:73824-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo: .
 
-reo:89100-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "ISTITUTO COMPRENSIVO \"D. COSOLA\"" ;
-        reo:ID                      reo:89100 ;
-        reo:hasType                 reo:enti-pubblici-non-economici ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
-        reo:vatNumber               reo: .
-
 reo:74696-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "FOTO HOBBY REDAELLI S.N.C. DI REDAELLI  M & C." ;
@@ -7054,6 +7045,15 @@ reo:74696-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:02603750130 .
+
+reo:89100-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "ISTITUTO COMPRENSIVO D. COSOLA" ;
+        reo:ID                      reo:89100 ;
+        reo:hasType                 reo:enti-pubblici-non-economici ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
+        reo:vatNumber               reo: .
 
 reo:73764-organization
         rdf:type                    org:Organization ;
@@ -7243,10 +7243,6 @@ reo:73920-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:06539200011 .
 
-reo:società-in-accomandita-semplice
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  "Società in accomandita semplice" .
-
 reo:74348-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "COMUNE DI ALBA" ;
@@ -7255,6 +7251,10 @@ reo:74348-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:00184260040 .
+
+reo:società-in-accomandita-semplice
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  "Società in accomandita semplice" .
 
 reo:74792-organization
         rdf:type                    org:Organization ;
@@ -7535,15 +7535,6 @@ reo:74939-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/03/08/2011> ;
         reo:vatNumber               reo:07119400013 .
 
-reo:74879-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Faro S.r.l." ;
-        reo:ID                      reo:74879 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:03739060964 .
-
 reo:74280-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "ANDROMEDA SRL" ;
@@ -7552,6 +7543,15 @@ reo:74280-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:07262160638 .
+
+reo:74879-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Faro S.r.l." ;
+        reo:ID                      reo:74879 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:03739060964 .
 
 reo:80900-organization
         rdf:type                    org:Organization ;
@@ -7750,14 +7750,6 @@ reo:73961-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:01807130024 .
 
-reo:73266-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Procura della Repubblica presso il Tribunale di Aosta" ;
-        reo:ID                      reo:73266 ;
-        reo:hasType                 reo:organi-ed-amministrazioni-dello-stato ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   reo:80007950076 .
-
 reo:74931-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "SCUOLA SUPERIORE PUBBLICA AMMINISTRAZIONE LOCALE SSPAL" ;
@@ -7766,6 +7758,14 @@ reo:74931-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:06542571002 .
+
+reo:73266-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Procura della Repubblica presso il Tribunale di Aosta" ;
+        reo:ID                      reo:73266 ;
+        reo:hasType                 reo:organi-ed-amministrazioni-dello-stato ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   reo:80007950076 .
 
 reo:74871-organization
         rdf:type                    org:Organization ;
@@ -7776,15 +7776,6 @@ reo:74871-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:813022061 .
 
-reo:73244-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "FARMACIA DEGLI STEMMI di" ;
-        reo:ID                      reo:73244 ;
-        reo:hasType                 reo:lavoratori-autonomi---professionisti ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/1990> ;
-        reo:vatNumber               reo:11552520014 .
-
 reo:93200-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "EIGENVECTOR RESEARCH INC" ;
@@ -7793,6 +7784,15 @@ reo:93200-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2020> ;
         reo:vatNumber               reo:91-1665932 .
+
+reo:73244-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "FARMACIA DEGLI STEMMI di" ;
+        reo:ID                      reo:73244 ;
+        reo:hasType                 reo:lavoratori-autonomi---professionisti ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/1990> ;
+        reo:vatNumber               reo:11552520014 .
 
 reo:83200-organization
         rdf:type                    org:Organization ;
@@ -7886,7 +7886,7 @@ reo:73679-organization
 
 reo:74050-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ASSOCIAZIONE CULTURALE\"IL DIALOGO\"" ;
+        rdfs:label                  "ASSOCIAZIONE CULTURALEIL DIALOGO" ;
         reo:ID                      reo:74050 ;
         reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
         reo:isEsternalOrganization  "yes" ;
@@ -8110,7 +8110,7 @@ reo:74914-organization
 
 reo:73249-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Università Telematica \"Universitas MERCATORUM\"" ;
+        rdfs:label                  "Università Telematica Universitas MERCATORUM" ;
         reo:ID                      reo:73249 ;
         reo:hasType                 reo:enti-pubblici-non-economici ;
         reo:isEsternalOrganization  "yes" ;
@@ -8198,10 +8198,6 @@ reo:74581-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:545583716 .
 
-<ttp://www.semanticweb.org/research-ontology/-rue-du-havre>
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  " rue du HAVRE" .
-
 reo:97600-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "INSTITUTO SUPERIOR DE AGRONOMIA" ;
@@ -8219,6 +8215,10 @@ reo:74077-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:09983840019 .
+
+<ttp://www.semanticweb.org/research-ontology/-rue-du-havre>
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  " rue du HAVRE" .
 
 reo:82000-organization
         rdf:type                    org:Organization ;
@@ -8403,15 +8403,6 @@ reo:73263-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:6434532I .
 
-reo:74233-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "SODICAF s.a.s. Di Santangelo Michele & c." ;
-        reo:ID                      reo:74233 ;
-        reo:hasType                 reo:società-in-accomandita-semplice ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:00866660012 .
-
 reo:200900-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Studio Notarile Trotta - Notaio Antonio Trotta" ;
@@ -8420,6 +8411,15 @@ reo:200900-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2022> ;
         reo:vatNumber               reo:00553510181 .
+
+reo:74233-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "SODICAF s.a.s. Di Santangelo Michele & c." ;
+        reo:ID                      reo:74233 ;
+        reo:hasType                 reo:società-in-accomandita-semplice ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:00866660012 .
 
 reo:73301-organization
         rdf:type                    org:Organization ;
@@ -8885,6 +8885,10 @@ reo:73424-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:09509260155 .
 
+reo:società-in-accomandita-per-azioni
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  "Società in accomandita per azioni" .
+
 reo:74296-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "E.E.M. archivi di" ;
@@ -8893,10 +8897,6 @@ reo:74296-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/15/10/2010> ;
         reo:vatNumber               reo:07928130017 .
-
-reo:società-in-accomandita-per-azioni
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  "Società in accomandita per azioni" .
 
 reo:73364-organization
         rdf:type                    org:Organization ;
@@ -8960,14 +8960,14 @@ reo:74312-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:00142950088 .
 
-reo:85200-organization
+reo:73919-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "SORGENTI S. PAOLO SRL" ;
-        reo:ID                      reo:85200 ;
+        rdfs:label                  "Laser Optronic  srl" ;
+        reo:ID                      reo:73919 ;
         reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2004> ;
-        reo:vatNumber               reo:07311171008 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:06109950151 .
 
 reo:74252-organization
         rdf:type                    org:Organization ;
@@ -8987,14 +8987,14 @@ reo:73320-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/04/04/2011> ;
         reo:vatNumber               reo:02411520592 .
 
-reo:73919-organization
+reo:85200-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Laser Optronic  srl" ;
-        reo:ID                      reo:73919 ;
+        rdfs:label                  "SORGENTI S. PAOLO SRL" ;
+        reo:ID                      reo:85200 ;
         reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:06109950151 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2004> ;
+        reo:vatNumber               reo:07311171008 .
 
 reo:74192-organization
         rdf:type                    org:Organization ;
@@ -9043,7 +9043,7 @@ reo:75200-organization
 
 reo:91700-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ISTITUZIONE SCOLASTICA \"ABBE' J.M. TREVES\"" ;
+        rdfs:label                  "ISTITUZIONE SCOLASTICA ABBE' J.M. TREVES" ;
         reo:ID                      reo:91700 ;
         reo:hasType                 reo:enti-pubblici-non-economici ;
         reo:isEsternalOrganization  "yes" ;
@@ -9339,15 +9339,6 @@ reo:74044-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   reo: .
 
-reo:74022-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "RELAIS BAGNI MASINO S.R.L." ;
-        reo:ID                      reo:74022 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:00909820144 .
-
 reo:84000-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "BIOMAX SPA" ;
@@ -9357,14 +9348,23 @@ reo:84000-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2003> ;
         reo:vatNumber               reo:02046830242 .
 
-reo:89600-organization
+reo:74022-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ELETTROMECCANICA 2C SNC" ;
-        reo:ID                      reo:89600 ;
-        reo:hasType                 reo:società-in-nome-collettivo ;
+        rdfs:label                  "RELAIS BAGNI MASINO S.R.L." ;
+        reo:ID                      reo:74022 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
-        reo:vatNumber               reo:00505750448 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:00909820144 .
+
+reo:74000-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "MAX PLANCK INSTITUT INFEKTIONSBIOLOGIE" ;
+        reo:ID                      reo:74000 ;
+        reo:hasType                 reo:enti-di-ricerca ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:10101010 .
 
 reo:73629-organization
         rdf:type                    org:Organization ;
@@ -9375,14 +9375,14 @@ reo:73629-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:09766150016 .
 
-reo:74000-organization
+reo:89600-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "MAX PLANCK INSTITUT INFEKTIONSBIOLOGIE" ;
-        reo:ID                      reo:74000 ;
-        reo:hasType                 reo:enti-di-ricerca ;
+        rdfs:label                  "ELETTROMECCANICA 2C SNC" ;
+        reo:ID                      reo:89600 ;
+        reo:hasType                 reo:società-in-nome-collettivo ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:10101010 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
+        reo:vatNumber               reo:00505750448 .
 
 reo:90500-organization
         rdf:type                    org:Organization ;
@@ -9755,33 +9755,6 @@ reo:73279-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:79012003500000 .
 
-reo:73317-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "CLIENTI" ;
-        reo:ID                      reo:73317 ;
-        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2000> ;
-        reo:vatNumber               reo: .
-
-reo:84900-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "ABCAM plc" ;
-        reo:ID                      reo:84900 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2004> ;
-        reo:vatNumber               reo:720008786 .
-
-reo:74884-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "ACTYGEA SRL" ;
-        reo:ID                      reo:74884 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:05829670966 .
-
 reo:74922-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "The Eastern Buddhist Society Otani" ;
@@ -9790,15 +9763,6 @@ reo:74922-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo: .
-
-reo:73952-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "TOOLBOX di MARCOZ Antonio Stefano" ;
-        reo:ID                      reo:73952 ;
-        reo:hasType                 reo:imprese-individuali-commerciali ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/26/10/2010> ;
-        reo:vatNumber               reo:00670230077 .
 
 reo:74189-organization
         rdf:type                    org:Organization ;
@@ -9809,6 +9773,33 @@ reo:74189-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:01199870104 .
 
+reo:73317-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "CLIENTI" ;
+        reo:ID                      reo:73317 ;
+        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2000> ;
+        reo:vatNumber               reo: .
+
+reo:74884-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "ACTYGEA SRL" ;
+        reo:ID                      reo:74884 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:05829670966 .
+
+reo:73952-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "TOOLBOX di MARCOZ Antonio Stefano" ;
+        reo:ID                      reo:73952 ;
+        reo:hasType                 reo:imprese-individuali-commerciali ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/26/10/2010> ;
+        reo:vatNumber               reo:00670230077 .
+
 reo:73257-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "STAR7 S.P.A." ;
@@ -9817,6 +9808,15 @@ reo:73257-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:01255170050 .
+
+reo:84900-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "ABCAM plc" ;
+        reo:ID                      reo:84900 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2004> ;
+        reo:vatNumber               reo:720008786 .
 
 reo:74227-organization
         rdf:type                    org:Organization ;
@@ -9945,7 +9945,7 @@ reo:74041-organization
 
 <ttp://www.semanticweb.org/research-ontology/-inc.>
         rdf:type    reo:OrganizationType ;
-        rdfs:label  " Inc." , " INC." .
+        rdfs:label  " INC." , " Inc." .
 
 reo:73708-organization
         rdf:type                    org:Organization ;
@@ -9974,15 +9974,6 @@ reo:74618-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:04747410019 .
 
-reo:126000-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "ANIMAL FARM S.R.L." ;
-        reo:ID                      reo:126000 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2021> ;
-        reo:vatNumber               reo:SM20398 .
-
 reo:74558-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Restless Architect of Human Possibilities s.a.s" ;
@@ -9991,6 +9982,15 @@ reo:74558-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:01991360908 .
+
+reo:126000-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "ANIMAL FARM S.R.L." ;
+        reo:ID                      reo:126000 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2021> ;
+        reo:vatNumber               reo:SM20398 .
 
 reo:73626-organization
         rdf:type                    org:Organization ;
@@ -10151,15 +10151,6 @@ reo:73684-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:00102660339 .
 
-reo:83700-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "FORCE A" ;
-        reo:ID                      reo:83700 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2008> ;
-        reo:vatNumber               reo:59479402372 .
-
 reo:74654-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "AMISURA  CONSULENZA SRL" ;
@@ -10168,6 +10159,15 @@ reo:74654-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:09364010018 .
+
+reo:83700-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "FORCE A" ;
+        reo:ID                      reo:83700 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2008> ;
+        reo:vatNumber               reo:59479402372 .
 
 reo:73722-organization
         rdf:type                    org:Organization ;
@@ -10317,15 +10317,6 @@ reo:74328-organization
         reo:organizationStartDate   reo: ;
         reo:vatNumber               reo:Società .
 
-reo:74963-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "FARMACIA TROTTA DI TROTTA CHIARA E GIORGIA SNC" ;
-        reo:ID                      reo:74963 ;
-        reo:hasType                 reo:altre-società-cooperative ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:03339060042 .
-
 reo:73298-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "UNIVERSITY OF CALIFORNIA UNIVERSITY OF CALIFORNIA - ACCOUNTING OFFICE - 2" ;
@@ -10334,6 +10325,15 @@ reo:73298-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:95-6006145 .
+
+reo:74963-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "FARMACIA TROTTA DI TROTTA CHIARA E GIORGIA SNC" ;
+        reo:ID                      reo:74963 ;
+        reo:hasType                 reo:altre-società-cooperative ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:03339060042 .
 
 reo:74268-organization
         rdf:type                    org:Organization ;
@@ -10362,15 +10362,6 @@ reo:74306-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:03095910018 .
 
-reo:74941-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "ALS Laboratory Group" ;
-        reo:ID                      reo:74941 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:B85401404 .
-
 reo:73276-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Fallimento ESSEMMEDI SRL" ;
@@ -10379,6 +10370,15 @@ reo:73276-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:13341680158 .
+
+reo:74941-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "ALS Laboratory Group" ;
+        reo:ID                      reo:74941 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:B85401404 .
 
 reo:74246-organization
         rdf:type                    org:Organization ;
@@ -10460,14 +10460,14 @@ reo:73809-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   reo: .
 
-reo:74719-organization
+reo:86000-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "VINCENZO GRASSO EDITORE" ;
-        reo:ID                      reo:74719 ;
+        rdfs:label                  "CONSORTIUM EDUCATIONAL CONSULTING DI" ;
+        reo:ID                      reo:86000 ;
         reo:hasType                 reo:imprese-individuali-commerciali ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/17/01/2011> ;
-        reo:vatNumber               reo:03964470284 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2015> ;
+        reo:vatNumber               reo:03870340100 .
 
 reo:74120-organization
         rdf:type                    org:Organization ;
@@ -10478,14 +10478,14 @@ reo:74120-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:U62615557 .
 
-reo:86000-organization
+reo:74719-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "CONSORTIUM EDUCATIONAL CONSULTING DI" ;
-        reo:ID                      reo:86000 ;
+        rdfs:label                  "VINCENZO GRASSO EDITORE" ;
+        reo:ID                      reo:74719 ;
         reo:hasType                 reo:imprese-individuali-commerciali ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2015> ;
-        reo:vatNumber               reo:03870340100 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/17/01/2011> ;
+        reo:vatNumber               reo:03964470284 .
 
 reo:74659-organization
         rdf:type                    org:Organization ;
@@ -10712,15 +10712,6 @@ reo:74755-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:80063530010 .
 
-reo:139200-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "QUBI ASSOCIAZIONE CULTURALE" ;
-        reo:ID                      reo:139200 ;
-        reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2022> ;
-        reo:vatNumber               reo:10358750015 .
-
 reo:73823-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "ISTOCKPHOTO LP" ;
@@ -10729,6 +10720,15 @@ reo:73823-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:EU826013185 .
+
+reo:139200-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "QUBI ASSOCIAZIONE CULTURALE" ;
+        reo:ID                      reo:139200 ;
+        reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2022> ;
+        reo:vatNumber               reo:10358750015 .
 
 reo:74695-organization
         rdf:type                    org:Organization ;
@@ -10874,7 +10874,7 @@ reo:74369-organization
 
 reo:73437-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ASSOCIAZIONE CULTURALE GIOVANILE \"F.T.MARINETTI\"" ;
+        rdfs:label                  "ASSOCIAZIONE CULTURALE GIOVANILE F.T.MARINETTI" ;
         reo:ID                      reo:73437 ;
         reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
         reo:isEsternalOrganization  "yes" ;
@@ -11161,7 +11161,7 @@ reo:73886-organization
 
 reo:74856-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ISTITUTO NAZIONALE PER LE MALATTIE INFETTIVE \"LAZZARO SPALLANZANI\" I.R.C.C.S." ;
+        rdfs:label                  "ISTITUTO NAZIONALE PER LE MALATTIE INFETTIVE LAZZARO SPALLANZANI I.R.C.C.S." ;
         reo:ID                      reo:74856 ;
         reo:hasType                 reo:enti-di-ricerca ;
         reo:isEsternalOrganization  "yes" ;
@@ -11177,15 +11177,6 @@ reo:73924-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:05635550014 .
 
-reo:74796-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "LASERBOX SNC DI NOVARESE GIUSEPPE & C." ;
-        reo:ID                      reo:74796 ;
-        reo:hasType                 reo:società-in-nome-collettivo ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:01216680056 .
-
 reo:89200-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "DITTA INDIVIDUALE DI" ;
@@ -11194,6 +11185,15 @@ reo:89200-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
         reo:vatNumber               reo:03976110019 .
+
+reo:74796-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "LASERBOX SNC DI NOVARESE GIUSEPPE & C." ;
+        reo:ID                      reo:74796 ;
+        reo:hasType                 reo:società-in-nome-collettivo ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:01216680056 .
 
 reo:73864-organization
         rdf:type                    org:Organization ;
@@ -11329,15 +11329,6 @@ reo:74730-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo: .
 
-reo:75700-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "MEDIZINISCHE UNIVERSITAT WIEN" ;
-        reo:ID                      reo:75700 ;
-        reo:hasType                 reo:università ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:U57469858 .
-
 reo:74035-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Ufficio del Giudice di Pace di torino" ;
@@ -11346,6 +11337,15 @@ reo:74035-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:97562390019 .
+
+reo:75700-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "MEDIZINISCHE UNIVERSITAT WIEN" ;
+        reo:ID                      reo:75700 ;
+        reo:hasType                 reo:università ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:U57469858 .
 
 reo:74013-organization
         rdf:type                    org:Organization ;
@@ -11543,15 +11543,6 @@ reo:74604-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo: .
 
-reo:73574-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "FORMEDIUM LTD" ;
-        reo:ID                      reo:73574 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:803727440 .
-
 reo:78000-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "BYTE&TYPE DI" ;
@@ -11560,6 +11551,15 @@ reo:78000-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/09/10/2012> ;
         reo:vatNumber               reo:09286170015 .
+
+reo:73574-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "FORMEDIUM LTD" ;
+        reo:ID                      reo:73574 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:803727440 .
 
 reo:74544-organization
         rdf:type                    org:Organization ;
@@ -11595,15 +11595,6 @@ reo:73552-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo: .
 
-reo:84500-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "NICOX RESEARCH INSTITUTE S.R.L. SOCIETA' NICOX S.A." ;
-        reo:ID                      reo:84500 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2005> ;
-        reo:vatNumber               reo:12906310151 .
-
 reo:74522-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "FUTURGRAFICA S.R.L." ;
@@ -11612,6 +11603,15 @@ reo:74522-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:05524480018 .
+
+reo:84500-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "NICOX RESEARCH INSTITUTE S.R.L. SOCIETA' NICOX S.A." ;
+        reo:ID                      reo:84500 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2005> ;
+        reo:vatNumber               reo:12906310151 .
 
 reo:73492-organization
         rdf:type                    org:Organization ;
@@ -11912,15 +11912,6 @@ reo:73284-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:01828400026 .
 
-reo:98900-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Azienda Agricola - Caruzzo Monica" ;
-        reo:ID                      reo:98900 ;
-        reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2020> ;
-        reo:vatNumber               reo: .
-
 reo:73322-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "AZIENDA AGRICOLA DI FALCO DANIELE" ;
@@ -11929,6 +11920,15 @@ reo:73322-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/08/04/2011> ;
         reo:vatNumber               reo:02149200020 .
+
+reo:98900-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Azienda Agricola - Caruzzo Monica" ;
+        reo:ID                      reo:98900 ;
+        reo:hasType                 reo:associazioni-non-riconosciute-e-comitati ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2020> ;
+        reo:vatNumber               reo: .
 
 reo:83300-organization
         rdf:type                    org:Organization ;
@@ -11957,15 +11957,6 @@ reo:73262-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:05812510013 .
 
-reo:88900-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "DIMAR SRL" ;
-        reo:ID                      reo:88900 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
-        reo:vatNumber               reo:02779340369 .
-
 reo:74232-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Cambridge Clinical Laboratories Ltd" ;
@@ -11984,6 +11975,15 @@ reo:73300-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/11/11/2010> ;
         reo:vatNumber               reo:03774020873 .
 
+reo:88900-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "DIMAR SRL" ;
+        reo:ID                      reo:88900 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
+        reo:vatNumber               reo:02779340369 .
+
 reo:74172-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "MICROSENSORY S.L." ;
@@ -11995,7 +11995,7 @@ reo:74172-organization
 
 reo:73240-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Università degli Studi di Enna \"Kore\"" ;
+        rdfs:label                  "Università degli Studi di Enna Kore" ;
         reo:ID                      reo:73240 ;
         reo:hasType                 reo:enti-pubblici-non-economici ;
         reo:isEsternalOrganization  "yes" ;
@@ -12347,15 +12347,6 @@ reo:74681-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:00525630349 .
 
-reo:82100-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Instituto Camoes" ;
-        reo:ID                      reo:82100 ;
-        reo:hasType                 reo:enti-di-ricerca ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2014> ;
-        reo:vatNumber               reo:502833530 .
-
 reo:97700-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "PRODUCTORES DEL CAMPO S. COOP. AND. DE ALCALA DEL RIO" ;
@@ -12364,6 +12355,15 @@ reo:97700-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2020> ;
         reo:vatNumber               reo: .
+
+reo:82100-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Instituto Camoes" ;
+        reo:ID                      reo:82100 ;
+        reo:hasType                 reo:enti-di-ricerca ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2014> ;
+        reo:vatNumber               reo:502833530 .
 
 reo:74215-organization
         rdf:type                    org:Organization ;
@@ -12439,7 +12439,7 @@ reo:74377-organization
 
 reo:73445-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "ISTITUTO D'ISTRUZIONE SUPERIORE STATALE \"NORBERTO BOBBIO\"" ;
+        rdfs:label                  "ISTITUTO D'ISTRUZIONE SUPERIORE STATALE NORBERTO BOBBIO" ;
         reo:ID                      reo:73445 ;
         reo:hasType                 reo:enti-pubblici-non-economici ;
         reo:isEsternalOrganization  "yes" ;
@@ -13127,15 +13127,6 @@ reo:75300-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:02340580360 .
 
-reo:74270-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "ACCOR HOSPITALITY ITALIA SRL" ;
-        reo:ID                      reo:74270 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:09421280158 .
-
 reo:91800-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "FOTOLANDIA S.R.L." ;
@@ -13144,6 +13135,15 @@ reo:91800-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2019> ;
         reo:vatNumber               reo:01991880244 .
+
+reo:74270-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "ACCOR HOSPITALITY ITALIA SRL" ;
+        reo:ID                      reo:74270 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:09421280158 .
 
 reo:74869-organization
         rdf:type                    org:Organization ;
@@ -13456,15 +13456,6 @@ reo:74062-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:01065700534 .
 
-reo:73729-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "TE.SI.A Srl" ;
-        reo:ID                      reo:73729 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:05608651005 .
-
 reo:74100-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "COHERENT EUROPE B.V." ;
@@ -13473,6 +13464,15 @@ reo:74100-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:803493265B01 .
+
+reo:73729-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "TE.SI.A Srl" ;
+        reo:ID                      reo:73729 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:05608651005 .
 
 reo:89700-organization
         rdf:type                    org:Organization ;
@@ -13781,7 +13781,7 @@ reo:74571-organization
 
 reo:88500-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "DIPARTIMENTO DI PATOLOGIA UMANA DELL'ADULTO E DELL'ETA' EVOLUTIVA \"G. BARRESI\"" ;
+        rdfs:label                  "DIPARTIMENTO DI PATOLOGIA UMANA DELL'ADULTO E DELL'ETA' EVOLUTIVA G. BARRESI" ;
         reo:ID                      reo:88500 ;
         reo:hasType                 reo:università ;
         reo:isEsternalOrganization  "yes" ;
@@ -13850,15 +13850,6 @@ reo:74327-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:02555740964 .
 
-reo:73297-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "UNIVERSITY OF CALIFORNIA - SANTA BARBARA" ;
-        reo:ID                      reo:73297 ;
-        reo:hasType                 reo:università ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:95-6006145 .
-
 reo:74962-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "BISTEFANI S.P.A." ;
@@ -13867,6 +13858,15 @@ reo:74962-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:00872060066 .
+
+reo:73297-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "UNIVERSITY OF CALIFORNIA - SANTA BARBARA" ;
+        reo:ID                      reo:73297 ;
+        reo:hasType                 reo:università ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:95-6006145 .
 
 reo:74267-organization
         rdf:type                    org:Organization ;
@@ -13895,15 +13895,6 @@ reo:74305-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:00505590224 .
 
-reo:73275-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "IL BAGATTO di Debernardi Paola" ;
-        reo:ID                      reo:73275 ;
-        reo:hasType                 reo:imprese-individuali-commerciali ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/14/03/2012> ;
-        reo:vatNumber               reo:07913530015 .
-
 reo:74940-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "S.T.D. PROJECT GROUP" ;
@@ -13912,6 +13903,15 @@ reo:74940-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:06595010015 .
+
+reo:73275-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "IL BAGATTO di Debernardi Paola" ;
+        reo:ID                      reo:73275 ;
+        reo:hasType                 reo:imprese-individuali-commerciali ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/14/03/2012> ;
+        reo:vatNumber               reo:07913530015 .
 
 <ttp://www.semanticweb.org/research-ontology/--bl.213>
         rdf:type    reo:OrganizationType ;
@@ -14725,7 +14725,7 @@ reo:74855-organization
 
 reo:73923-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "EMMEBI MEDICAL SAS DI M.BORMIDA & C\"" ;
+        rdfs:label                  "EMMEBI MEDICAL SAS DI M.BORMIDA & C" ;
         reo:ID                      reo:73923 ;
         reo:hasType                 reo:società-in-accomandita-semplice ;
         reo:isEsternalOrganization  "yes" ;
@@ -14905,7 +14905,7 @@ reo:91400-organization
 
 reo:74469-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "T.E.\"N\". TORINO EXPRESS NEW s.r.l. SEDE LEGALE" ;
+        rdfs:label                  "T.E.N. TORINO EXPRESS NEW s.r.l. SEDE LEGALE" ;
         reo:ID                      reo:74469 ;
         reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
@@ -15179,17 +15179,18 @@ reo:74896-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/17/02/2011> ;
         reo:vatNumber               reo:08138820017 .
 
+reo:89300-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Company Research and Development Institute for Processing" ;
+        reo:ID                      reo:89300 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
+        reo:vatNumber               reo:13146912 .
+
 <ttp://www.semanticweb.org/research-ontology/-pietro-e-giovanni-ferrero>
         rdf:type    reo:OrganizationType ;
         rdfs:label  " PIETRO E GIOVANNI FERRERO" .
-
-reo:74239-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Pfizer" ;
-        reo:ID                      reo:74239 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/-inc-pfizer-inc> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   reo: .
 
 reo:99300-organization
         rdf:type                    org:Organization ;
@@ -15209,14 +15210,13 @@ reo:73986-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:01849181001 .
 
-reo:74934-organization
+reo:74239-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "pepinieres lafitte" ;
-        reo:ID                      reo:74934 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        rdfs:label                  "Pfizer" ;
+        reo:ID                      reo:74239 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/-inc-pfizer-inc> ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:58314480385 .
+        reo:organizationStartDate   reo: .
 
 reo:74956-organization
         rdf:type                    org:Organization ;
@@ -15244,14 +15244,14 @@ reo:73329-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2008> ;
         reo:vatNumber               reo:09897820016 .
 
-reo:89300-organization
+reo:73269-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Company Research and Development Institute for Processing" ;
-        reo:ID                      reo:89300 ;
+        rdfs:label                  "JANVIER LABS" ;
+        reo:ID                      reo:73269 ;
         reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
-        reo:vatNumber               reo:13146912 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:62340663079 .
 
 reo:73964-organization
         rdf:type                    org:Organization ;
@@ -15271,23 +15271,23 @@ reo:90200-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2018> ;
         reo:vatNumber               reo:02185660012 .
 
-reo:73269-organization
+reo:74934-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "JANVIER LABS" ;
-        reo:ID                      reo:73269 ;
+        rdfs:label                  "pepinieres lafitte" ;
+        reo:ID                      reo:74934 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:58314480385 .
+
+reo:73307-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Selleck Chemicals - SELLECK CHEMICALS LLC" ;
+        reo:ID                      reo:73307 ;
         reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:62340663079 .
-
-reo:74874-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "GLAM S.n.c. di Luca Rossi e Marco Baudraz" ;
-        reo:ID                      reo:74874 ;
-        reo:hasType                 reo:società-in-nome-collettivo ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:08588040017 .
+        reo:vatNumber               reo: .
 
 reo:74912-organization
         rdf:type                    org:Organization ;
@@ -15298,14 +15298,14 @@ reo:74912-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:0808150649 .
 
-reo:73307-organization
+reo:74874-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Selleck Chemicals - SELLECK CHEMICALS LLC" ;
-        reo:ID                      reo:73307 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        rdfs:label                  "GLAM S.n.c. di Luca Rossi e Marco Baudraz" ;
+        reo:ID                      reo:74874 ;
+        reo:hasType                 reo:società-in-nome-collettivo ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo: .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:08588040017 .
 
 reo:79300-organization
         rdf:type                    org:Organization ;
@@ -15397,15 +15397,6 @@ reo:74830-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:20244600 .
 
-reo:75800-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "NUOVA LAMP" ;
-        reo:ID                      reo:75800 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
-        reo:vatNumber               reo:06587010015 .
-
 reo:74135-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "CANEPA IMPIANTI" ;
@@ -15414,6 +15405,15 @@ reo:74135-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/26/10/2010> ;
         reo:vatNumber               reo:10208850015 .
+
+reo:75800-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "NUOVA LAMP" ;
+        reo:ID                      reo:75800 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
+        reo:vatNumber               reo:06587010015 .
 
 reo:74075-organization
         rdf:type                    org:Organization ;
@@ -15597,15 +15597,6 @@ reo:74726-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   reo: .
 
-reo:88100-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "RISTEL SRL" ;
-        reo:ID                      reo:88100 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2016> ;
-        reo:vatNumber               reo:05005700488 .
-
 reo:73696-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "CENTRO UFFICIO SERVICE SOC.COOP" ;
@@ -15614,6 +15605,15 @@ reo:73696-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:09156181001 .
+
+reo:88100-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "RISTEL SRL" ;
+        reo:ID                      reo:88100 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2016> ;
+        reo:vatNumber               reo:05005700488 .
 
 reo:74666-organization
         rdf:type                    org:Organization ;
@@ -15642,15 +15642,6 @@ reo:74704-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:02198881209 .
 
-reo:78100-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "Roithner Lasertechnik GmbH" ;
-        reo:ID                      reo:78100 ;
-        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2012> ;
-        reo:vatNumber               reo:U61938489 .
-
 reo:73674-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "HONIG DI SOMMA E NEGRO" ;
@@ -15659,6 +15650,15 @@ reo:73674-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:06354010016 .
+
+reo:78100-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "Roithner Lasertechnik GmbH" ;
+        reo:ID                      reo:78100 ;
+        reo:hasType                 <ttp://www.semanticweb.org/research-ontology/società-con-sede-all'estero> ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2012> ;
+        reo:vatNumber               reo:U61938489 .
 
 reo:74644-organization
         rdf:type                    org:Organization ;
@@ -15814,7 +15814,7 @@ reo:74318-organization
 
 reo:73288-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "OSTERIA \"Antiche Sere\" s.n.c. di Rota Antonella e C." ;
+        rdfs:label                  "OSTERIA Antiche Sere s.n.c. di Rota Antonella e C." ;
         reo:ID                      reo:73288 ;
         reo:hasType                 reo:società-in-nome-collettivo ;
         reo:isEsternalOrganization  "yes" ;
@@ -16718,7 +16718,7 @@ reo:74069-organization
 
 reo:74802-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "RISTORANTE \"I BASSITONDI\" DI ZHAO XUEGUANG" ;
+        rdfs:label                  "RISTORANTE I BASSITONDI DI ZHAO XUEGUANG" ;
         reo:ID                      reo:74802 ;
         reo:hasType                 reo:imprese-individuali-commerciali ;
         reo:isEsternalOrganization  "yes" ;
@@ -16839,7 +16839,7 @@ reo:73277-organization
 
 reo:74882-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "STUDIO STOMATOLOGICO FRIULANO \"E.FONZAR\"" ;
+        rdfs:label                  "STUDIO STOMATOLOGICO FRIULANO E.FONZAR" ;
         reo:ID                      reo:74882 ;
         reo:hasType                 reo:società-semplici ;
         reo:isEsternalOrganization  "yes" ;
@@ -17354,15 +17354,6 @@ reo:73991-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:02550490011 .
 
-reo:73296-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "IDROSPEED di" ;
-        reo:ID                      reo:73296 ;
-        reo:hasType                 reo:non-definito ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/25/01/2011> ;
-        reo:vatNumber               reo:01432640058 .
-
 reo:74961-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "MASCIONI SPA" ;
@@ -17371,6 +17362,15 @@ reo:74961-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2011> ;
         reo:vatNumber               reo:00885540153 .
+
+reo:73296-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "IDROSPEED di" ;
+        reo:ID                      reo:73296 ;
+        reo:hasType                 reo:non-definito ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/25/01/2011> ;
+        reo:vatNumber               reo:01432640058 .
 
 reo:74266-organization
         rdf:type                    org:Organization ;
@@ -17399,10 +17399,6 @@ reo:73274-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:08993710014 .
 
-<ttp://www.semanticweb.org/research-ontology/-s.l.>
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  " S.L." .
-
 reo:74244-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "IREN MERCATO SPA" ;
@@ -17411,6 +17407,10 @@ reo:74244-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:01178580997 .
+
+<ttp://www.semanticweb.org/research-ontology/-s.l.>
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  " S.L." .
 
 reo:73312-organization
         rdf:type                    org:Organization ;
@@ -17442,15 +17442,6 @@ reo:74184-organization
 reo:    rdf:type    reo:OrganizationType ;
         rdfs:label  "" .
 
-reo:74222-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA" ;
-        reo:ID                      reo:74222 ;
-        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo: .
-
 reo:84200-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "MICROBIOTECH S.N.C." ;
@@ -17459,6 +17450,15 @@ reo:84200-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2004> ;
         reo:vatNumber               reo:02168051205 .
+
+reo:74222-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA" ;
+        reo:ID                      reo:74222 ;
+        reo:hasType                 reo:ente-privato-non-soggetto-iva ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo: .
 
 reo:74162-organization
         rdf:type                    org:Organization ;
@@ -17469,15 +17469,6 @@ reo:74162-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:03891970968 .
 
-reo:73829-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "UNIVERSITAET ULM HELMHOLTZSTRASSE 16 89081" ;
-        reo:ID                      reo:73829 ;
-        reo:hasType                 reo:università ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:173703203 .
-
 reo:74200-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "EUROCART SRL" ;
@@ -17486,6 +17477,15 @@ reo:74200-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:07496430013 .
+
+reo:73829-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "UNIVERSITAET ULM HELMHOLTZSTRASSE 16 89081" ;
+        reo:ID                      reo:73829 ;
+        reo:hasType                 reo:università ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:173703203 .
 
 reo:89800-organization
         rdf:type                    org:Organization ;
@@ -17496,14 +17496,14 @@ reo:89800-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2017> ;
         reo:vatNumber               reo:11390610019 .
 
-reo:79800-organization
+reo:74140-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "3D INFORMATICA S.A.S." ;
-        reo:ID                      reo:79800 ;
-        reo:hasType                 reo:società-in-accomandita-semplice ;
+        rdfs:label                  "Bodoira Serramenti S.r.l." ;
+        reo:ID                      reo:74140 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2014> ;
-        reo:vatNumber               reo:02235470784 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:10196320013 .
 
 reo:90700-organization
         rdf:type                    org:Organization ;
@@ -17523,14 +17523,14 @@ reo:73769-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:09799970018 .
 
-reo:74140-organization
+reo:74679-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Bodoira Serramenti S.r.l." ;
-        reo:ID                      reo:74140 ;
+        rdfs:label                  "L'ITALIANO PORTICANDO S.R.L." ;
+        reo:ID                      reo:74679 ;
         reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:10196320013 .
+        reo:vatNumber               reo:09027290015 .
 
 reo:74739-organization
         rdf:type                    org:Organization ;
@@ -17549,14 +17549,14 @@ reo:73807-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo: .
 
-reo:74679-organization
+reo:79800-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "L'ITALIANO PORTICANDO S.R.L." ;
-        reo:ID                      reo:74679 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        rdfs:label                  "3D INFORMATICA S.A.S." ;
+        reo:ID                      reo:79800 ;
+        reo:hasType                 reo:società-in-accomandita-semplice ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:09027290015 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2014> ;
+        reo:vatNumber               reo:02235470784 .
 
 reo:74080-organization
         rdf:type                    org:Organization ;
@@ -17677,6 +17677,10 @@ reo:74613-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:08693820154 .
 
+<ttp://www.semanticweb.org/research-ontology/-77-10146>
+        rdf:type    reo:OrganizationType ;
+        rdfs:label  " 77 10146" .
+
 reo:74553-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "Società Agricola F.lli Sevega Bruno e Dario s.s." ;
@@ -17684,10 +17688,6 @@ reo:74553-organization
         reo:hasType                 reo:società-semplici ;
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   reo: .
-
-<ttp://www.semanticweb.org/research-ontology/-77-10146>
-        rdf:type    reo:OrganizationType ;
-        rdfs:label  " 77 10146" .
 
 reo:74531-organization
         rdf:type                    org:Organization ;
@@ -17752,14 +17752,14 @@ reo:73821-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:05080100968 .
 
-reo:74693-organization
+reo:73761-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "Martini Associati srl" ;
-        reo:ID                      reo:74693 ;
-        reo:hasType                 reo:società-a-responsabilità-limitata ;
+        rdfs:label                  "New Office Service S.n.c. di Casto W. & C." ;
+        reo:ID                      reo:73761 ;
+        reo:hasType                 reo:società-in-nome-collettivo ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
-        reo:vatNumber               reo:01844040467 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
+        reo:vatNumber               reo:10004420013 .
 
 reo:74249-organization
         rdf:type                    org:Organization ;
@@ -17770,14 +17770,14 @@ reo:74249-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
         reo:vatNumber               reo:06887600150 .
 
-reo:73761-organization
+reo:74693-organization
         rdf:type                    org:Organization ;
-        rdfs:label                  "New Office Service S.n.c. di Casto W. & C." ;
-        reo:ID                      reo:73761 ;
-        reo:hasType                 reo:società-in-nome-collettivo ;
+        rdfs:label                  "Martini Associati srl" ;
+        reo:ID                      reo:74693 ;
+        reo:hasType                 reo:società-a-responsabilità-limitata ;
         reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
-        reo:vatNumber               reo:10004420013 .
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2010> ;
+        reo:vatNumber               reo:01844040467 .
 
 <ttp://www.semanticweb.org/research-ontology/-torino-world-affairs-institute>
         rdf:type    reo:OrganizationType ;
@@ -18215,15 +18215,6 @@ reo:73884-organization
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/10/11/2014> ;
         reo:vatNumber               reo:10043950012 .
 
-reo:83900-organization
-        rdf:type                    org:Organization ;
-        rdfs:label                  "CHIMICA STROLA di G.M.Strola & C.s.a.s." ;
-        reo:ID                      reo:83900 ;
-        reo:hasType                 reo:società-in-nome-collettivo ;
-        reo:isEsternalOrganization  "yes" ;
-        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/1999> ;
-        reo:vatNumber               reo:00678250010 .
-
 reo:74854-organization
         rdf:type                    org:Organization ;
         rdfs:label                  "CORK SUPPLY ITALIA srl" ;
@@ -18241,3 +18232,12 @@ reo:73922-organization
         reo:isEsternalOrganization  "yes" ;
         reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/2009> ;
         reo:vatNumber               reo:01804720694 .
+
+reo:83900-organization
+        rdf:type                    org:Organization ;
+        rdfs:label                  "CHIMICA STROLA di G.M.Strola & C.s.a.s." ;
+        reo:ID                      reo:83900 ;
+        reo:hasType                 reo:società-in-nome-collettivo ;
+        reo:isEsternalOrganization  "yes" ;
+        reo:organizationStartDate   <ttp://www.semanticweb.org/research-ontology/01/01/1999> ;
+        reo:vatNumber               reo:00678250010 .
