@@ -6,7 +6,7 @@ PREFIX urw: <http://purl.archive.org/urwriters#>
 PREFIX schema: <http://schema.org/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>
-PREFIX reo: <ttp://www.semanticweb.org/research-ontology/>
+PREFIX reo: <http://www.semanticweb.org/research-ontology/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
