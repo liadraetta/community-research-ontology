@@ -42,20 +42,26 @@ frapo:isFundedBy rdf:type owl:ObjectProperty ;
                  owl:inverseOf reo:funds ;
                  rdfs:domain frapo:Project ,
                              reo:PublicEngagement ;
-                 rdfs:range org:Organization .
+                 rdfs:range org:Organization ;
+                 rdfs:label "is funded by"@en ,
+                            "è finanziato da"@it .
 
 
 ###  http://purl.org/dc/terms/hasScientificDirector
 dct:hasScientificDirector rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf owl:topObjectProperty ;
-                          owl:inverseOf reo:isScientificDirectorOf .
+                          owl:inverseOf reo:isScientificDirectorOf ;
+                          rdfs:label "Ha direttore scientifico"@it ,
+                                     "has scientific director"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#funds
 reo:funds rdf:type owl:ObjectProperty ;
           rdfs:domain org:Organization ;
           rdfs:range frapo:Project ,
-                     reo:PublicEngagement .
+                     reo:PublicEngagement ;
+          rdfs:label "finanzia"@it ,
+                     "funds"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasCurrentAffiliaton
@@ -64,14 +70,18 @@ reo:hasCurrentAffiliaton rdf:type owl:ObjectProperty ;
                          rdfs:domain frapo:Project ,
                                      reo:PublicEngagement ,
                                      foaf:Person ;
-                         rdfs:range org:Department .
+                         rdfs:range org:Department ;
+                         rdfs:label "ha affiliazione corrente"@it ,
+                                    "has current affiliation"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasCurrentRole
 reo:hasCurrentRole rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf owl:topObjectProperty ;
                    rdfs:domain foaf:Person ;
-                   rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> .
+                   rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> ;
+                   rdfs:label "ha ruolo corrente"@it ,
+                              "has current role"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasFirstAuthor
@@ -79,21 +89,27 @@ reo:hasFirstAuthor rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf owl:topObjectProperty ;
                    owl:inverseOf reo:isFirstAuthorOf ;
                    rdfs:domain soa:Work ;
-                   rdfs:range foaf:Person .
+                   rdfs:range foaf:Person ;
+                   rdfs:label "ha primo autore"@it ,
+                              "has first author"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasMinisterialAreaAffiliation
 reo:hasMinisterialAreaAffiliation rdf:type owl:ObjectProperty ;
                                   rdfs:subPropertyOf owl:topObjectProperty ;
                                   rdfs:domain foaf:Person ;
-                                  rdfs:range reo:AcademicArea .
+                                  rdfs:range reo:AcademicArea ;
+                                  rdfs:label "ha affiliazione con area ministeriale"@it ,
+                                             "has ministerial area affiliation"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasPartner
 reo:hasPartner rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain frapo:Project ;
-               rdfs:range org:Organization .
+               rdfs:range org:Organization ;
+               rdfs:label "ha partner"@it ,
+                          "has partner"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasType
@@ -102,7 +118,9 @@ reo:hasType rdf:type owl:ObjectProperty ;
                         reo:PublicEngagement ,
                         org:Organization ,
                         soa:Work ;
-            rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> .
+            rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> ;
+            rdfs:label "ha tipo"@it ,
+                       "has type"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isAuthorOf
@@ -110,27 +128,35 @@ reo:isAuthorOf rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                owl:inverseOf reo:isAuthoredBy ;
                rdfs:domain foaf:Person ;
-               rdfs:range soa:Work .
+               rdfs:range soa:Work ;
+               rdfs:label "is author of"@en ,
+                          "è autore di"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isAuthoredBy
 reo:isAuthoredBy rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
                  rdfs:domain soa:Work ;
-                 rdfs:range foaf:Person .
+                 rdfs:range foaf:Person ;
+                 rdfs:label "is authored by"@en ,
+                            "è scritto da"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isFirstAuthorOf
 reo:isFirstAuthorOf rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf owl:topObjectProperty ;
                     rdfs:domain foaf:Person ;
-                    rdfs:range soa:Work .
+                    rdfs:range soa:Work ;
+                    rdfs:label "is first author of"@en ,
+                               "è primo autore di"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isPartecipatedBy
 reo:isPartecipatedBy rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf owl:topObjectProperty ;
-                     owl:inverseOf reo:takesPartIn .
+                     owl:inverseOf reo:takesPartIn ;
+                     rdfs:label "is partecipated by"@en ,
+                                "è partecipato da"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isProducedBy
@@ -138,28 +164,36 @@ reo:isProducedBy rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
                  owl:inverseOf reo:produces ;
                  rdfs:domain soa:Work ;
-                 rdfs:range frapo:Project .
+                 rdfs:range frapo:Project ;
+                 rdfs:label "is produced by"@en ,
+                            "è prodotto da"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isScientificDirectorOf
 reo:isScientificDirectorOf rdf:type owl:ObjectProperty ;
                            rdfs:domain foaf:Person ;
                            rdfs:range frapo:Project ,
-                                      reo:PublicEngagement .
+                                      reo:PublicEngagement ;
+                           rdfs:label "is scientific director of"@en ,
+                                      "è direttore scientifico di"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#memberOf
 reo:memberOf rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain foaf:Person ;
-             rdfs:range org:Organization .
+             rdfs:range org:Organization ;
+             rdfs:label "is member of"@en ,
+                        "è membro di"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#produces
 reo:produces rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain frapo:Project ;
-             rdfs:range soa:Work .
+             rdfs:range soa:Work ;
+             rdfs:label "produce"@it ,
+                        "produces"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#takesPartIn
@@ -168,7 +202,9 @@ reo:takesPartIn rdf:type owl:ObjectProperty ;
                 rdfs:domain org:Organization ,
                             foaf:Person ;
                 rdfs:range frapo:Project ,
-                           reo:PublicEngagement .
+                           reo:PublicEngagement ;
+                rdfs:label "prende parte in"@it ,
+                           "takes part in"@en .
 
 
 ###  http://www.semanticweb.org/research-ontology/isAdministrativeReferent
@@ -176,7 +212,9 @@ reo:takesPartIn rdf:type owl:ObjectProperty ;
                                                                         rdfs:subPropertyOf owl:topObjectProperty ;
                                                                         rdfs:domain foaf:Person ;
                                                                         rdfs:range frapo:Project ,
-                                                                                   reo:PublicEngagement .
+                                                                                   reo:PublicEngagement ;
+                                                                        rdfs:label "ha referente amministrativo"@it ,
+                                                                                   "has administratve referent"@en .
 
 
 ###  http://www.semanticweb.org/research-ontology/isLinkedTo
@@ -185,29 +223,39 @@ reo:takesPartIn rdf:type owl:ObjectProperty ;
                                                           rdfs:domain frapo:Project ,
                                                                       reo:PublicEngagement ;
                                                           rdfs:range frapo:Project ,
-                                                                     reo:PublicEngagement .
+                                                                     reo:PublicEngagement ;
+                                                          rdfs:label "is linked to"@en ,
+                                                                     "è collegato a"@it .
 
 
 ###  http://www.semanticweb.org/research-ontology/manages
 <http://www.semanticweb.org/research-ontology/manages> rdf:type owl:ObjectProperty ;
                                                        rdfs:subPropertyOf owl:topObjectProperty ;
                                                        rdfs:domain foaf:Person ;
-                                                       rdfs:range org:Organization .
+                                                       rdfs:range org:Organization ;
+                                                       rdfs:label "gestisce"@it ,
+                                                                  "manages"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#broader
 skos:broader rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty .
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:label "broader"@en ,
+                        "concetto più ampio di"@it .
 
 
 ###  http://www.w3.org/2004/02/skos/core#narrower
-skos:narrower rdf:type owl:ObjectProperty .
+skos:narrower rdf:type owl:ObjectProperty ;
+              rdfs:label "concetto più stretto di"@it ,
+                         "narrower"@en .
 
 
 ###  http://www.w3.org/ns/org#isSubOrganizationOF
 org:isSubOrganizationOF rdf:type owl:ObjectProperty ;
                         rdfs:domain org:Department ;
-                        rdfs:range frapo:University .
+                        rdfs:range frapo:University ;
+                        rdfs:label "is suborganization of"@en ,
+                                   "è una sottorganizzazione di"@it .
 
 
 ###  https://semopenalex.org/ontology/hasTopic
@@ -215,7 +263,9 @@ soa:hasTopic rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain frapo:Project ,
                          soa:Work ;
-             rdfs:range soa:Topic .
+             rdfs:range soa:Topic ;
+             rdfs:label "ha argomento"@it ,
+                        "has topic"@en .
 
 
 #################################################################
@@ -670,7 +720,8 @@ foaf:gender rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.org/cerif/frapo/Project
 frapo:Project rdf:type owl:Class ;
-              rdfs:comment "Aggiungere assioma per specificare relazione tra projetti e ProjectType" ;
+              rdfs:label "project"@en ,
+                         "project"@it ;
               skos:definition "The class 'Project' defines all the projects funded by private industry or supranational organizations (such as the EU) that are either presented or won by university members."@en .
 
 
@@ -685,6 +736,8 @@ frapo:University rdf:type owl:Class ;
 ###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role
 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> rdf:type owl:Class ;
                                                              owl:disjointWith soa:Work ;
+                                                             rdfs:label "Role"@en ,
+                                                                        "Ruolo"@it ;
                                                              skos:definition "The class 'Role' describes all the roles that people can have in a university or industry organization, such as PhD student, associate professor, or manager"@en .
 
 
@@ -695,7 +748,9 @@ frapo:University rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#AcademicArea
 reo:AcademicArea rdf:type owl:Class ;
-                 rdfs:comment "Aree CUN (Consiglio Nazionale Universitario)" .
+                 rdfs:comment "Aree CUN (Consiglio Nazionale Universitario)" ;
+                 rdfs:label "Academic Area"@en ,
+                            "Settore Accademico"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#OrganizationType
@@ -704,7 +759,9 @@ reo:OrganizationType rdf:type owl:Class ;
                                            owl:onProperty reo:hasType ;
                                            owl:allValuesFrom org:Organization
                                          ] ;
-                     rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> .
+                     rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> ;
+                     rdfs:label "Organization type"@it ,
+                                "Tipo di organizzazione"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ProjectType
@@ -713,7 +770,9 @@ reo:ProjectType rdf:type owl:Class ;
                                       owl:onProperty reo:hasType ;
                                       owl:allValuesFrom frapo:Project
                                     ] ;
-                rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> .
+                rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> ;
+                rdfs:label "Project type"@en ,
+                           "Tipo di progetto"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PublicEgagementType
@@ -722,11 +781,15 @@ reo:PublicEgagementType rdf:type owl:Class ;
                                               owl:onProperty reo:hasType ;
                                               owl:allValuesFrom reo:PublicEngagement
                                             ] ;
-                        rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> .
+                        rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> ;
+                        rdfs:label "Public engagement type"@en ,
+                                   "Tipo di Public Engagement"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PublicEngagement
 reo:PublicEngagement rdf:type owl:Class ;
+                     rdfs:label "public engagement"@en ,
+                                "public engagement"@it ;
                      skos:definition "Public engagement encompasses all activities organized by the University or other external organizations, with the primary objective of disseminating research results to the public through informative initiatives"@en .
 
 
@@ -736,18 +799,24 @@ reo:WorkType rdf:type owl:Class ;
                                    owl:onProperty reo:hasType ;
                                    owl:allValuesFrom soa:Work
                                  ] ;
-             rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> .
+             rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection> ;
+             rdfs:label "Tipo di prodotto della ricerca"@it ,
+                        "Work type"@en .
 
 
 ###  http://www.semanticweb.org/research-ontology/ERCPanel
 <http://www.semanticweb.org/research-ontology/ERCPanel> rdf:type owl:Class ;
                                                         rdfs:subClassOf soa:Topic ;
-                                                        rdfs:comment "ERC Panel 2024"@it .
+                                                        rdfs:comment "ERC Panel 2024"@it ;
+                                                        rdfs:label "ERC Panel"@en ,
+                                                                   "Panel ERC"@en .
 
 
 ###  http://www.semanticweb.org/research-ontology/TematicArea
 <http://www.semanticweb.org/research-ontology/TematicArea> rdf:type owl:Class ;
-                                                           rdfs:subClassOf soa:Topic .
+                                                           rdfs:subClassOf soa:Topic ;
+                                                           rdfs:label "Area Tematica"@it ,
+                                                                      "Tematic Area"@en .
 
 
 ###  http://www.w3.org/ns/org#Department
@@ -769,21 +838,29 @@ org:Organization rdf:type owl:Class ;
 ###  http://xmlns.com/foaf/0.1/Person
 foaf:Person rdf:type owl:Class ;
             owl:disjointWith soa:Work ;
+            rdfs:label "Persona"@it ,
+                       "Persons"@en ;
             skos:definition "The class 'Person' defines all individuals who are part of the research domain, including university scientific personnel and administrative staff. The roles that people have in different organizations are defined by the class 'Role'." .
 
 
 ###  https://semopenalex.org/ontology/Keyword
 soa:Keyword rdf:type owl:Class ;
-            rdfs:subClassOf soa:Topic .
+            rdfs:subClassOf soa:Topic ;
+            rdfs:label "Keyword"@en ,
+                       "Parole Chiave"@it .
 
 
 ###  https://semopenalex.org/ontology/Topic
 soa:Topic rdf:type owl:Class ;
+          rdfs:label "Argomento"@it ,
+                     "Topic"@en ;
           skos:definition "The class 'Topic' defines all the topics that works/projects could be about and that people engage with, including standard and institutional ones such as academic areas or ERC panels, as well as custom ones like keywords"@en .
 
 
 ###  https://semopenalex.org/ontology/Work
 soa:Work rdf:type owl:Class ;
+         rdfs:label "Prodotto della ricerca"@it ,
+                    "Work"@en ;
          skos:definition "The class 'Work' defines all the research products that a university could produce in different fields, such as 'Book Chapter' and 'Patent'"@en .
 
 
