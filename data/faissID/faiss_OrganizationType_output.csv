@@ -1,0 +1,39 @@
+faiss_id,entity,label,type
+0,reo:enti-territoriali,Enti territoriali,reo:OrganizationType
+1,reo:regioni,Regioni,reo:OrganizationType
+2,reo:enti-pubblici-non-economici,Enti pubblici non economici,reo:OrganizationType
+3,reo:società-in-nome-collettivo,Società in nome collettivo,reo:OrganizationType
+4,reo:enti-ed-istituti-di-previdenza-e-di-assistenza-sociale,Enti ed istituti di previdenza e di assistenza sociale,reo:OrganizationType
+5,reo:associazioni-tra-artisti-e-professionisti,Associazioni tra artisti e professionisti,reo:OrganizationType
+6,reo:organi-ed-amministrazioni-dello-stato,Organi ed amministrazioni dello stato,reo:OrganizationType
+7,reo:società-per-azioni,Società per azioni,reo:OrganizationType
+8,reo:enti-di-ricerca,Enti di ricerca,reo:OrganizationType
+9,reo:consorzi-con-personalità-giuridica,Consorzi con personalità giuridica,reo:OrganizationType
+10,reo:ente-privato-non-soggetto-iva,Ente privato non soggetto IVA,reo:OrganizationType
+11,reo:non-definito,Non definito,reo:OrganizationType
+12,reo:enti-ecclesiastici,Enti ecclesiastici,reo:OrganizationType
+13,reo:province,Province,reo:OrganizationType
+14,reo:società-in-accomandita-per-azioni,Società in accomandita per azioni,reo:OrganizationType
+15,reo:comuni,Comuni,reo:OrganizationType
+16,reo:giacomo,Giacomo,reo:OrganizationType
+17,reo:camere-di-commercio,Camere di commercio,reo:OrganizationType
+18,reo:ditta-individuale-senza-partita-iva,Ditta individuale senza Partita IVA,reo:OrganizationType
+19,reo:società-semplici,Società semplici,reo:OrganizationType
+20,reo:ente-non-soggetto-iva,Ente non soggetto IVA,reo:OrganizationType
+21,reo:università,Università,reo:OrganizationType
+22,reo:associazioni-non-riconosciute-e-comitati,Associazioni non riconosciute e comitati,reo:OrganizationType
+23,reo:lavoratori-autonomi---professionisti,Lavoratori autonomi - Professionisti,reo:OrganizationType
+24,reo:ministeri,Ministeri,reo:OrganizationType
+25,reo:condomini,Condomini,reo:OrganizationType
+26,reo:47--20156,47  20156,reo:OrganizationType
+27,reo:imprese-individuali-commerciali,Imprese individuali commerciali,reo:OrganizationType
+28,reo:società-in-accomandita-semplice,Società in accomandita semplice,reo:OrganizationType
+29,reo:inc,INC,reo:OrganizationType
+30,reo:aziende-regionali,Aziende regionali,reo:OrganizationType
+31,reo:altre-società-cooperative,Altre società cooperative,reo:OrganizationType
+32,reo:ente-pubblico-non-soggetto-iva,Ente pubblico non soggetto IVA,reo:OrganizationType
+33,reo:società-a-responsabilità-limitata,Società a responsabilità limitata,reo:OrganizationType
+34,reo:enti-ospedalieri,Enti ospedalieri,reo:OrganizationType
+35,reo:fondazioni,Fondazioni,reo:OrganizationType
+36,reo:società,Società,reo:OrganizationType
+37,reo:associazioni-riconosciute,Associazioni riconosciute,reo:OrganizationType

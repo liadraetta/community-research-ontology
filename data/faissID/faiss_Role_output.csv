@@ -1,0 +1,6 @@
+faiss_id,entity,label,type
+0,reo:Ricercatori-a-tempo-determinato,Ricercatori-a-tempo-determinato,dul:Role
+1,reo:Docenti-di-ruolo-di-Ia-fascia,Docenti-di-ruolo-di-Ia-fascia,dul:Role
+2,reo:Ricercatori,Ricercatori,dul:Role
+3,reo:Docenti-di-ruolo-di-IIa-fascia,Docenti-di-ruolo-di-IIa-fascia,dul:Role
+4,reo:Assegnisti,Assegnisti,dul:Role
