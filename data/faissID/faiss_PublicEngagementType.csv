@@ -1,0 +1,11 @@
+faiss_id,entity,label,type
+0,reo:altre-iniziative-di-public-engagement,Altre iniziative di Public Engagement,reo:PublicEngagementType
+1,reo:attività-di-coinvolgimento-e-interazione-con-il-mondo-della-scuola,Attività di coinvolgimento e interazione con il mondo della scuola,reo:PublicEngagementType
+2,reo:iniziative-di-co-produzione-di-conoscenza,Iniziative di co-produzione di conoscenza,reo:PublicEngagementType
+3,reo:iniziative-di-democrazia-partecipativa,Iniziative di democrazia partecipativa,reo:PublicEngagementType
+4,reo:iniziative-di-formazione-al-public-engagement,Iniziative di formazione al Public Engagement,reo:PublicEngagementType
+5,reo:iniziative-di-tutela-della-salute,Iniziative di tutela della salute,reo:PublicEngagementType
+6,reo:organizzazione-di-concerti-spettacoli-teatrali-rassegne-cinematografiche-eventi-sportivi-mostre-esposizioni-e-altri-eventi-di-pubblica-utilità-aperti-alla-comunità,Organizzazione di concerti spettacoli teatrali rassegne cinematografiche eventi sportivi mostre esposizioni e altri eventi di pubblica utilità aperti alla comunità,reo:PublicEngagementType
+7,reo:organizzazione-di-iniziative-di-valorizzazione-consultazione-e-condivisione-della-ricerca,Organizzazione di iniziative di valorizzazione consultazione e condivisione della ricerca,reo:PublicEngagementType
+8,reo:produzione-di-programmi-radiofonici-e-televisivi,Produzione di programmi radiofonici e televisivi,reo:PublicEngagementType
+9,reo:pubblicazione-e-gestione-di-siti-web-e-altri-canali-social-di-comunicazione-e-divulgazione-scientifica,Pubblicazione e gestione di siti web e altri canali social di comunicazione e divulgazione scientifica,reo:PublicEngagementType

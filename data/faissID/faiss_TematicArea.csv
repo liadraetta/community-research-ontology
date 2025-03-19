@@ -1,0 +1,8 @@
+faiss_id,entity,label,type
+0,reo:87944,87944,reo:TematicArea
+1,reo:Manufacturing,Manufacturing,reo:TematicArea
+2,reo:Materials,Materials,reo:TematicArea
+3,reo:ICT,ICT,reo:TematicArea
+4,reo:Economics,Economics,reo:TematicArea
+5,reo:Transport,Transport,reo:TematicArea
+6,reo:Health,Health,reo:TematicArea

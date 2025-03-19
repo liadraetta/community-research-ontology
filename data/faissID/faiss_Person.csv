@@ -1,0 +1,2329 @@
+faiss_id,entity,label,type
+0,reo:abate-daga-federico,ABATE DAGA FEDERICO,foaf:Person
+1,reo:abbadessa-giuliana,ABBADESSA Giuliana,foaf:Person
+2,reo:abdala-moreira-karina-astrid,ABDALA MOREIRA KARINA ASTRID,foaf:Person
+3,reo:abollino-ornella,ABOLLINO Ornella,foaf:Person
+4,reo:abrardo-a,ABRARDO-A,foaf:Person
+5,reo:abrescia-chiara,ABRESCIA Chiara,foaf:Person
+6,reo:abu-hanife-mohammad,ABU HANIFE MOHAMMAD,foaf:Person
+7,reo:accardo-daniele,ACCARDO Daniele,foaf:Person
+8,reo:accornero-paolo,ACCORNERO Paolo,foaf:Person
+9,reo:acotto-francesca,ACOTTO FRANCESCA,foaf:Person
+10,reo:acquaotta-fiorella,ACQUAOTTA Fiorella,foaf:Person
+11,reo:adali-s,ADALI-S,foaf:Person
+12,reo:adamo-pietro,ADAMO Pietro,foaf:Person
+13,reo:adinolfi-pierangela,ADINOLFI Pierangela,foaf:Person
+14,reo:adorni-daniela,ADORNI Daniela,foaf:Person
+15,reo:agliassa-chiara,AGLIASSA CHIARA,foaf:Person
+16,reo:agnella-costanza,AGNELLA COSTANZA,foaf:Person
+17,reo:agnese-vellar,Agnese-Vellar,foaf:Person
+18,reo:agostino-angelo,AGOSTINO Angelo,foaf:Person
+19,reo:agostoni-alberto,AGOSTONI ALBERTO,foaf:Person
+20,reo:ahmetovic-dragan,AHMETOVIC Dragan,foaf:Person
+21,reo:aime-silvio,AIME Silvio,foaf:Person
+22,reo:airi-alessia,AIRI ALESSIA,foaf:Person
+23,reo:ajani-gianmaria-federico,AJANI Gianmaria Federico,foaf:Person
+24,reo:ajmome-marsan-m,AJMOME-MARSAN-M,foaf:Person
+25,reo:ajmone-marsan-m,AJMONE-MARSAN-M,foaf:Person
+26,reo:ala-ugo,ALA Ugo,foaf:Person
+27,reo:albano-camilla,ALBANO CAMILLA,foaf:Person
+28,reo:albano-norberto,ALBANO Norberto,foaf:Person
+29,reo:albera-roberto,ALBERA Roberto,foaf:Person
+30,reo:albert-giacomo,ALBERT Giacomo,foaf:Person
+31,reo:alberti-diego,ALBERTI Diego,foaf:Person
+32,reo:alberto-ceselli,Alberto-Ceselli,foaf:Person
+33,reo:alberto-lavelli,Alberto-LAVELLI,foaf:Person
+34,reo:albesano-d,ALBESANO-D,foaf:Person
+35,reo:albini-monica,ALBINI Monica,foaf:Person
+36,reo:aldieri-elisabetta,ALDIERI Elisabetta,foaf:Person
+37,reo:aldinucci-marco,ALDINUCCI Marco,foaf:Person
+38,reo:alecci-gessica,ALECCI GESSICA,foaf:Person
+39,reo:alessandro-basso,Alessandro-Basso,foaf:Person
+40,reo:alessandro-garcea,ALESSANDRO-GARCEA,foaf:Person
+41,reo:alessandro-gervaso,Alessandro-Gervaso,foaf:Person
+42,reo:alessandro-mazzei,Alessandro MAZZEI,foaf:Person
+43,reo:alessandro-petrocelli,Alessandro-Petrocelli,foaf:Person
+44,reo:alessandro-ricci,Alessandro-Ricci,foaf:Person
+45,reo:alessio-e,ALESSIO-E,foaf:Person
+46,reo:alexander-bolotov,Alexander-Bolotov,foaf:Person
+47,reo:alfiero-simona,ALFIERO Simona,foaf:Person
+48,reo:algostino-alessandra,ALGOSTINO Alessandra,foaf:Person
+49,reo:alladio-eugenio,ALLADIO Eugenio,foaf:Person
+50,reo:allasia-clara,ALLASIA Clara,foaf:Person
+51,reo:allegra-sarah,ALLEGRA Sarah,foaf:Person
+52,reo:allegretti-veronica,ALLEGRETTI VERONICA,foaf:Person
+53,reo:allegri-perla-arianna,ALLEGRI PERLA ARIANNA,foaf:Person
+54,reo:allizond-valeria,ALLIZOND Valeria,foaf:Person
+55,reo:alma-alberto,ALMA Alberto,foaf:Person
+56,reo:alonge-andrea,ALONGE Andrea,foaf:Person
+57,reo:alovisio-silvio,ALOVISIO Silvio,foaf:Person
+58,reo:altri,altri,foaf:Person
+59,reo:altruda-fiorella,ALTRUDA Fiorella,foaf:Person
+60,reo:amaducci-alessandro,AMADUCCI Alessandro,foaf:Person
+61,reo:amantea-ilaria-angela,AMANTEA ILARIA ANGELA,foaf:Person
+62,reo:ambrogio-chiara,AMBROGIO Chiara,foaf:Person
+63,reo:amparore-elvio-gilberto,AMPARORE Elvio Gilberto,foaf:Person
+64,reo:anda-radulescu,ANDA-RADULESCU,foaf:Person
+65,reo:andornino-giovanni-battista,ANDORNINO Giovanni Battista,foaf:Person
+66,reo:andorno-cecilia--maria,ANDORNO Cecilia  Maria,foaf:Person
+67,reo:andras-horvath,Andras HORVATH,foaf:Person
+68,reo:andrea-mugnaini,Andrea-Mugnaini,foaf:Person
+69,reo:andrea-paternesi,Andrea-Paternesi,foaf:Person
+70,reo:andrea-toso,ANDREA-TOSO,foaf:Person
+71,reo:andrea-valle,Andrea-Valle,foaf:Person
+72,reo:andreo-luca,ANDREO LUCA,foaf:Person
+73,reo:andrew-philpott,Andrew-Philpott,foaf:Person
+74,reo:anfossi-laura,ANFOSSI Laura,foaf:Person
+75,reo:angeli-matteo,ANGELI MATTEO,foaf:Person
+76,reo:angelo-troina,Angelo-Troina,foaf:Person
+77,reo:angioni-alessia,ANGIONI Alessia,foaf:Person
+78,reo:anglani-alessandro,ANGLANI ALESSANDRO,foaf:Person
+79,reo:anna-goy,ANNA-GOY,foaf:Person
+80,reo:anna-maria-bruno,Anna-Maria-Bruno,foaf:Person
+81,reo:anne-benoit,Anne-Benoit,foaf:Person
+82,reo:anselma-luca,ANSELMA Luca,foaf:Person
+83,reo:anselmi-francesca,ANSELMI Francesca,foaf:Person
+84,reo:anselmino-m,ANSELMINO-M,foaf:Person
+85,reo:anselmino-matteo,ANSELMINO Matteo,foaf:Person
+86,reo:antelmi-alessia,ANTELMI Alessia,foaf:Person
+87,reo:antenucci-achille,ANTENUCCI Achille,foaf:Person
+88,reo:antonelli-f,ANTONELLI-F,foaf:Person
+89,reo:antonello-giacomo,ANTONELLO GIACOMO,foaf:Person
+90,reo:antonio-conejo,Antonio-Conejo,foaf:Person
+91,reo:antonio-pizzo,ANTONIO-PIZZO,foaf:Person
+92,reo:aparicio-fenoll-ainoa,APARICIO FENOLL Ainoa,foaf:Person
+93,reo:aprato-alessandro,APRATO Alessandro,foaf:Person
+94,reo:arace-angelica,ARACE Angelica,foaf:Person
+95,reo:archibald-james,ARCHIBALD JAMES,foaf:Person
+96,reo:ardissono-l,ARDISSONO-L,foaf:Person
+97,reo:ardissono-liliana,ARDISSONO Liliana,foaf:Person
+98,reo:arduino-irene,ARDUINO IRENE,foaf:Person
+99,reo:arena-francesca,ARENA FRANCESCA,foaf:Person
+100,reo:arena-sabrina,ARENA Sabrina,foaf:Person
+101,reo:arias-junior-alexandre,ARIAS JUNIOR Alexandre,foaf:Person
+102,reo:aringhieri-roberto,ARINGHIERI Roberto,foaf:Person
+103,reo:arkhipova-daria,ARKHIPOVA DARIA,foaf:Person
+104,reo:armando-elisa,ARMANDO Elisa,foaf:Person
+105,reo:armano-tiziana,ARMANO Tiziana,foaf:Person
+106,reo:arnone-enrico,ARNONE Enrico,foaf:Person
+107,reo:arrigo-elisa,ARRIGO ELISA,foaf:Person
+108,reo:arrobbio-osman,ARROBBIO Osman,foaf:Person
+109,reo:artusi-carlo-alberto,ARTUSI Carlo Alberto,foaf:Person
+110,reo:ascione-grazia-sveva,ASCIONE GRAZIA SVEVA,foaf:Person
+111,reo:ascoli-davide,ASCOLI Davide,foaf:Person
+112,reo:asher-tishler,Asher-Tishler,foaf:Person
+113,reo:asperti,ASPERTI,foaf:Person
+114,reo:attilio-fiandrotti,Attilio FIANDROTTI,foaf:Person
+115,reo:aucello-riccardo,AUCELLO RICCARDO,foaf:Person
+116,reo:audrito-giorgio,AUDRITO Giorgio,foaf:Person
+117,reo:audrito-valentina,AUDRITO VALENTINA,foaf:Person
+118,reo:avanzo-sowelu-elios,AVANZO SOWELU ELIOS,foaf:Person
+119,reo:axel-polleres,Axel-Polleres,foaf:Person
+120,reo:baccega-daniele,BACCEGA DANIELE,foaf:Person
+121,reo:bachis-tiziana,BACHIS Tiziana,foaf:Person
+122,reo:badino-paola,BADINO Paola,foaf:Person
+123,reo:bafunno-lorenzo,BAFUNNO LORENZO,foaf:Person
+124,reo:baggiani-claudio,BAGGIANI Claudio,foaf:Person
+125,reo:bagliani-marco-maria,BAGLIANI Marco Maria,foaf:Person
+126,reo:bagna-giacomo,BAGNA GIACOMO,foaf:Person
+127,reo:balbo-andrea,BALBO Andrea,foaf:Person
+128,reo:baldi-francesco,BALDI Francesco,foaf:Person
+129,reo:baldino-salvatore,BALDINO Salvatore,foaf:Person
+130,reo:baldoni-matteo,BALDONI Matteo,foaf:Person
+131,reo:baldovino-simone,BALDOVINO Simone,foaf:Person
+132,reo:balestrucci-pier-felice,BALESTRUCCI PIER FELICE,foaf:Person
+133,reo:ballatore-francesca,BALLATORE FRANCESCA,foaf:Person
+134,reo:balossino-n,BALOSSINO-N,foaf:Person
+135,reo:balossino-nello,BALOSSINO Nello,foaf:Person
+136,reo:balsari-paolo,BALSARI Paolo,foaf:Person
+137,reo:balzano-angela,BALZANO Angela,foaf:Person
+138,reo:banche-giuliana,BANCHE Giuliana,foaf:Person
+139,reo:banche-niclot-alessia-giovanna-santa,BANCHE NICLOT ALESSIA GIOVANNA SANTA,foaf:Person
+140,reo:bano-lucrezia,BANO LUCREZIA,foaf:Person
+141,reo:bara-b,BARA-B,foaf:Person
+142,reo:baraldi-luca,BARALDI Luca,foaf:Person
+143,reo:barale-claudia,BARALE Claudia,foaf:Person
+144,reo:barale-elisabetta,BARALE Elisabetta,foaf:Person
+145,reo:barana-alice,BARANA Alice,foaf:Person
+146,reo:baratta-francesca,BARATTA Francesca,foaf:Person
+147,reo:baratto-gabriele,BARATTO Gabriele,foaf:Person
+148,reo:baratto-marta,BARATTO MARTA,foaf:Person
+149,reo:barbano-carlo-alberto-maria,BARBANO CARLO ALBERTO MARIA,foaf:Person
+150,reo:barbara-gili-fivela,BARBARA-GILI-FIVELA,foaf:Person
+151,reo:barbara-penna,Barbara-Penna,foaf:Person
+152,reo:barbera-filippo,BARBERA Filippo,foaf:Person
+153,reo:barberis-bruno-giuseppe,BARBERIS Bruno Giuseppe,foaf:Person
+154,reo:barbero-francesca,BARBERO Francesca,foaf:Person
+155,reo:barbieri-lisa,BARBIERI LISA,foaf:Person
+156,reo:barbotto-silvia,BARBOTTO SILVIA,foaf:Person
+157,reo:barge-alessandro,BARGE Alessandro,foaf:Person
+158,reo:bargoni-augusto,BARGONI Augusto,foaf:Person
+159,reo:baricco-marcello,BARICCO Marcello,foaf:Person
+160,reo:barni-elena,BARNI Elena,foaf:Person
+161,reo:barni-m,BARNI-M,foaf:Person
+162,reo:baroglio-cristina,BAROGLIO Cristina,foaf:Person
+163,reo:barolo-claudia,BAROLO Claudia,foaf:Person
+164,reo:baronetti-alice,BARONETTI ALICE,foaf:Person
+165,reo:baroni-simona,BARONI Simona,foaf:Person
+166,reo:baronio-marta-maria,BARONIO Marta Maria,foaf:Person
+167,reo:barrera-davide,BARRERA Davide,foaf:Person
+168,reo:barrocu-antonio,BARROCU Antonio,foaf:Person
+169,reo:basile-valerio,BASILE Valerio,foaf:Person
+170,reo:bassano-federica,BASSANO FEDERICA,foaf:Person
+171,reo:basso-carlo,BASSO CARLO,foaf:Person
+172,reo:battaglini-luca-maria,BATTAGLINI Luca Maria,foaf:Person
+173,reo:battezzati-livio,BATTEZZATI Livio,foaf:Person
+174,reo:battisti-andrea,BATTISTI Andrea,foaf:Person
+175,reo:battisti-enrico,BATTISTI Enrico,foaf:Person
+176,reo:battisti-luca,BATTISTI LUCA,foaf:Person
+177,reo:battiston-alice,BATTISTON ALICE,foaf:Person
+178,reo:battuello-marco,BATTUELLO MARCO,foaf:Person
+179,reo:bazzanella-carla,BAZZANELLA-CARLA,foaf:Person
+180,reo:becchio-cristina,BECCHIO CRISTINA,foaf:Person
+181,reo:becchio-giandomenica,BECCHIO Giandomenica,foaf:Person
+182,reo:beccuti-m,Beccuti-M,foaf:Person
+183,reo:beccuti-marco,BECCUTI Marco,foaf:Person
+184,reo:bechis-stefano,BECHIS Stefano,foaf:Person
+185,reo:begotti-tatiana,BEGOTTI Tatiana,foaf:Person
+186,reo:belcastro-sara,BELCASTRO SARA,foaf:Person
+187,reo:belfiore-s,BELFIORE-S,foaf:Person
+188,reo:bellan-riccardo,BELLAN Riccardo,foaf:Person
+189,reo:bellato-alessandro,Bellato Alessandro,foaf:Person
+190,reo:bellato-enrico,BELLATO Enrico,foaf:Person
+191,reo:bellezza-oddon-sara,BELLEZZA ODDON Sara,foaf:Person
+192,reo:belligni-eleonora,BELLIGNI Eleonora,foaf:Person
+193,reo:bellomo-vincenzo,BELLOMO VINCENZO,foaf:Person
+194,reo:bellone-luca,BELLONE Luca,foaf:Person
+195,reo:belluati-marinella,BELLUATI Marinella,foaf:Person
+196,reo:belluso-elena,BELLUSO Elena,foaf:Person
+197,reo:beltramo-c,BELTRAMO-C,foaf:Person
+198,reo:beltramo-riccardo,BELTRAMO Riccardo,foaf:Person
+199,reo:bendetto-s,BENDETTO-S,foaf:Person
+200,reo:benedetto-mas-paolo,BENEDETTO MAS PAOLO,foaf:Person
+201,reo:benenti-marta,BENENTI MARTA,foaf:Person
+202,reo:benjamin-hobbs,Benjamin-Hobbs,foaf:Person
+203,reo:bentivegna-giuseppe-nicolò,BENTIVEGNA Giuseppe Nicolò,foaf:Person
+204,reo:berardi-elisabetta,BERARDI Elisabetta,foaf:Person
+205,reo:berardi-s,BERARDI-S,foaf:Person
+206,reo:berardi-stefano,BERARDI Stefano,foaf:Person
+207,reo:berardinelli-daniela,BERARDINELLI DANIELA,foaf:Person
+208,reo:berbenni-tommaso,BERBENNI TOMMASO,foaf:Person
+209,reo:berchialla-paola,BERCHIALLA Paola,foaf:Person
+210,reo:bergadano-f,BERGADANO-F,foaf:Person
+211,reo:bergadano-francesco,BERGADANO Francesco,foaf:Person
+212,reo:bergallo-massimiliano,BERGALLO Massimiliano,foaf:Person
+213,reo:bergandi-loredana,BERGANDI Loredana,foaf:Person
+214,reo:berger-jan-rocco,BERGER JAN ROCCO,foaf:Person
+215,reo:bergui-mauro,BERGUI Mauro,foaf:Person
+216,reo:berlinzani-francesca,BERLINZANI FRANCESCA,foaf:Person
+217,reo:bermejo-calleja-maria-felisa,BERMEJO CALLEJA Maria Felisa,foaf:Person
+218,reo:bernareggi-cristian,BERNAREGGI Cristian,foaf:Person
+219,reo:berra-mariella,BERRA Mariella,foaf:Person
+220,reo:berrino-enrico,BERRINO ENRICO,foaf:Person
+221,reo:bert-fabrizio,BERT Fabrizio,foaf:Person
+222,reo:bertacchini-enrico-eraldo,BERTACCHINI Enrico Eraldo,foaf:Person
+223,reo:bertaina-mario-edoardo,BERTAINA Mario Edoardo,foaf:Person
+224,reo:bertani-francesco,BERTANI FRANCESCO,foaf:Person
+225,reo:bertea-cinzia-margherita,BERTEA Cinzia Margherita,foaf:Person
+226,reo:bertello-alberto,BERTELLO Alberto,foaf:Person
+227,reo:bertero-alessandro,BERTERO Alessandro,foaf:Person
+228,reo:bertero-luca,BERTERO Luca,foaf:Person
+229,reo:bertino-francesca,BERTINO FRANCESCA,foaf:Person
+230,reo:berto-silvia,BERTO Silvia,foaf:Person
+231,reo:bertocchi-ilaria,BERTOCCHI Ilaria,foaf:Person
+232,reo:bertoia-oriana,BERTOIA Oriana,foaf:Person
+233,reo:bertok-carlo,BERTOK Carlo,foaf:Person
+234,reo:bertolini-sonia,BERTOLINI Sonia,foaf:Person
+235,reo:bertolino-cristina,BERTOLINO Cristina,foaf:Person
+236,reo:bertolino-luca,BERTOLINO Luca,foaf:Person
+237,reo:bertolino-sandro,BERTOLINO Sandro,foaf:Person
+238,reo:bertolotti-luigi,BERTOLOTTI Luigi,foaf:Person
+239,reo:bertoncello-c,BERTONCELLO-C,foaf:Person
+240,reo:besana-angelo,BESANA Angelo,foaf:Person
+241,reo:bettega-simone,BETTEGA Simone,foaf:Person
+242,reo:betti-venneri,Betti-Venneri,foaf:Person
+243,reo:bianchini-francesca,Bianchini Francesca,foaf:Person
+244,reo:bianchini-paolo,BIANCHINI Paolo,foaf:Person
+245,reo:bianciardi-cesare,BIANCIARDI CESARE,foaf:Person
+246,reo:bianciotto-marta,BIANCIOTTO MARTA,foaf:Person
+247,reo:bianco-elisabetta,BIANCO Elisabetta,foaf:Person
+248,reo:bianco-lorenzo,BIANCO Lorenzo,foaf:Person
+249,reo:bianco-prevot-alessandra,BIANCO PREVOT Alessandra,foaf:Person
+250,reo:biancone-paolo,BIANCONE Paolo,foaf:Person
+251,reo:bicchi-carlo,BICCHI Carlo,foaf:Person
+252,reo:bichiri-francesca,BICHIRI FRANCESCA,foaf:Person
+253,reo:biddau-claudio,BIDDAU Claudio,foaf:Person
+254,reo:bifone-angelo,BIFONE Angelo,foaf:Person
+255,reo:biggio-federico,BIGGIO FEDERICO,foaf:Person
+256,reo:bignante-elisa,BIGNANTE Elisa,foaf:Person
+257,reo:bini-enrico,BINI Enrico,foaf:Person
+258,reo:bioglio-livio,BIOGLIO Livio,foaf:Person
+259,reo:bioglio-valerio,BIOGLIO Valerio,foaf:Person
+260,reo:biolatti-matteo,BIOLATTI Matteo,foaf:Person
+261,reo:biondi-teresa,BIONDI TERESA,foaf:Person
+262,reo:birke-robert-renè-maria,BIRKE Robert Renè Maria,foaf:Person
+263,reo:bironzo-paolo,BIRONZO Paolo,foaf:Person
+264,reo:blanc-simone,BLANC Simone,foaf:Person
+265,reo:blengino-cecilia-piera,BLENGINO Cecilia Piera,foaf:Person
+266,reo:bo-simona,BO Simona,foaf:Person
+267,reo:boano-rosa,BOANO Rosa,foaf:Person
+268,reo:bobbio-tommaso,BOBBIO Tommaso,foaf:Person
+269,reo:bocca-garetto-michele-paolo,BOCCA GARETTO Michele Paolo,foaf:Person
+270,reo:boccardo-roberta,BOCCARDO Roberta,foaf:Person
+271,reo:boccia-gennaro,BOCCIA Gennaro,foaf:Person
+272,reo:boda-enrica,BODA Enrica,foaf:Person
+273,reo:bodo-arianna,BODO ARIANNA,foaf:Person
+274,reo:boella-g,BOELLA-G,foaf:Person
+275,reo:boeris-cristina,BOERIS CRISTINA,foaf:Person
+276,reo:boetti-giulia,BOETTI GIULIA,foaf:Person
+277,reo:boffetta-guido,BOFFETTA Guido,foaf:Person
+278,reo:boggio-cecilia,BOGGIO Cecilia,foaf:Person
+279,reo:bogino-m,Bogino-M,foaf:Person
+280,reo:boido-marina-maria,BOIDO Marina Maria,foaf:Person
+281,reo:boldi-p,BOLDI-P,foaf:Person
+282,reo:bollani-luigi,BOLLANI Luigi,foaf:Person
+283,reo:bolli-elisabetta,BOLLI ELISABETTA,foaf:Person
+284,reo:bollo-enrico,BOLLO Enrico,foaf:Person
+285,reo:bolzoni-magda,BOLZONI MAGDA,foaf:Person
+286,reo:bona-francesca,BONA FRANCESCA,foaf:Person
+287,reo:bonadonna-alessandro,BONADONNA Alessandro,foaf:Person
+288,reo:bonato-laura,BONATO Laura,foaf:Person
+289,reo:bonatti-irene,BONATTI Irene,foaf:Person
+290,reo:bonciolini-ambra,BONCIOLINI AMBRA,foaf:Person
+291,reo:bondesan-matteo,BONDESAN MATTEO,foaf:Person
+292,reo:bonelli-simona,BONELLI Simona,foaf:Person
+293,reo:bonetta-sara,BONETTA Sara,foaf:Person
+294,reo:bonetta-silvia,BONETTA Silvia,foaf:Person
+295,reo:bonetto-sabrina,BONETTO Sabrina,foaf:Person
+296,reo:bonfante-paola,BONFANTE Paola,foaf:Person
+297,reo:bonfanti-chiara,BONFANTI CHIARA,foaf:Person
+298,reo:bonfanti-luca,BONFANTI Luca,foaf:Person
+299,reo:bongiovanni-silvia,BONGIOVANNI SILVIA,foaf:Person
+300,reo:bonifacio-eleonora,BONIFACIO Eleonora,foaf:Person
+301,reo:bonino-elisa,BONINO ELISA,foaf:Person
+302,reo:bonino-greta,BONINO Greta,foaf:Person
+303,reo:bonino-guido,BONINO Guido,foaf:Person
+304,reo:bonino-raffaella,BONINO Raffaella,foaf:Person
+305,reo:bono-roberto,BONO Roberto,foaf:Person
+306,reo:bono-viviana,BONO Viviana,foaf:Person
+307,reo:bonometti-elisabetta,BONOMETTI Elisabetta,foaf:Person
+308,reo:bonomo-matteo,BONOMO Matteo,foaf:Person
+309,reo:bordiga-silvia,BORDIGA Silvia,foaf:Person
+310,reo:borello-maria,BORELLO MARIA,foaf:Person
+311,reo:borgetti-nadia,BORGETTI Nadia,foaf:Person
+312,reo:borghi-alessandro,BORGHI Alessandro,foaf:Person
+313,reo:borghi-maurizio,BORGHI Maurizio,foaf:Person
+314,reo:borghino-sinleber-giuliana-maria,BORGHINO SINLEBER Giuliana Maria,foaf:Person
+315,reo:borgia-carola,BORGIA CAROLA,foaf:Person
+316,reo:borgna-paola,BORGNA Paola,foaf:Person
+317,reo:borgogno-mondino-enrico-corrado,BORGOGNO MONDINO Enrico Corrado,foaf:Person
+318,reo:borio-alex,BORIO Alex,foaf:Person
+319,reo:borla-giorgio,BORLA Giorgio,foaf:Person
+320,reo:borraccino-alberto,BORRACCINO Alberto,foaf:Person
+321,reo:borreani-giorgio,BORREANI Giorgio,foaf:Person
+322,reo:borriello-giuliano,BORRIELLO Giuliano,foaf:Person
+323,reo:borroni-chiara,BORRONI CHIARA,foaf:Person
+324,reo:borsero-massimo,BORSERO MASSIMO,foaf:Person
+325,reo:bosc-franca,BOSC FRANCA,foaf:Person
+326,reo:boscaro-valentina,BOSCARO Valentina,foaf:Person
+327,reo:bosco-cristina,BOSCO Cristina,foaf:Person
+328,reo:bosco-francesco,BOSCO FRANCESCO,foaf:Person
+329,reo:bosco-gabriella,BOSCO Gabriella,foaf:Person
+330,reo:bosia-federico,BOSIA Federico,foaf:Person
+331,reo:bosio-lorenzo,BOSIO Lorenzo,foaf:Person
+332,reo:bossi-luca,BOSSI LUCA,foaf:Person
+333,reo:bossi-simone,BOSSI Simone,foaf:Person
+334,reo:botta-m,BOTTA-M,foaf:Person
+335,reo:botta-marco,BOTTA Marco,foaf:Person
+336,reo:botta-r,BOTTA-R,foaf:Person
+337,reo:bottegoni-lucrezia,BOTTEGONI LUCREZIA,foaf:Person
+338,reo:botto-loris,BOTTO LORIS,foaf:Person
+339,reo:bottrighi-a,BOTTRIGHI-A,foaf:Person
+340,reo:bovetti-serena,BOVETTI Serena,foaf:Person
+341,reo:bovier-maria-chiara,BOVIER MARIA CHIARA,foaf:Person
+342,reo:bovolin-patrizia,BOVOLIN Patrizia,foaf:Person
+343,reo:bovolo-carlo,BOVOLO Carlo,foaf:Person
+344,reo:bracciali-andrea,Andrea BRACCIALI,foaf:Person
+345,reo:braccio-edoardo,BRACCIO EDOARDO,foaf:Person
+346,reo:bracco-enrico,BRACCO Enrico,foaf:Person
+347,reo:bracco-pierangiola,BRACCO Pierangiola,foaf:Person
+348,reo:bragagnolo-andrea,BRAGAGNOLO Andrea,foaf:Person
+349,reo:bragoni-alberto,BRAGONI ALBERTO,foaf:Person
+350,reo:brancaccio-ismaele,BRANCACCIO ISMAELE,foaf:Person
+351,reo:bravetta-elena,BRAVETTA Elena,foaf:Person
+352,reo:brazzi-luca,BRAZZI Luca,foaf:Person
+353,reo:breme-roberta,BREME Roberta,foaf:Person
+354,reo:brescia-valerio,BRESCIA Valerio,foaf:Person
+355,reo:brienza-beatrice,BRIENZA BEATRICE,foaf:Person
+356,reo:brighenti-stefania-laura,BRIGHENTI Stefania Laura,foaf:Person
+357,reo:brignone-sandro,BRIGNONE SANDRO,foaf:Person
+358,reo:briguglio-stefano,BRIGUGLIO Stefano,foaf:Person
+359,reo:brischetto-costa-tommaso-carlo,BRISCHETTO COSTA Tommaso Carlo,foaf:Person
+360,reo:brizio-adelina,BRIZIO ADELINA,foaf:Person
+361,reo:bronzini-matteo,BRONZINI MATTEO,foaf:Person
+362,reo:brunella-valentina-giovanna,BRUNELLA Valentina Giovanna,foaf:Person
+363,reo:brunetto-erika,BRUNETTO Erika,foaf:Person
+364,reo:bruno-giuseppe-barberis,Bruno-Giuseppe BARBERIS,foaf:Person
+365,reo:bruno-valentina,BRUNO Valentina,foaf:Person
+366,reo:brusa-paola,BRUSA Paola,foaf:Person
+367,reo:bruschi-barbara,BRUSCHI Barbara,foaf:Person
+368,reo:brusco-alfredo,BRUSCO Alfredo,foaf:Person
+369,reo:bruzzese-stefano,BRUZZESE STEFANO,foaf:Person
+370,reo:bruzzi-silvia,BRUZZI Silvia,foaf:Person
+371,reo:bruzzoniti-maria-concetta,BRUZZONITI Maria Concetta,foaf:Person
+372,reo:bucciarelli-m,BUCCIARELLI-M,foaf:Person
+373,reo:bucciarelli-monica,BUCCIARELLI Monica,foaf:Person
+374,reo:buchholz,BUCHHOLZ,foaf:Person
+375,reo:buchi-giacomo,BUCHI Giacomo,foaf:Person
+376,reo:buffoni-beatrice,BUFFONI BEATRICE,foaf:Person
+377,reo:buganza-raffaele,BUGANZA RAFFAELE,foaf:Person
+378,reo:bugli-matteo,BUGLI MATTEO,foaf:Person
+379,reo:bulfamante-sara,BULFAMANTE SARA,foaf:Person
+380,reo:bulgarelli-daniela,BULGARELLI Daniela,foaf:Person
+381,reo:bullone-michela,BULLONE Michela,foaf:Person
+382,reo:buono-anna-rita,BUONO Anna Rita,foaf:Person
+383,reo:buracco-paolo,BURACCO Paolo,foaf:Person
+384,reo:buriano-l,BURIANO-L,foaf:Person
+385,reo:buscarino-m,Buscarino-M,foaf:Person
+386,reo:bussa-maria-pia-simonetta,BUSSA Maria Pia Simonetta,foaf:Person
+387,reo:busso-donatella,BUSSO Donatella,foaf:Person
+388,reo:busso-sandro,BUSSO Sandro,foaf:Person
+389,reo:bussolati-benedetta,BUSSOLATI Benedetta,foaf:Person
+390,reo:buzo-kristi,BUZO KRISTI,foaf:Person
+391,reo:cacia-daniela,CACIA Daniela,foaf:Person
+392,reo:cacioli-andrea,CACIOLI ANDREA,foaf:Person
+393,reo:caffarena-anna,CAFFARENA Anna,foaf:Person
+394,reo:cagliero-cecilia-lucia,CAGLIERO Cecilia Lucia,foaf:Person
+395,reo:caielli-mia,CAIELLI Mia,foaf:Person
+396,reo:caimi-christian,CAIMI CHRISTIAN,foaf:Person
+397,reo:caimotto-maria-cristina,CAIMOTTO Maria Cristina,foaf:Person
+398,reo:calandra-davide,CALANDRA Davide,foaf:Person
+399,reo:calandri-emanuela,CALANDRI Emanuela,foaf:Person
+400,reo:calcio-gaudino-emanuela,CALCIO GAUDINO Emanuela,foaf:Person
+401,reo:caldarola-elisa,CALDAROLA Elisa,foaf:Person
+402,reo:calef-paola,CALEF Paola,foaf:Person
+403,reo:callegari-mia,CALLEGARI Mia,foaf:Person
+404,reo:calogero-r,CALOGERO-R,foaf:Person
+405,reo:calogero-ra,CALOGERO-RA,foaf:Person
+406,reo:calza-paola,CALZA Paola,foaf:Person
+407,reo:camandona-fabiola,CAMANDONA FABIOLA,foaf:Person
+408,reo:camarda-vincenzo-andrea,CAMARDA VINCENZO ANDREA,foaf:Person
+409,reo:camassa-nahi-ylenia,CAMASSA NAHI YLENIA,foaf:Person
+410,reo:camera-stefano,CAMERA Stefano,foaf:Person
+411,reo:campagna-sara,CAMPAGNA Sara,foaf:Person
+412,reo:campolattano-tommaso,CAMPOLATTANO TOMMASO,foaf:Person
+413,reo:campos,CAMPOS,foaf:Person
+414,reo:canavesio-davide,CANAVESIO DAVIDE,foaf:Person
+415,reo:cancelliere-c,Cancelliere-C,foaf:Person
+416,reo:cancelliere-rossella,CANCELLIERE Rossella,foaf:Person
+417,reo:candellone-alessia,CANDELLONE ALESSIA,foaf:Person
+418,reo:candelo-elena,CANDELO Elena,foaf:Person
+419,reo:candelora-francesca,CANDELORA Francesca,foaf:Person
+420,reo:candian-valentina,CANDIAN VALENTINA,foaf:Person
+421,reo:cane-massimo,CANE Massimo,foaf:Person
+422,reo:canneori-gian-marco,CANNEORI Gian Marco,foaf:Person
+423,reo:cannito-maddalena,CANNITO Maddalena,foaf:Person
+424,reo:cannizzo-francesca-tiziana,CANNIZZO Francesca Tiziana,foaf:Person
+425,reo:cantalupo-barbara,CANTALUPO Barbara,foaf:Person
+426,reo:cantele-carolina,CANTELE CAROLINA,foaf:Person
+427,reo:cantino-valter,CANTINO Valter,foaf:Person
+428,reo:canton-licia,CANTON LICIA,foaf:Person
+429,reo:capecchi-sara,CAPECCHI Sara,foaf:Person
+430,reo:capella-silvana,CAPELLA Silvana,foaf:Person
+431,reo:capellaro-sara,CAPELLARO Sara,foaf:Person
+432,reo:capietto-anna,CAPIETTO Anna,foaf:Person
+433,reo:capiotto-francesca,CAPIOTTO FRANCESCA,foaf:Person
+434,reo:cappa-federico,CAPPA FEDERICO,foaf:Person
+435,reo:cappello-paola,CAPPELLO PAOLA,foaf:Person
+436,reo:capponi-paola,CAPPONI Paola,foaf:Person
+437,reo:caprio-enrico,CAPRIO Enrico,foaf:Person
+438,reo:caprioglio-nadia,CAPRIOGLIO Nadia,foaf:Person
+439,reo:capris-michela,CAPRIS MICHELA,foaf:Person
+440,reo:capucchio-maria-teresa,CAPUCCHIO Maria Teresa,foaf:Person
+441,reo:caramagna-manuela,CARAMAGNA Manuela,foaf:Person
+442,reo:cardenia-vladimiro,CARDENIA Vladimiro,foaf:Person
+443,reo:cardinali-leonardo,CARDINALI LEONARDO,foaf:Person
+444,reo:cardone-f,CARDONE-F,foaf:Person
+445,reo:cardone-felice,CARDONE Felice,foaf:Person
+446,reo:caretto-andrea,CARETTO ANDREA,foaf:Person
+447,reo:cariola-monia,CARIOLA Monia,foaf:Person
+448,reo:carisio-luca,CARISIO LUCA,foaf:Person
+449,reo:carla-bazzanella,CARLA-BAZZANELLA,foaf:Person
+450,reo:carla-simone,CARLA-SIMONE,foaf:Person
+451,reo:carletto-sara,CARLETTO Sara,foaf:Person
+452,reo:carlo-bertolli,Carlo-Bertolli,foaf:Person
+453,reo:carluccio-giulia-anastasia,CARLUCCIO Giulia Anastasia,foaf:Person
+454,reo:carmagnola-f,CARMAGNOLA-F,foaf:Person
+455,reo:carnino-cecilia,CARNINO Cecilia,foaf:Person
+456,reo:caron-g,Caron-G,foaf:Person
+457,reo:carosi-rodolfo,CAROSI Rodolfo,foaf:Person
+458,reo:carraro-elisabetta,CARRARO Elisabetta,foaf:Person
+459,reo:carrieri-alessandro,CARRIERI ALESSANDRO,foaf:Person
+460,reo:casabona-elena,CASABONA ELENA,foaf:Person
+461,reo:casacci-luca-pietro,CASACCI Luca Pietro,foaf:Person
+462,reo:casale-federico,CASALE Federico,foaf:Person
+463,reo:casalegno-cecilia-giuliana-nicoletta,CASALEGNO Cecilia Giuliana Nicoletta,foaf:Person
+464,reo:casalone-elisabetta,CASALONE ELISABETTA,foaf:Person
+465,reo:casasso-francesca,CASASSO FRANCESCA,foaf:Person
+466,reo:cascardi-eliano,CASCARDI ELIANO,foaf:Person
+467,reo:casella-bruno,CASELLA BRUNO,foaf:Person
+468,reo:caselle-chiara,CASELLE CHIARA,foaf:Person
+469,reo:cassanelli-camilla,CASSANELLI CAMILLA,foaf:Person
+470,reo:cassardo-claudio,CASSARDO Claudio,foaf:Person
+471,reo:cassaro-carola,CASSARO CAROLA,foaf:Person
+472,reo:cassella-maria,CASSELLA Maria,foaf:Person
+473,reo:castagno-paolo,CASTAGNO Paolo,foaf:Person
+474,reo:castellani-leonardo,CASTELLANI Leonardo,foaf:Person
+475,reo:castellero-alberto,CASTELLERO Alberto,foaf:Person
+476,reo:castelli-daniele,CASTELLI DANIELE,foaf:Person
+477,reo:castelli-lorys,CASTELLI Lorys,foaf:Person
+478,reo:castello-maria-goretti,CASTELLO Maria Goretti,foaf:Person
+479,reo:castiglioni-michele,CASTIGLIONI MICHELE,foaf:Person
+480,reo:castre-giovanni,CASTRE Giovanni,foaf:Person
+481,reo:catalani-alisea,CATALANI ALISEA,foaf:Person
+482,reo:catalano-giuseppe-lorenzo,CATALANO GIUSEPPE LORENZO,foaf:Person
+483,reo:cataldi-laura,CATALDI LAURA,foaf:Person
+484,reo:cataldi-p,CATALDI-P,foaf:Person
+485,reo:catanzaro-francesca,CATANZARO Francesca,foaf:Person
+486,reo:cattuto-ciro,CATTUTO CIRO,foaf:Person
+487,reo:catucci-gianluca,CATUCCI Gianluca,foaf:Person
+488,reo:cauda-franco,CAUDA Franco,foaf:Person
+489,reo:caudana-maura,CAUDANA MAURA,foaf:Person
+490,reo:cauduro-alice,CAUDURO Alice,foaf:Person
+491,reo:cavagnino-d,CAVAGNINO-D,foaf:Person
+492,reo:cavagnino-davide,CAVAGNINO Davide,foaf:Person
+493,reo:cavaletto-giulia-maria,CAVALETTO GIULIA MARIA,foaf:Person
+494,reo:cavallo-f,CAVALLO-F,foaf:Person
+495,reo:cavallo-federica,CAVALLO Federica,foaf:Person
+496,reo:cavallo-lorenza,CAVALLO Lorenza,foaf:Person
+497,reo:cavallo-martina,CAVALLO MARTINA,foaf:Person
+498,reo:cavallo-perin-roberto,CAVALLO PERIN Roberto,foaf:Person
+499,reo:cavanna-m,CAVANNA-M,foaf:Person
+500,reo:cavazzuti-federica,CAVAZZUTI FEDERICA,foaf:Person
+501,reo:cavicchioli-silvia,CAVICCHIOLI Silvia,foaf:Person
+502,reo:cavoretto-roberto,CAVORETTO Roberto,foaf:Person
+503,reo:ceccarelli-adriano,CECCARELLI Adriano,foaf:Person
+504,reo:cedrini-mario-aldo,CEDRINI Mario Aldo,foaf:Person
+505,reo:celeghin-alessia,CELEGHIN Alessia,foaf:Person
+506,reo:cellerino-alessandra,CELLERINO Alessandra,foaf:Person
+507,reo:cellie-davide,CELLIE Davide,foaf:Person
+508,reo:cena-clara,CENA Clara,foaf:Person
+509,reo:cena-f,CENA-F,foaf:Person
+510,reo:cena-federica,CENA Federica,foaf:Person
+511,reo:cenere-samantha,CENERE Samantha,foaf:Person
+512,reo:cennamo-ilaria,CENNAMO Ilaria,foaf:Person
+513,reo:centrone-francesca-alice,CENTRONE Francesca Alice,foaf:Person
+514,reo:cepernich-cristopher,CEPERNICH Cristopher,foaf:Person
+515,reo:cerquitelli-tania,CERQUITELLI Tania,foaf:Person
+516,reo:cerrato-giuseppina,CERRATO Giuseppina,foaf:Person
+517,reo:cerrato-stefano,CERRATO Stefano,foaf:Person
+518,reo:cerrato-valentina,CERRATO VALENTINA,foaf:Person
+519,reo:cerruti-tanja,CERRUTI Tanja,foaf:Person
+520,reo:cerruti-umberto,CERRUTI Umberto,foaf:Person
+521,reo:cerutti-monica,CERUTTI Monica,foaf:Person
+522,reo:chatellair-maeve,CHATELLAIR Maeve,foaf:Person
+523,reo:chiabrando-deborah,CHIABRANDO Deborah,foaf:Person
+524,reo:chiais-eleonora,CHIAIS Eleonora,foaf:Person
+525,reo:chiara-braghin,Chiara-Braghin,foaf:Person
+526,reo:chiara-martina,CHIARA MARTINA,foaf:Person
+527,reo:chiaudano-valentina,CHIAUDANO VALENTINA,foaf:Person
+528,reo:chiavazza-paola-maria,CHIAVAZZA Paola Maria,foaf:Person
+529,reo:chiavistelli-antonio,CHIAVISTELLI Antonio,foaf:Person
+530,reo:chicco-jessica-maria,CHICCO Jessica Maria,foaf:Person
+531,reo:chierchiello-elisa,CHIERCHIELLO ELISA,foaf:Person
+532,reo:chierotti-michele-remo,CHIEROTTI Michele Remo,foaf:Person
+533,reo:chiesa-francesco,CHIESA Francesco,foaf:Person
+534,reo:chiesa-giorgio,CHIESA Giorgio,foaf:Person
+535,reo:chiesa-ilaria,CHIESA ILARIA,foaf:Person
+536,reo:chiesa-mario,CHIESA Mario,foaf:Person
+537,reo:chinaglia-alessandro,CHINAGLIA ALESSANDRO,foaf:Person
+538,reo:chinaglia-giulia,CHINAGLIA Giulia,foaf:Person
+539,reo:chiodelli-francesco,CHIODELLI Francesco,foaf:Person
+540,reo:chiosso-michela,CHIOSSO Michela,foaf:Person
+541,reo:chmet-federico,CHMET Federico,foaf:Person
+542,reo:christian-lengauer,Christian-Lengauer,foaf:Person
+543,reo:christian-perez,Christian-Perez,foaf:Person
+544,reo:christian-pérez,Christian-Pérez,foaf:Person
+545,reo:ciardo,CIARDO,foaf:Person
+546,reo:ciatti-caimi-alessandro,CIATTI CAIMI Alessandro,foaf:Person
+547,reo:cicchella-attilio,CICCHELLA Attilio,foaf:Person
+548,reo:cicillini-stefania,CICILLINI STEFANIA,foaf:Person
+549,reo:cicolin-alessandro,CICOLIN Alessandro,foaf:Person
+550,reo:cignarella-alessandra-teresa,CIGNARELLA ALESSANDRA TERESA,foaf:Person
+551,reo:cilli-cristina,CILLI Cristina,foaf:Person
+552,reo:cinato-lucia,CINATO Lucia,foaf:Person
+553,reo:ciorli-tommaso,CIORLI TOMMASO,foaf:Person
+554,reo:ciravegna-fabio,CIRAVEGNA Fabio,foaf:Person
+555,reo:circosta-paola,CIRCOSTA Paola,foaf:Person
+556,reo:cirio-roberto,CIRIO Roberto,foaf:Person
+557,reo:cisi-maurizio,CISI Maurizio,foaf:Person
+558,reo:cittadino-antonio,CITTADINO Antonio,foaf:Person
+559,reo:ciuffo-marina,CIUFFO MARINA,foaf:Person
+560,reo:civalleri-bartolomeo,CIVALLERI Bartolomeo,foaf:Person
+561,reo:civera-chiara,CIVERA Chiara,foaf:Person
+562,reo:civra-andrea,CIVRA Andrea,foaf:Person
+563,reo:clara-marco,CLARA Marco,foaf:Person
+564,reo:clari-marco,CLARI Marco,foaf:Person
+565,reo:claudia-picardi,Claudia PICARDI,foaf:Person
+566,reo:claudia-sagastizabal,Claudia-Sagastizabal,foaf:Person
+567,reo:claudio-mattutino,Claudio MATTUTINO,foaf:Person
+568,reo:claudio-schifanella,Claudio SCHIFANELLA,foaf:Person
+569,reo:clerico-marinella,CLERICO Marinella,foaf:Person
+570,reo:clocchiatti-alessandro,CLOCCHIATTI Alessandro,foaf:Person
+571,reo:coci-gianluca,COCI Gianluca,foaf:Person
+572,reo:cocolin-luca-simone,COCOLIN Luca Simone,foaf:Person
+573,reo:coggi-cristina,COGGI Cristina,foaf:Person
+574,reo:cojocaru-carina-florina,COJOCARU CARINA FLORINA,foaf:Person
+575,reo:colella-marco,COLELLA MARCO,foaf:Person
+576,reo:colitti-barbara,COLITTI Barbara,foaf:Person
+577,reo:colombo-lara,COLOMBO Lara,foaf:Person
+578,reo:colonna-valentina,COLONNA VALENTINA,foaf:Person
+579,reo:colonnelli-iacopo,COLONNELLI Iacopo,foaf:Person
+580,reo:comai-debora,COMAI DEBORA,foaf:Person
+581,reo:comba-lorenzo,COMBA Lorenzo,foaf:Person
+582,reo:comina-cesare,COMINA Cesare,foaf:Person
+583,reo:comunanza-valentina,COMUNANZA Valentina,foaf:Person
+584,reo:concilio-carmelina,CONCILIO Carmelina,foaf:Person
+585,reo:consolaro-alessandra,CONSOLARO Alessandra,foaf:Person
+586,reo:console-l,CONSOLE-L,foaf:Person
+587,reo:console-luca,CONSOLE Luca,foaf:Person
+588,reo:contaldo-sandro-gepiro,CONTALDO Sandro Gepiro,foaf:Person
+589,reo:contessa-c,CONTESSA-C,foaf:Person
+590,reo:conti-alessio,CONTI Alessio,foaf:Person
+591,reo:conti-carole,CONTI CAROLE,foaf:Person
+592,reo:conti-laura,CONTI Laura,foaf:Person
+593,reo:converso-daniela,CONVERSO Daniela,foaf:Person
+594,reo:conzo-pierluigi,CONZO Pierluigi,foaf:Person
+595,reo:coppo-m,COPPO-M,foaf:Person
+596,reo:coppo-mario,COPPO Mario,foaf:Person
+597,reo:coppola-diego,COPPOLA Diego,foaf:Person
+598,reo:corazza-laura,CORAZZA Laura,foaf:Person
+599,reo:corazzari-ingrid,CORAZZARI INGRID,foaf:Person
+600,reo:cordero-alex,CORDERO Alex,foaf:Person
+601,reo:cordero-chiara-emilia-irma,CORDERO Chiara Emilia Irma,foaf:Person
+602,reo:cordero-f,CORDERO-F,foaf:Person
+603,reo:cordero-francesca,CORDERO Francesca,foaf:Person
+604,reo:coriasco-mario-gino,CORIASCO Mario Gino,foaf:Person
+605,reo:coriasco-sandro,CORIASCO Sandro,foaf:Person
+606,reo:corinna-lauth,Corinna-Lauth,foaf:Person
+607,reo:corinne-chaton,Corinne-Chaton,foaf:Person
+608,reo:corino-elisa,CORINO Elisa,foaf:Person
+609,reo:corino-francesca,CORINO FRANCESCA,foaf:Person
+610,reo:cornali-federica,CORNALI Federica,foaf:Person
+611,reo:coronato-manuela,CORONATO Manuela,foaf:Person
+612,reo:corrado-zoccolo,Corrado-Zoccolo,foaf:Person
+613,reo:correddu-danilo,CORREDDU Danilo,foaf:Person
+614,reo:correndo-chiara,CORRENDO Chiara,foaf:Person
+615,reo:correndo-g,CORRENDO-G,foaf:Person
+616,reo:corriero-emilio,CORRIERO Emilio,foaf:Person
+617,reo:corsi-alessio,CORSI ALESSIO,foaf:Person
+618,reo:cortese-damiano,CORTESE Damiano,foaf:Person
+619,reo:corti-g,Corti-G,foaf:Person
+620,reo:cosi-piero,Cosi-Piero,foaf:Person
+621,reo:cosman-p,COSMAN-P,foaf:Person
+622,reo:cossio-roberto,COSSIO Roberto,foaf:Person
+623,reo:costa-daniela-nicoletta,COSTA Daniela Nicoletta,foaf:Person
+624,reo:costa-emanuele,COSTA Emanuele,foaf:Person
+625,reo:costa-marcella,COSTA Marcella,foaf:Person
+626,reo:costa-marco,COSTA Marco,foaf:Person
+627,reo:costa-monica,COSTA MONICA,foaf:Person
+628,reo:costagliola-gianluca,COSTAGLIOLA GIANLUCA,foaf:Person
+629,reo:costamagna-giulia,COSTAMAGNA GIULIA,foaf:Person
+630,reo:costamagna-lorenzo,Costamagna Lorenzo,foaf:Person
+631,reo:costanzo-maria-paola,COSTANZO MARIA PAOLA,foaf:Person
+632,reo:cotto-giorgio,COTTO Giorgio,foaf:Person
+633,reo:cottone-erika,COTTONE Erika,foaf:Person
+634,reo:coucourde-giulia,Coucourde Giulia,foaf:Person
+635,reo:cravero-ester,CRAVERO ESTER,foaf:Person
+636,reo:cravero-mattia,CRAVERO MATTIA,foaf:Person
+637,reo:cravero-tiziana,CRAVERO Tiziana,foaf:Person
+638,reo:cravotto-giancarlo,CRAVOTTO Giancarlo,foaf:Person
+639,reo:cresti-matteo,CRESTI Matteo,foaf:Person
+640,reo:creta-fabio,CRETA FABIO,foaf:Person
+641,reo:crispo-b,CRISPO-B,foaf:Person
+642,reo:cristina-baroglio,Cristina BAROGLIO,foaf:Person
+643,reo:cristina-bosco,CRISTINA-BOSCO,foaf:Person
+644,reo:cristina-della-beffa,Cristina-Della-Beffa,foaf:Person
+645,reo:cristina-gena,CRISTINA-GENA,foaf:Person
+646,reo:crocco-edoardo,CROCCO Edoardo,foaf:Person
+647,reo:crosetto-nicola,CROSETTO NICOLA,foaf:Person
+648,reo:crosetto-riccardo,CROSETTO Riccardo,foaf:Person
+649,reo:crosino-andrea,CROSINO ANDREA,foaf:Person
+650,reo:croveri-paola,CROVERI Paola,foaf:Person
+651,reo:crovini-chiara,CROVINI CHIARA,foaf:Person
+652,reo:crupi-vincenzo,CRUPI Vincenzo,foaf:Person
+653,reo:cugno-anna,CUGNO Anna,foaf:Person
+654,reo:cugno-monica,CUGNO Monica,foaf:Person
+655,reo:culasso-francesca,CULASSO Francesca,foaf:Person
+656,reo:cuono-massimo,CUONO Massimo,foaf:Person
+657,reo:cuozzo-gianluca,CUOZZO Gianluca,foaf:Person
+658,reo:curli-barbara,CURLI Barbara,foaf:Person
+659,reo:curto-natascia,CURTO Natascia,foaf:Person
+660,reo:cusato-jessica,CUSATO Jessica,foaf:Person
+661,reo:cutrupi-santina,CUTRUPI Santina,foaf:Person
+662,reo:cuttini-davide,CUTTINI Davide,foaf:Person
+663,reo:dag-henning,Dag-Henning,foaf:Person
+664,reo:dal-bello-federica,DAL BELLO Federica,foaf:Person
+665,reo:dal-monte-olga,DAL MONTE Olga,foaf:Person
+666,reo:dalmasso-alessandra,DALMASSO Alessandra,foaf:Person
+667,reo:dalmasso-gianluca,DALMASSO GIANLUCA,foaf:Person
+668,reo:dalmazzone-silvana,DALMAZZONE Silvana,foaf:Person
+669,reo:dambrosio-walter,DAMBROSIO Walter,foaf:Person
+670,reo:damiani-e,DAMIANI-E,foaf:Person
+671,reo:damiani-f,DAMIANI-F,foaf:Person
+672,reo:damiani-ferruccio,DAMIANI Ferruccio,foaf:Person
+673,reo:damiano-alessandra,DAMIANO ALESSANDRA,foaf:Person
+674,reo:damiano-rossana,DAMIANO Rossana,foaf:Person
+675,reo:damilano-marina,DAMILANO Marina,foaf:Person
+676,reo:danae-diakoulaki,Danae-Diakoulaki,foaf:Person
+677,reo:daniela-morale,Daniela-Morale,foaf:Person
+678,reo:daniela-vassallo,Daniela-Vassallo,foaf:Person
+679,reo:daniele--catanzaro,Daniele--Catanzaro,foaf:Person
+680,reo:daniele-catanzaro,Daniele-Catanzaro,foaf:Person
+681,reo:daniele-gunetti,Daniele GUNETTI,foaf:Person
+682,reo:daniele-paolo-radicioni,Daniele-Paolo RADICIONI,foaf:Person
+683,reo:daniele-theseider-dupré,Daniele-Theseider-Dupré,foaf:Person
+684,reo:dansero-egidio,DANSERO Egidio,foaf:Person
+685,reo:davello-antonietta,DAVELLO Antonietta,foaf:Person
+686,reo:davico-chiara,DAVICO Chiara,foaf:Person
+687,reo:davide-ancona,DAVIDE-ANCONA,foaf:Person
+688,reo:davide-cavagnino,Davide CAVAGNINO,foaf:Person
+689,reo:davit-patrizia,DAVIT Patrizia,foaf:Person
+690,reo:de-bellis-lisa,De Bellis Lisa,foaf:Person
+691,reo:de-bernardi-paola,DE BERNARDI Paola,foaf:Person
+692,reo:de-biasi-alessia,DE BIASI ALESSIA,foaf:Person
+693,reo:de-blasi-irene,DE BLASI Irene,foaf:Person
+694,reo:de-bortoli-andrea-maurilio,DE BORTOLI Andrea Maurilio,foaf:Person
+695,reo:de-bortoli-m,De-Bortoli-M,foaf:Person
+696,reo:de-cilladi-lorenzo,DE CILLADI LORENZO,foaf:Person
+697,reo:de-francesco-lucia,DE FRANCESCO LUCIA,foaf:Person
+698,reo:de-francia-silvia,DE FRANCIA Silvia,foaf:Person
+699,reo:de-iacovo-valentina,DE IACOVO Valentina,foaf:Person
+700,reo:de-lorenzo-aurelia,DE LORENZO Aurelia,foaf:Person
+701,reo:de-maria-gian-marco,DE MARIA Gian Marco,foaf:Person
+702,reo:de-maria-raffaella,DE MARIA Raffaella,foaf:Person
+703,reo:de-meneghi-daniele,DE MENEGHI Daniele,foaf:Person
+704,reo:de-petris-samuele,DE PETRIS SAMUELE,foaf:Person
+705,reo:de-piccoli-norma,DE PICCOLI Norma,foaf:Person
+706,reo:de-pierro-massimiliano,Massimiliano DE-PIERRO,foaf:Person
+707,reo:de-robertis-chiara,DE ROBERTIS CHIARA,foaf:Person
+708,reo:de-rosa-dalila,DE ROSA DALILA,foaf:Person
+709,reo:de-rosa-francesco-giuseppe,DE ROSA Francesco Giuseppe,foaf:Person
+710,reo:de-rose-virginia,DE ROSE Virginia,foaf:Person
+711,reo:de-rossi-alessandra,DE ROSSI Alessandra,foaf:Person
+712,reo:de-sanctis-luisa,DE SANCTIS Luisa,foaf:Person
+713,reo:de-santis-chiara,DE SANTIS CHIARA,foaf:Person
+714,reo:de-santis-maria-chiara,DE SANTIS MARIA CHIARA,foaf:Person
+715,reo:de-vincentiis-paola,DE VINCENTIIS Paola,foaf:Person
+716,reo:de-vita-francesca,DE VITA FRANCESCA,foaf:Person
+717,reo:deagostino-annamaria,DEAGOSTINO Annamaria,foaf:Person
+718,reo:debapriya-das,Debapriya-Das,foaf:Person
+719,reo:defereria-lorenzo,DEFERERIA LORENZO,foaf:Person
+720,reo:defeudis-arianna,DEFEUDIS ARIANNA,foaf:Person
+721,reo:degregori-ginevra,DEGREGORI GINEVRA,foaf:Person
+722,reo:deiana-paola,DEIANA Paola,foaf:Person
+723,reo:della-sala-angela,DELLA SALA ANGELA,foaf:Person
+724,reo:della-valle-paola,DELLA VALLE Paola,foaf:Person
+725,reo:delsanto-matteo,MATTEO DELSANTO,foaf:Person
+726,reo:demarchi-beatrice,DEMARCHI Beatrice,foaf:Person
+727,reo:demarchi-sergio-giovanni,DEMARCHI Sergio Giovanni,foaf:Person
+728,reo:demata-massimiliano,DEMATA Massimiliano,foaf:Person
+729,reo:dematteis-erika-michela,DEMATTEIS Erika Michela,foaf:Person
+730,reo:demichele-sabrina,DEMICHELE Sabrina,foaf:Person
+731,reo:demichelis-mara,DEMICHELIS Mara,foaf:Person
+732,reo:denicolai-lorenzo,DENICOLAI Lorenzo,foaf:Person
+733,reo:denina-silvia,DENINA Silvia,foaf:Person
+734,reo:denis-caromel,Denis-Caromel,foaf:Person
+735,reo:depetris-marta,DEPETRIS Marta,foaf:Person
+736,reo:derek-bunn,Derek-Bunn,foaf:Person
+737,reo:desana-eva-raffaella,DESANA Eva Raffaella,foaf:Person
+738,reo:destefanis-elisa,DESTEFANIS ELISA,foaf:Person
+739,reo:destefanis-enrico,DESTEFANIS Enrico,foaf:Person
+740,reo:deut-umberto,DEUT UMBERTO,foaf:Person
+741,reo:devalle-alain,DEVALLE Alain,foaf:Person
+742,reo:devecchi-elena,DEVECCHI Elena,foaf:Person
+743,reo:devecchi-marco,DEVECCHI Marco,foaf:Person
+744,reo:dezani-mariangiola,DEZANI Mariangiola,foaf:Person
+745,reo:dezzani-sabrina,DEZZANI SABRINA,foaf:Person
+746,reo:di-blasio-laura,DI BLASIO Laura,foaf:Person
+747,reo:di-caro-luigi,DI CARO Luigi,foaf:Person
+748,reo:di-cicco-chiara,DI CICCO CHIARA,foaf:Person
+749,reo:di-clemente-riccardo,DI CLEMENTE RICCARDO,foaf:Person
+750,reo:di-cola-irina,DI COLA IRINA,foaf:Person
+751,reo:di-cosmo-valeria,DI COSMO Valeria,foaf:Person
+752,reo:di-cunto-ferdinando,DI CUNTO Ferdinando,foaf:Person
+753,reo:di-fazio-chiara,DI FAZIO Chiara,foaf:Person
+754,reo:di-gaetano-cornelia,DI GAETANO Cornelia,foaf:Person
+755,reo:di-giovanni-marco,DI GIOVANNI Marco,foaf:Person
+756,reo:di-giovanni-matteo,DI GIOVANNI Matteo,foaf:Person
+757,reo:di-giuda-giuseppe-martino,DI GIUDA Giuseppe Martino,foaf:Person
+758,reo:di-maio-cristina,DI MAIO Cristina,foaf:Person
+759,reo:di-modugno-daniele,DI MODUGNO Daniele,foaf:Person
+760,reo:di-monaco-roberto,DI MONACO Roberto,foaf:Person
+761,reo:di-nardo-fabio,DI NARDO Fabio,foaf:Person
+762,reo:di-nardo-raffaella,DI NARDO Raffaella,foaf:Person
+763,reo:di-noi-valentina,DI NOI VALENTINA,foaf:Person
+764,reo:di-nuovo-elisa,DI NUOVO ELISA,foaf:Person
+765,reo:di-sario-francesco,DI SARIO FRANCESCO,foaf:Person
+766,reo:di-vella-giancarlo,DI VELLA Giancarlo,foaf:Person
+767,reo:diana-eliano,DIANA Eliano,foaf:Person
+768,reo:diano-matteo,DIANO Matteo,foaf:Person
+769,reo:diara-filippo,DIARA Filippo,foaf:Person
+770,reo:diaz-vicuna-elena,DIAZ VICUNA ELENA,foaf:Person
+771,reo:diego-magro,Diego MAGRO,foaf:Person
+772,reo:diego-puppin,Diego-Puppin,foaf:Person
+773,reo:dino-alessia,DINO Alessia,foaf:Person
+774,reo:dinuccio-elio,DINUCCIO Elio,foaf:Person
+775,reo:dirindin-nerina,DIRINDIN Nerina,foaf:Person
+776,reo:dolcetti-paola,DOLCETTI Paola,foaf:Person
+777,reo:dolza-enrico,DOLZA ENRICO,foaf:Person
+778,reo:domenicale-irene,DOMENICALE IRENE,foaf:Person
+779,reo:domenico-laforenza,Domenico-Laforenza,foaf:Person
+780,reo:donalisio-manuela,DONALISIO Manuela,foaf:Person
+781,reo:donatelli-s,DONATELLI-S,foaf:Person
+782,reo:donatelli-susanna,DONATELLI Susanna,foaf:Person
+783,reo:donetti-simone,DONETTI Simone,foaf:Person
+784,reo:dong-shiman,DONG SHIMAN,foaf:Person
+785,reo:doni-luana,DONI LUANA,foaf:Person
+786,reo:donini-massimo,DONINI MASSIMO,foaf:Person
+787,reo:donna-daniela,DONNA Daniela,foaf:Person
+788,reo:drago-idilio,DRAGO Idilio,foaf:Person
+789,reo:droste-m,DROSTE-M,foaf:Person
+790,reo:druetto-alessandro,DRUETTO ALESSANDRO,foaf:Person
+791,reo:ducci-mattia,DUCCI Mattia,foaf:Person
+792,reo:duglio-stefano,DUGLIO Stefano,foaf:Person
+793,reo:duma-davide,DUMA DAVIDE,foaf:Person
+794,reo:durante-massimo,DURANTE Massimo,foaf:Person
+795,reo:duval-carlotta,DUVAL CARLOTTA,foaf:Person
+796,reo:ebau-eleonora,EBAU ELEONORA,foaf:Person
+797,reo:edoardo-pistoletti,Edoardo-Pistoletti,foaf:Person
+798,reo:el-soury-marwa-mohamed-emadeldin-ali-mahmoud,EL SOURY MARWA MOHAMED EMADELDIN ALI MAHMOUD,foaf:Person
+799,reo:elena-baralis,Elena-Baralis,foaf:Person
+800,reo:elena-georgopoulou,Elena-Georgopoulou,foaf:Person
+801,reo:elena-giachino,Elena-Giachino,foaf:Person
+802,reo:elena-grassi,Elena-Grassi,foaf:Person
+803,reo:elena-zucca,ELENA-ZUCCA,foaf:Person
+804,reo:elia-diego,ELIA Diego,foaf:Person
+805,reo:elisa-marengo,Elisa MARENGO,foaf:Person
+806,reo:emilia-calaresu,EMILIA-CALARESU,foaf:Person
+807,reo:emilio-tuosto,Emilio-Tuosto,foaf:Person
+808,reo:enrico-magli,Enrico-Magli,foaf:Person
+809,reo:enrico-scala,Enrico-Scala,foaf:Person
+810,reo:enrique-teruel,ENRIQUE-TERUEL,foaf:Person
+811,reo:erica-turin,Erica-Turin,foaf:Person
+812,reo:ermondi-g,Ermondi-G,foaf:Person
+813,reo:ertani-andrea,ERTANI Andrea,foaf:Person
+814,reo:esposito-r,ESPOSITO-R,foaf:Person
+815,reo:esposito-roberto,ESPOSITO Roberto,foaf:Person
+816,reo:eugenio-zimeo,Eugenio-Zimeo,foaf:Person
+817,reo:evola-rosalia-stella,EVOLA ROSALIA STELLA,foaf:Person
+818,reo:fabbri-debora,FABBRI Debora,foaf:Person
+819,reo:fabiana-vernero,FABIANA-VERNERO,foaf:Person
+820,reo:fabio-tordini,Fabio-Tordini,foaf:Person
+821,reo:fabris-rita-maria,FABRIS Rita Maria,foaf:Person
+822,reo:fabrizio-nunnari,FABRIZIO-NUNNARI,foaf:Person
+823,reo:fadda-maurizio,FADDA MAURIZIO,foaf:Person
+824,reo:fagioli-franca,FAGIOLI Franca,foaf:Person
+825,reo:fagoonee-sharmila,FAGOONEE SHARMILA,foaf:Person
+826,reo:falasco-elisa,FALASCO Elisa,foaf:Person
+827,reo:falco-antonio,FALCO Antonio,foaf:Person
+828,reo:falcone-mauro,Falcone-Mauro,foaf:Person
+829,reo:fanfani-bernardo,FANFANI Bernardo,foaf:Person
+830,reo:fargione-daniela,FARGIONE Daniela,foaf:Person
+831,reo:fassino-davide,FASSINO DAVIDE,foaf:Person
+832,reo:fassone-riccardo,FASSONE Riccardo,foaf:Person
+833,reo:fatibene-lorenzo,FATIBENE Lorenzo,foaf:Person
+834,reo:fattori-elisa,FATTORI Elisa,foaf:Person
+835,reo:fausone-mara,FAUSONE Mara,foaf:Person
+836,reo:fava-carmen,FAVA Carmen,foaf:Person
+837,reo:fava-elisabetta,FAVA Elisabetta,foaf:Person
+838,reo:favaro-enrica,FAVARO Enrica,foaf:Person
+839,reo:favaro-livio,FAVARO Livio,foaf:Person
+840,reo:favero-longo-sergio-enrico,FAVERO LONGO Sergio Enrico,foaf:Person
+841,reo:favilli-laura,FAVILLI LAURA,foaf:Person
+842,reo:favole-adriano,FAVOLE Adriano,foaf:Person
+843,reo:federica-cena,FEDERICA-CENA,foaf:Person
+844,reo:federico-malucelli,Federico-Malucelli,foaf:Person
+845,reo:fedi-angela,FEDI Angela,foaf:Person
+846,reo:felfernig-a,FELFERNIG-A,foaf:Person
+847,reo:felice-cardone,Felice CARDONE,foaf:Person
+848,reo:fenoglio-chiara,FENOGLIO Chiara,foaf:Person
+849,reo:fenoglio-ivana,FENOGLIO Ivana,foaf:Person
+850,reo:fenu-francesco,FENU Francesco,foaf:Person
+851,reo:feo-ilaria,FEO Ilaria,foaf:Person
+852,reo:ferrando-simona,FERRANDO Simona,foaf:Person
+853,reo:ferrara-francesca,FERRARA Francesca,foaf:Person
+854,reo:ferrarese-silvia,FERRARESE Silvia,foaf:Person
+855,reo:ferrari-attilio,FERRARI Attilio,foaf:Person
+856,reo:ferrari-federica,FERRARI Federica,foaf:Person
+857,reo:ferrari-giulia,FERRARI Giulia,foaf:Person
+858,reo:ferrari-massimo-carlo,FERRARI Massimo Carlo,foaf:Person
+859,reo:ferraris-alberto,FERRARIS Alberto,foaf:Person
+860,reo:ferraris-maurizio-enrico-vittorio,FERRARIS Maurizio Enrico Vittorio,foaf:Person
+861,reo:ferraris-stefano,FERRARIS STEFANO,foaf:Person
+862,reo:ferraris-valeria,FERRARIS Valeria,foaf:Person
+863,reo:ferrarotti-lorenzo,FERRAROTTI LORENZO,foaf:Person
+864,reo:ferrero-camoletto-raffaella,FERRERO CAMOLETTO Raffaella,foaf:Person
+865,reo:ferrero-giulio,FERRERO Giulio,foaf:Person
+866,reo:ferrigno-margherita,FERRIGNO MARGHERITA,foaf:Person
+867,reo:ferrini-francesco-maria,FERRINI Francesco Maria,foaf:Person
+868,reo:ferrocino-ilario,FERROCINO Ilario,foaf:Person
+869,reo:ferroglio-ezio,FERROGLIO Ezio,foaf:Person
+870,reo:ferroglio-maria-laura,FERROGLIO MARIA LAURA,foaf:Person
+871,reo:ferruccio-damiani,FERRUCCIO-DAMIANI,foaf:Person
+872,reo:fiandrotti-attilio,Attilio FIANDROTTI,foaf:Person
+873,reo:ficara-giorgio-luigi-maria,FICARA Giorgio Luigi Maria,foaf:Person
+874,reo:filandri-marianna-azzurra,FILANDRI Marianna Azzurra,foaf:Person
+875,reo:filippi-daniele-valentino,FILIPPI Daniele Valentino,foaf:Person
+876,reo:fin-andrea,FIN Andrea,foaf:Person
+877,reo:fino-anna-maria,FINO Anna Maria,foaf:Person
+878,reo:fioccardi-annachiara,FIOCCARDI ANNACHIARA,foaf:Person
+879,reo:fiocco-giacomo,FIOCCO GIACOMO,foaf:Person
+880,reo:fiore-carmelina,FIORE Carmelina,foaf:Person
+881,reo:fiorilla-edoardo,FIORILLA Edoardo,foaf:Person
+882,reo:fiorilli-valentina,FIORILLI Valentina,foaf:Person
+883,reo:fiorio-pla-alessandra,FIORIO PLA Alessandra,foaf:Person
+884,reo:fiorito-giovanni,FIORITO GIOVANNI,foaf:Person
+885,reo:fiscale-vittorio,FISCALE VITTORIO,foaf:Person
+886,reo:fissore-cecilia,FISSORE CECILIA,foaf:Person
+887,reo:fiumara-ferdinando,FIUMARA Ferdinando,foaf:Person
+888,reo:flores-maria,FLORES Maria,foaf:Person
+889,reo:floris-francesco,FLORIS Francesco,foaf:Person
+890,reo:floris-mara,FLORIS MARA,foaf:Person
+891,reo:foietta-enrico,FOIETTA Enrico,foaf:Person
+892,reo:fonio-paolo,FONIO Paolo,foaf:Person
+893,reo:fontana-magda,FONTANA Magda,foaf:Person
+894,reo:forliano-canio,FORLIANO Canio,foaf:Person
+895,reo:fornaro-giulia-alice,FORNARO Giulia Alice,foaf:Person
+896,reo:fornaseri-federico,FORNASERI FEDERICO,foaf:Person
+897,reo:fornengo-nicolao,FORNENGO Nicolao,foaf:Person
+898,reo:forneris-jacopo,FORNERIS Jacopo,foaf:Person
+899,reo:forni-g,FORNI-G,foaf:Person
+900,reo:forno-silvia,FORNO Silvia,foaf:Person
+901,reo:forte-claudio,FORTE Claudio,foaf:Person
+902,reo:fossataro-carlotta,FOSSATARO Carlotta,foaf:Person
+903,reo:fradiante-valeria,FRADIANTE VALERIA,foaf:Person
+904,reo:francesca-carmagnola,FRANCESCA-CARMAGNOLA,foaf:Person
+905,reo:francesca-cordero,Francesca CORDERO,foaf:Person
+906,reo:francesca-tini-brunozzi,FRANCESCA-TINI-BRUNOZZI,foaf:Person
+907,reo:franceschinis-g,FRANCESCHINIS-G,foaf:Person
+908,reo:francesco-bergadano,Francesco BERGADANO,foaf:Person
+909,reo:francesco-polzella,Francesco-Polzella,foaf:Person
+910,reo:francese-rachele,FRANCESE Rachele,foaf:Person
+911,reo:francoise-andré,Francoise-André,foaf:Person
+912,reo:francoise-baude,Francoise-Baude,foaf:Person
+913,reo:frangioni-tommaso,FRANGIONI TOMMASO,foaf:Person
+914,reo:fratianni-simona,FRATIANNI SIMONA,foaf:Person
+915,reo:frederic-prost,FREDERIC-PROST,foaf:Person
+916,reo:fregnan-federica,FREGNAN Federica,foaf:Person
+917,reo:freilone-franco,FREILONE Franco,foaf:Person
+918,reo:frenda-simona,FRENDA SIMONA,foaf:Person
+919,reo:freppaz-michele,FREPPAZ Michele,foaf:Person
+920,reo:friard-o,Friard-O,foaf:Person
+921,reo:friedrich-g,FRIEDRICH-G,foaf:Person
+922,reo:frontuto-vito,FRONTUTO Vito,foaf:Person
+923,reo:fulvio-ricceri,Fulvio-Ricceri,foaf:Person
+924,reo:furia-paolo,FURIA Paolo,foaf:Person
+925,reo:furiassi-cristiano-gino,FURIASSI Cristiano Gino,foaf:Person
+926,reo:fusari-valentina,FUSARI Valentina,foaf:Person
+927,reo:fusella-federica,FUSELLA FEDERICA,foaf:Person
+928,reo:gabriel-antoniu,Gabriel-Antoniu,foaf:Person
+929,reo:gabriella-olmo,Gabriella-Olmo,foaf:Person
+930,reo:gabusi-giuseppe,GABUSI Giuseppe,foaf:Person
+931,reo:gaeta-r,GAETA-R,foaf:Person
+932,reo:gaeta-rossano,Rossano GAETA,foaf:Person
+933,reo:gagliardi-barbara-sara-alessandra-lorenza,GAGLIARDI Barbara Sara Alessandra Lorenza,foaf:Person
+934,reo:gai-m,GAI-M,foaf:Person
+935,reo:gai-marta,GAI Marta,foaf:Person
+936,reo:galasso-raffaella,GALASSO Raffaella,foaf:Person
+937,reo:galigani-mattia,GALIGANI MATTIA,foaf:Person
+938,reo:galliano-simone,GALLIANO Simone,foaf:Person
+939,reo:gallicchio-margherita,GALLICCHIO Margherita,foaf:Person
+940,reo:gallice-andrea-pier-giovanni,GALLICE Andrea Pier Giovanni,foaf:Person
+941,reo:gallina-maria-adelaide,GALLINA Maria Adelaide,foaf:Person
+942,reo:gallino-francesco,GALLINO Francesco,foaf:Person
+943,reo:gallo-giovanni,GALLO Giovanni,foaf:Person
+944,reo:gallo-maria-pia,GALLO Maria Pia,foaf:Person
+945,reo:galloni-marco-rodolfo,GALLONI Marco Rodolfo,foaf:Person
+946,reo:galofaro-francesco,GALOFARO FRANCESCO,foaf:Person
+947,reo:galoppini-elisabetta,GALOPPINI ELISABETTA,foaf:Person
+948,reo:gamba-ezio,GAMBA Ezio,foaf:Person
+949,reo:gamba-paola-francesca,GAMBA Paola Francesca,foaf:Person
+950,reo:gamba-valter,GAMBA Valter,foaf:Person
+951,reo:gambino-francesca,GAMBINO FRANCESCA,foaf:Person
+952,reo:gambino-paolo,GAMBINO Paolo,foaf:Person
+953,reo:gamboni-roberto,GAMBONI Roberto,foaf:Person
+954,reo:gandolfi-elena,GANDOLFI Elena,foaf:Person
+955,reo:garaffo-giulia,GARAFFO GIULIA,foaf:Person
+956,reo:garbarini-francesca,GARBARINI Francesca,foaf:Person
+957,reo:garbarino-sandra,GARBARINO Sandra,foaf:Person
+958,reo:garbi-gemma,GARBI GEMMA,foaf:Person
+959,reo:garbolino-laura,GARBOLINO Laura,foaf:Person
+960,reo:garcia-vozmediano-aitor,GARCIA VOZMEDIANO AITOR,foaf:Person
+961,reo:gariglio-marta,GARIGLIO Marta,foaf:Person
+962,reo:garnero-gabriele,GARNERO Gabriele,foaf:Person
+963,reo:garofalo-giorgia,GAROFALO GIORGIA,foaf:Person
+964,reo:garofalo-simone,GAROFALO SIMONE,foaf:Person
+965,reo:garro-christian,GARRO CHRISTIAN,foaf:Person
+966,reo:garzaro-giacomo,GARZARO Giacomo,foaf:Person
+967,reo:gasco-laura,GASCO Laura,foaf:Person
+968,reo:gasparini-fabio,GASPARINI FABIO,foaf:Person
+969,reo:gastaldi-enrico,GASTALDI Enrico,foaf:Person
+970,reo:gatti-gianluigi,GATTI Gianluigi,foaf:Person
+971,reo:gattino-silvia,GATTINO Silvia,foaf:Person
+972,reo:gaudino-federica,GAUDINO FEDERICA,foaf:Person
+973,reo:gay-paolo,GAY Paolo,foaf:Person
+974,reo:gazzano-elena,GAZZANO Elena,foaf:Person
+975,reo:gea-marta,GEA Marta,foaf:Person
+976,reo:gebara-natalia,GEBARA Natalia,foaf:Person
+977,reo:geddo-federica,GEDDO Federica,foaf:Person
+978,reo:gemello-r,GEMELLO-R,foaf:Person
+979,reo:gena-c,GENA-C,foaf:Person
+980,reo:gena-cristina,Cristina GENA,foaf:Person
+981,reo:genesin-maria-pia,GENESIN Maria Pia,foaf:Person
+982,reo:geninatti-cossatin-angelo,GENINATTI COSSATIN ANGELO,foaf:Person
+983,reo:geninatti-crich-simonetta,GENINATTI CRICH Simonetta,foaf:Person
+984,reo:genova-carlo,GENOVA Carlo,foaf:Person
+985,reo:genova-tullio,GENOVA Tullio,foaf:Person
+986,reo:genovese-alessio,GENOVESE ALESSIO,foaf:Person
+987,reo:genovese-francesca,GENOVESE Francesca,foaf:Person
+988,reo:genre-andrea,GENRE Andrea,foaf:Person
+989,reo:gentile-wilma,GENTILE WILMA,foaf:Person
+990,reo:gentilini-sara,GENTILINI Sara,foaf:Person
+991,reo:gerardi-donato,GERARDI Donato,foaf:Person
+992,reo:gerbaudo-andrea,GERBAUDO ANDREA,foaf:Person
+993,reo:gerbi-vincenzo,GERBI Vincenzo,foaf:Person
+994,reo:geuna-stefano,GEUNA Stefano,foaf:Person
+995,reo:ghiazza-mara,GHIAZZA Mara,foaf:Person
+996,reo:ghigo-alessandra,GHIGO Alessandra,foaf:Person
+997,reo:ghigo-ezio,GHIGO Ezio,foaf:Person
+998,reo:ghirardato-paolo,GHIRARDATO Paolo,foaf:Person
+999,reo:ghirardi-veronica,GHIRARDI Veronica,foaf:Person
+1000,reo:ghislieri-chiara,GHISLIERI Chiara,foaf:Person
+1001,reo:giacalone-giovanna,GIACALONE Giovanna,foaf:Person
+1002,reo:giaccaria-paolo,GIACCARIA Paolo,foaf:Person
+1003,reo:giaccone-p,GIACCONE-P,foaf:Person
+1004,reo:giachino-chiara,GIACHINO Chiara,foaf:Person
+1005,reo:giachino-claudia,GIACHINO Claudia,foaf:Person
+1006,reo:giacobbi-marta,GIACOBBI MARTA,foaf:Person
+1007,reo:giacobini-mario-dante-lucio,GIACOBINI Mario Dante Lucio,foaf:Person
+1008,reo:giacobino-davide,GIACOBINO Davide,foaf:Person
+1009,reo:giacosa-antonella-maria,GIACOSA ANTONELLA MARIA,foaf:Person
+1010,reo:giacosa-elisa,GIACOSA Elisa,foaf:Person
+1011,reo:giallombardo-a,GIALLOMBARDO-A,foaf:Person
+1012,reo:gian--luca-pozzato,Gian--Luca POZZATO,foaf:Person
+1013,reo:gian-luca-pozzato,Gian-Luca-Pozzato,foaf:Person
+1014,reo:gianfranco-balbo,Gianfranco BALBO,foaf:Person
+1015,reo:gianluca-torta,Gianluca TORTA,foaf:Person
+1016,reo:gianmarco-spinatelli,Gianmarco-Spinatelli,foaf:Person
+1017,reo:gianmaria-ajani,Gianmaria-Ajani,foaf:Person
+1018,reo:giannasca-emanuele,GIANNASCA EMANUELE,foaf:Person
+1019,reo:giannelli-serena,GIANNELLI SERENA,foaf:Person
+1020,reo:gianni-celli,Gianni-Celli,foaf:Person
+1021,reo:gianni-giaccherini,Gianni-Giaccherini,foaf:Person
+1022,reo:giannini-p,GIANNINI-P,foaf:Person
+1023,reo:giannini-valentina,GIANNINI Valentina,foaf:Person
+1024,reo:gianolio-eliana,GIANOLIO Eliana,foaf:Person
+1025,reo:gianoncelli-stefania-romana,GIANONCELLI Stefania Romana,foaf:Person
+1026,reo:gianquinto-eleonora,GIANQUINTO Eleonora,foaf:Person
+1027,reo:giardino-marco,GIARDINO Marco,foaf:Person
+1028,reo:gibellato-simone,GIBELLATO SIMONE,foaf:Person
+1029,reo:giglia-elena,GIGLIA Elena,foaf:Person
+1030,reo:gilardi-gianfranco,GILARDI Gianfranco,foaf:Person
+1031,reo:gill-dobbie,Gill-Dobbie,foaf:Person
+1032,reo:ginepro-marco,GINEPRO Marco,foaf:Person
+1033,reo:giorda-cristiano,GIORDA Cristiano,foaf:Person
+1034,reo:giorda-sara,GIORDA SARA,foaf:Person
+1035,reo:giordana-alessia,GIORDANA Alessia,foaf:Person
+1036,reo:giordano-alex,GIORDANO ALEX,foaf:Person
+1037,reo:giordano-manuela,GIORDANO Manuela,foaf:Person
+1038,reo:giordano-silvia,GIORDANO SILVIA,foaf:Person
+1039,reo:giorgetti-lorenza,GIORGETTI LORENZA,foaf:Person
+1040,reo:giorgino-vincenzo-mario-bruno,GIORGINO VINCENZO MARIO BRUNO,foaf:Person
+1041,reo:giorgio-zoppi,Giorgio-Zoppi,foaf:Person
+1042,reo:giorgis-marta,GIORGIS Marta,foaf:Person
+1043,reo:giovanna-petrone,GIOVANNA-PETRONE,foaf:Person
+1044,reo:giovannetti-marco,GIOVANNETTI Marco,foaf:Person
+1045,reo:giraudo-maria-teresa,GIRAUDO Maria Teresa,foaf:Person
+1046,reo:giribaldi-giuliana,GIRIBALDI Giuliana,foaf:Person
+1047,reo:girotti-marilena,GIROTTI Marilena,foaf:Person
+1048,reo:gitto-riccardo,GITTO RICCARDO,foaf:Person
+1049,reo:giudici-silvia,GIUDICI SILVIA,foaf:Person
+1050,reo:giuggioli-nicole-roberta,GIUGGIOLI Nicole Roberta,foaf:Person
+1051,reo:giulia-caron,Giulia-Caron,foaf:Person
+1052,reo:giuliana-carello,Giuliana-Carello,foaf:Person
+1053,reo:giuliana-franceschinis,GIULIANA-FRANCESCHINIS,foaf:Person
+1054,reo:giuliana-gianmarco-thierry,GIULIANA GIANMARCO THIERRY,foaf:Person
+1055,reo:giuriato-daniele,GIURIATO Daniele,foaf:Person
+1056,reo:giuseppe-cuzzucoli,GIUSEPPE-CUZZUCOLI,foaf:Person
+1057,reo:giuseppe-ermondi,Giuseppe-Ermondi,foaf:Person
+1058,reo:giustetto-ambra,GIUSTETTO Ambra,foaf:Person
+1059,reo:giustra-fortunato,GIUSTRA FORTUNATO,foaf:Person
+1060,reo:gliozzi-valentina,GLIOZZI Valentina,foaf:Person
+1061,reo:gnavi-s,GNAVI-S,foaf:Person
+1062,reo:gobbi-alessia,Gobbi Alessia,foaf:Person
+1063,reo:gobetto-roberto,GOBETTO Roberto,foaf:Person
+1064,reo:goglio-valentina,GOGLIO Valentina,foaf:Person
+1065,reo:gola-cecilia,GOLA CECILIA,foaf:Person
+1066,reo:gong-w,GONG-W,foaf:Person
+1067,reo:gonthier-paolo,GONTHIER Paolo,foaf:Person
+1068,reo:goria-eugenio,GORIA Eugenio,foaf:Person
+1069,reo:gorra-roberta,GORRA Roberta,foaf:Person
+1070,reo:gorrieri-laura,GORRIERI LAURA,foaf:Person
+1071,reo:gotti-stefano,GOTTI Stefano,foaf:Person
+1072,reo:goy-a,GOY-A,foaf:Person
+1073,reo:goy-annamaria,GOY Annamaria,foaf:Person
+1074,reo:gozzelino-giulia,GOZZELINO GIULIA,foaf:Person
+1075,reo:granata-anna,GRANATA Anna,foaf:Person
+1076,reo:grande-francesco,GRANDE Francesco,foaf:Person
+1077,reo:grande-simona,GRANDE SIMONA,foaf:Person
+1078,reo:grandinetti-mario,GRANDINETTI Mario,foaf:Person
+1079,reo:grangetto-marco,GRANGETTO Marco,foaf:Person
+1080,reo:grassi-laura-angelica,GRASSI Laura Angelica,foaf:Person
+1081,reo:grasso-erika,GRASSO ERIKA,foaf:Person
+1082,reo:grasso-francesca,GRASSO FRANCESCA,foaf:Person
+1083,reo:graziadei-michele,GRAZIADEI Michele,foaf:Person
+1084,reo:gregis-anna,GREGIS ANNA,foaf:Person
+1085,reo:gresta-francesco,GRESTA Francesco,foaf:Person
+1086,reo:gribaudo-m,GRIBAUDO-M,foaf:Person
+1087,reo:grignani-carlo,GRIGNANI Carlo,foaf:Person
+1088,reo:grigolo-sabrina,GRIGOLO SABRINA,foaf:Person
+1089,reo:grillo-giorgio,GRILLO Giorgio,foaf:Person
+1090,reo:grimaldi-renato,GRIMALDI Renato,foaf:Person
+1091,reo:groppo-chiara-teresa,GROPPO Chiara Teresa,foaf:Person
+1092,reo:grosso-andrea-cesare,GROSSO Andrea Cesare,foaf:Person
+1093,reo:gruppuso-laura,GRUPPUSO LAURA,foaf:Person
+1094,reo:gualandris-anna,GUALANDRIS Anna,foaf:Person
+1095,reo:gualtiero-stefano,GUALTIERO STEFANO,foaf:Person
+1096,reo:guaraldo-p,GUARALDO-P,foaf:Person
+1097,reo:guarcello-emanuela,GUARCELLO Emanuela,foaf:Person
+1098,reo:guarnaccia-vladimiro,GUARNACCIA Vladimiro,foaf:Person
+1099,reo:guarriello-giovanna,GUARRIELLO Giovanna,foaf:Person
+1100,reo:guerini-michele,GUERINI MICHELE,foaf:Person
+1101,reo:guerrato-giulia,GUERRATO GIULIA,foaf:Person
+1102,reo:guerreschi-paola,GUERRESCHI Paola,foaf:Person
+1103,reo:guffanti-alberto,GUFFANTI ALBERTO,foaf:Person
+1104,reo:guglielmone-laura,GUGLIELMONE Laura,foaf:Person
+1105,reo:gugliesi-francesca,GUGLIESI Francesca,foaf:Person
+1106,reo:guida-simona,GUIDA Simona,foaf:Person
+1107,reo:guido-boella,Guido BOELLA,foaf:Person
+1108,reo:guidorzi-laura,GUIDORZI Laura,foaf:Person
+1109,reo:guiot-caterina,GUIOT Caterina,foaf:Person
+1110,reo:gullace-giulia,GULLACE GIULIA,foaf:Person
+1111,reo:gullino-maria-lodovica,GULLINO Maria Lodovica,foaf:Person
+1112,reo:gulmini-monica,GULMINI Monica,foaf:Person
+1113,reo:gunetti-daniele,Daniele GUNETTI,foaf:Person
+1114,reo:gurkan-kumbaroglu,Gurkan-Kumbaroglu,foaf:Person
+1115,reo:gusman-alessandro,GUSMAN Alessandro,foaf:Person
+1116,reo:gyau-benjamin-baffour,GYAU Benjamin Baffour,foaf:Person
+1117,reo:hasan-jamil,Hasan-Jamil,foaf:Person
+1118,reo:helmy-aly-sabrina,HELMY ALY SABRINA,foaf:Person
+1119,reo:hilviu-dize,HILVIU DIZE,foaf:Person
+1120,reo:hinde-lilia-bouziane,Hinde-Lilia-Bouziane,foaf:Person
+1121,reo:hirsch-emilio,HIRSCH Emilio,foaf:Person
+1122,reo:hoops-bjorn,HOOPS Bjorn,foaf:Person
+1123,reo:horvath-a,HORVATH-A,foaf:Person
+1124,reo:horvath-andras,Andras HORVATH,foaf:Person
+1125,reo:hosteins-pierre,HOSTEINS Pierre,foaf:Person
+1126,reo:hu-zhongli-filippo,HU ZHONGLI FILIPPO,foaf:Person
+1127,reo:huiping-cao,Huiping-Cao,foaf:Person
+1128,reo:iaia-lea,IAIA Lea,foaf:Person
+1129,reo:iaia-noemi,IAIA NOEMI,foaf:Person
+1130,reo:iannaci-daniel,IANNACI DANIEL,foaf:Person
+1131,reo:idrofano-silvia,IDROFANO Silvia,foaf:Person
+1132,reo:ienco-d,IENCO-D,foaf:Person
+1133,reo:ienco-dino,Ienco-Dino,foaf:Person
+1134,reo:ilaria-torre,ILARIA-TORRE,foaf:Person
+1135,reo:imarisio-luca,IMARISIO Luca,foaf:Person
+1136,reo:introna-margaux,INTRONA MARGAUX,foaf:Person
+1137,reo:isaevska-elena,Isaevska Elena,foaf:Person
+1138,reo:isaia-eleonora,ISAIA Eleonora,foaf:Person
+1139,reo:isaia-marco,ISAIA Marco,foaf:Person
+1140,reo:isella-c,Isella-C,foaf:Person
+1141,reo:isocrono-deborah,ISOCRONO Deborah,foaf:Person
+1142,reo:italia-barbara,ITALIA BARBARA,foaf:Person
+1143,reo:italia-elena,ITALIA Elena,foaf:Person
+1144,reo:iussich-selina,IUSSICH Selina,foaf:Person
+1145,reo:ivaldi-marco,IVALDI MARCO,foaf:Person
+1146,reo:jan-duennwebber,Jan-Duennwebber,foaf:Person
+1147,reo:jan-dünnweber,Jan-Dünnweber,foaf:Person
+1148,reo:jan-maluszynski,Jan-Maluszynski,foaf:Person
+1149,reo:jannach-d,JANNACH-D,foaf:Person
+1150,reo:jaworski-krystyna-roza,JAWORSKI Krystyna Roza,foaf:Person
+1151,reo:jeremy-james-sproston,Jeremy-James SPROSTON,foaf:Person
+1152,reo:jetty-kleijn,Jetty-Kleijn,foaf:Person
+1153,reo:johanna-miecznikowski,JOHANNA-MIECZNIKOWSKI,foaf:Person
+1154,reo:john-fitch,John-Fitch,foaf:Person
+1155,reo:johnson-laird-p-n,JOHNSON-LAIRD-P-N,foaf:Person
+1156,reo:jona-eugenia,Jona Eugenia,foaf:Person
+1157,reo:jong-k,JONG-K,foaf:Person
+1158,reo:jose-cunha,Jose-Cunha,foaf:Person
+1159,reo:joão-clímaco,João-Clímaco,foaf:Person
+1160,reo:jérémy-buisson,Jérémy-Buisson,foaf:Person
+1161,reo:kalaiarasan-harish,KALAIARASAN HARISH,foaf:Person
+1162,reo:kamel-lorenzo,KAMEL Lorenzo,foaf:Person
+1163,reo:karatas-tugce,KARATAS TUGCE,foaf:Person
+1164,reo:kasim-selcuk-candan,KASIM-SELCUK-CANDAN,foaf:Person
+1165,reo:kees-tazelaar,Kees-Tazelaar,foaf:Person
+1166,reo:kemper,KEMPER,foaf:Person
+1167,reo:khoso-rasool-bux,KHOSO RASOOL BUX,foaf:Person
+1168,reo:kireta-dona,KIRETA DONA,foaf:Person
+1169,reo:knightly-e,KNIGHTLY-E,foaf:Person
+1170,reo:kopecka-joanna,KOPECKA Joanna,foaf:Person
+1171,reo:kubas-magdalena-maria,KUBAS Magdalena Maria,foaf:Person
+1172,reo:kurapati-shalini,KURAPATI SHALINI,foaf:Person
+1173,reo:kwon-g,KWON-G,foaf:Person
+1174,reo:labate-federico,LABATE Federico,foaf:Person
+1175,reo:labate-maria,LABATE MARIA,foaf:Person
+1176,reo:labrador-granados-maría,LABRADOR GRANADOS María,foaf:Person
+1177,reo:lafdaigui-amir,LAFDAIGUI AMIR,foaf:Person
+1178,reo:lamba-s,Lamba-S,foaf:Person
+1179,reo:lamberti-paola,LAMBERTI Paola,foaf:Person
+1180,reo:lambertini-vincenzo,LAMBERTINI Vincenzo,foaf:Person
+1181,reo:lambiase-nadia,LAMBIASE NADIA,foaf:Person
+1182,reo:lancellotti-sandro,LANCELLOTTI SANDRO,foaf:Person
+1183,reo:lanfranco-luisa,LANFRANCO Luisa,foaf:Person
+1184,reo:lanteri-sergio,LANTERI Sergio,foaf:Person
+1185,reo:lanzalonga-federico,LANZALONGA FEDERICO,foaf:Person
+1186,reo:lanzilotto-marco,LANZILOTTO Marco,foaf:Person
+1187,reo:larcher-federica,LARCHER Federica,foaf:Person
+1188,reo:lategano-francesco,LATEGANO FRANCESCO,foaf:Person
+1189,reo:latini-gianni,LATINI Gianni,foaf:Person
+1190,reo:laura-giordano,Laura-Giordano,foaf:Person
+1191,reo:laura-potiti,Laura-Potiti,foaf:Person
+1192,reo:laurino-daniela,LAURINO DANIELA,foaf:Person
+1193,reo:lauro-vittorio,LAURO Vittorio,foaf:Person
+1194,reo:lavecchia-dunja,LAVECCHIA Dunja,foaf:Person
+1195,reo:lazzarin-andrea,LAZZARIN Andrea,foaf:Person
+1196,reo:lea-terracini,Lea TERRACINI,foaf:Person
+1197,reo:leendert-van-der-torre,LEENDERT-VAN-DER-TORRE,foaf:Person
+1198,reo:leghissa-giovanni,LEGHISSA Giovanni,foaf:Person
+1199,reo:lembo-david,LEMBO David,foaf:Person
+1200,reo:lentini-giulia,LENTINI GIULIA,foaf:Person
+1201,reo:leo-schrattenholzer,Leo-Schrattenholzer,foaf:Person
+1202,reo:leombruni-paolo,LEOMBRUNI Paolo,foaf:Person
+1203,reo:leombruni-roberto,LEOMBRUNI Roberto,foaf:Person
+1204,reo:leonardi-e,LEONARDI-E,foaf:Person
+1205,reo:leonardo-lesmo,LEONARDO-LESMO,foaf:Person
+1206,reo:leone-massimo,LEONE Massimo,foaf:Person
+1207,reo:leone-matteo,LEONE Matteo,foaf:Person
+1208,reo:lepre-anna,LEPRE ANNA,foaf:Person
+1209,reo:lesmo-l,LESMO-L,foaf:Person
+1210,reo:lesmo-leonardo,Lesmo-Leonardo,foaf:Person
+1211,reo:lessio-federico,LESSIO Federico,foaf:Person
+1212,reo:levi-alessandra,LEVI ALESSANDRA,foaf:Person
+1213,reo:levi-g,LEVI-G,foaf:Person
+1214,reo:liberto-erica,LIBERTO Erica,foaf:Person
+1215,reo:lieto-antonio,LIETO Antonio,foaf:Person
+1216,reo:liliana-ardissono,Liliana ARDISSONO,foaf:Person
+1217,reo:lingua-carla,LINGUA Carla,foaf:Person
+1218,reo:lingua-graziano,LINGUA Graziano,foaf:Person
+1219,reo:linnebacher-m,Linnebacher-M,foaf:Person
+1220,reo:lioy-simone,LIOY Simone,foaf:Person
+1221,reo:lippolis-carlo,LIPPOLIS Carlo,foaf:Person
+1222,reo:listo-chiara,LISTO Chiara,foaf:Person
+1223,reo:lo-cigno-r,LO-CIGNO-R,foaf:Person
+1224,reo:lo-giudice-alessandro,LO GIUDICE Alessandro,foaf:Person
+1225,reo:lo-iacono-cristiano,LO IACONO Cristiano,foaf:Person
+1226,reo:lo-iacono-m,LO-IACONO-M,foaf:Person
+1227,reo:lo-iacono-marco,LO IACONO Marco,foaf:Person
+1228,reo:lo-presti-anna,LO PRESTI Anna,foaf:Person
+1229,reo:lo-sapio-luca,LO SAPIO Luca,foaf:Person
+1230,reo:lo-soda-marem,LO SODA MAREM,foaf:Person
+1231,reo:loera-barbara-lucia,LOERA Barbara Lucia,foaf:Person
+1232,reo:lombardi-chiara,LOMBARDI Chiara,foaf:Person
+1233,reo:lombardi-danilo,LOMBARDI DANILO,foaf:Person
+1234,reo:lombardo-v,LOMBARDO-V,foaf:Person
+1235,reo:lombardo-vincenzo,LOMBARDO Vincenzo,foaf:Person
+1236,reo:long-joelle,LONG Joelle,foaf:Person
+1237,reo:longo-fabio,LONGO FABIO,foaf:Person
+1238,reo:lora-aroyo,Lora-Aroyo,foaf:Person
+1239,reo:lorenza-saitta,Lorenza-Saitta,foaf:Person
+1240,reo:lorenzato-annalisa,LORENZATO Annalisa,foaf:Person
+1241,reo:lorenzatto-anna,LORENZATTO ANNA,foaf:Person
+1242,reo:lorenzo-bettini,Lorenzo-Bettini,foaf:Person
+1243,reo:loreto-fabrizio,LORETO Fabrizio,foaf:Person
+1244,reo:lovato-alessandra,LOVATO ALESSANDRA,foaf:Person
+1245,reo:lozar-francesca-maria-jolanda,LOZAR Francesca Maria Jolanda,foaf:Person
+1246,reo:luca-anselma,Luca ANSELMA,foaf:Person
+1247,reo:luca-console,LUCA-CONSOLE,foaf:Person
+1248,reo:luca-luigi-paolini,Luca-Luigi PAOLINI,foaf:Person
+1249,reo:luca-paolini,LUCA-PAOLINI,foaf:Person
+1250,reo:luca-piovesan,Luca-Piovesan,foaf:Person
+1251,reo:luca-roversi,Luca ROVERSI,foaf:Person
+1252,reo:luca-scarponi,Luca-Scarponi,foaf:Person
+1253,reo:luca-veraldi,Luca-Veraldi,foaf:Person
+1254,reo:lucenteforte-m,LUCENTEFORTE-M,foaf:Person
+1255,reo:lucenteforte-maurizio,LUCENTEFORTE Maurizio,foaf:Person
+1256,reo:luda-di-cortemiglia-maria-paola,LUDA DI CORTEMIGLIA Maria Paola,foaf:Person
+1257,reo:ludovic-henrio,Ludovic-Henrio,foaf:Person
+1258,reo:luganini-anna,LUGANINI Anna,foaf:Person
+1259,reo:luigi-di-caro,Luigi DI-CARO,foaf:Person
+1260,reo:luigi-liquori,LUIGI-LIQUORI,foaf:Person
+1261,reo:luis-augusto-barroso,Luis-Augusto-Barroso,foaf:Person
+1262,reo:luparia-paolo-andrea,LUPARIA Paolo Andrea,foaf:Person
+1263,reo:lusso-enrico,LUSSO Enrico,foaf:Person
+1264,reo:luzzati-federico,LUZZATI Federico,foaf:Person
+1265,reo:m-bruglieri,M-BRUGLIERI,foaf:Person
+1266,reo:macagno-alessia,MACAGNO ALESSIA,foaf:Person
+1267,reo:macagno-marco,MACAGNO MARCO,foaf:Person
+1268,reo:maddalena-nonato,Maddalena-Nonato,foaf:Person
+1269,reo:madrussan-elena,MADRUSSAN Elena,foaf:Person
+1270,reo:maffei-massimo-emilio,MAFFEI Massimo Emilio,foaf:Person
+1271,reo:maggiolini-micol,MAGGIOLINI Micol,foaf:Person
+1272,reo:maghrebi-moez,MAGHREBI Moez,foaf:Person
+1273,reo:magli-e,MAGLI-E,foaf:Person
+1274,reo:maglione-alessandro,MAGLIONE ALESSANDRO,foaf:Person
+1275,reo:magnacca-giuliana,MAGNACCA Giuliana,foaf:Person
+1276,reo:magnani-barbara,MAGNANI BARBARA,foaf:Person
+1277,reo:magnano-guido,MAGNANO Guido,foaf:Person
+1278,reo:magosso-chiara,MAGOSSO CHIARA,foaf:Person
+1279,reo:magro-diego,Diego MAGRO,foaf:Person
+1280,reo:maietta-davide,MAIETTA Davide,foaf:Person
+1281,reo:maimone-giovanni,MAIMONE Giovanni,foaf:Person
+1282,reo:mainenti-asia,MAINENTI ASIA,foaf:Person
+1283,reo:malandrino-mery,MALANDRINO Mery,foaf:Person
+1284,reo:malaspina-ermanno,MALASPINA Ermanno,foaf:Person
+1285,reo:malerba-giancarla,MALERBA Giancarla,foaf:Person
+1286,reo:malik-javeria,MALIK JAVERIA,foaf:Person
+1287,reo:mana-f,MANA-F,foaf:Person
+1288,reo:manassero-eugenio,MANASSERO EUGENIO,foaf:Person
+1289,reo:manca-alessandra,MANCA ALESSANDRA,foaf:Person
+1290,reo:manca-massimo,MANCA Massimo,foaf:Person
+1291,reo:mancardi-daniele,MANCARDI Daniele,foaf:Person
+1292,reo:mandras-narcisa,MANDRAS Narcisa,foaf:Person
+1293,reo:mandrile-viviana,MANDRILE Viviana,foaf:Person
+1294,reo:mandrone-giuseppe,MANDRONE Giuseppe,foaf:Person
+1295,reo:manera-manuela,MANERA MANUELA,foaf:Person
+1296,reo:manera-umberto,MANERA Umberto,foaf:Person
+1297,reo:manetti-beatrice,MANETTI Beatrice,foaf:Person
+1298,reo:manfredi-tatiana,MANFREDI Tatiana,foaf:Person
+1299,reo:mangiapane-gianluigi,MANGIAPANE GIANLUIGI,foaf:Person
+1300,reo:manini-daniele,MANINI Daniele,foaf:Person
+1301,reo:maniscalco-lorella,MANISCALCO Lorella,foaf:Person
+1302,reo:mannelli-chiara,MANNELLI CHIARA,foaf:Person
+1303,reo:mannino-giuseppe,MANNINO Giuseppe,foaf:Person
+1304,reo:mano-maria-piera,MANO Maria Piera,foaf:Person
+1305,reo:manolino-carola,MANOLINO CAROLA,foaf:Person
+1306,reo:mantegna-sarah,MANTEGNA SARAH,foaf:Person
+1307,reo:mantione-marta,MANTIONE MARTA,foaf:Person
+1308,reo:mantovani-alizia,MANTOVANI ALIZIA,foaf:Person
+1309,reo:manuel-cacitti,Manuel-Cacitti,foaf:Person
+1310,reo:manuel-matos,Manuel-Matos,foaf:Person
+1311,reo:manuello-jordi,MANUELLO JORDI,foaf:Person
+1312,reo:manzoli-maela,MANZOLI Maela,foaf:Person
+1313,reo:marcello-simonetta,MARCELLO Simonetta,foaf:Person
+1314,reo:marcelo-pasin,Marcelo-Pasin,foaf:Person
+1315,reo:marcenaro-lisa-gelsomina,MARCENARO Lisa Gelsomina,foaf:Person
+1316,reo:marchetti-m,MARCHETTI-M,foaf:Person
+1317,reo:marchisio-cecilia,MARCHISIO Cecilia,foaf:Person
+1318,reo:marchisio-conte-marina,MARCHISIO CONTE Marina,foaf:Person
+1319,reo:marco--aldinucci,Marco--Aldinucci,foaf:Person
+1320,reo:marco--di-summa,Marco--Di-Summa,foaf:Person
+1321,reo:marco-aldinucci,Marco ALDINUCCI,foaf:Person
+1322,reo:marco-beccuti,Marco BECCUTI,foaf:Person
+1323,reo:marco-botta,Marco BOTTA,foaf:Person
+1324,reo:marco-comini,Marco-Comini,foaf:Person
+1325,reo:marco-danelutto,Marco-Danelutto,foaf:Person
+1326,reo:marco-grangetto,Marco GRANGETTO,foaf:Person
+1327,reo:marco-martin,Marco-Martin,foaf:Person
+1328,reo:marco-pironti,Marco PIRONTI,foaf:Person
+1329,reo:marco-vanneschi,Marco-Vanneschi,foaf:Person
+1330,reo:marello-carla,MARELLO Carla,foaf:Person
+1331,reo:marello-enrico,MARELLO Enrico,foaf:Person
+1332,reo:marengo-arianna,MARENGO ARIANNA,foaf:Person
+1333,reo:marengo-elisa,Elisa MARENGO,foaf:Person
+1334,reo:marengo-mauro,MARENGO Mauro,foaf:Person
+1335,reo:mareschi-katia,MARESCHI Katia,foaf:Person
+1336,reo:margiotta-amelia-bice,MARGIOTTA Amelia Bice,foaf:Person
+1337,reo:margotti-marta,MARGOTTI Marta,foaf:Person
+1338,reo:maria-luisa-sapino,Maria-Luisa SAPINO,foaf:Person
+1339,reo:mariangiola-dezani,Mariangiola-Dezani,foaf:Person
+1340,reo:mariangiola-dezani-ciancaglini,MARIANGIOLA-DEZANI-CIANCAGLINI,foaf:Person
+1341,reo:mariano-marco,MARIANO Marco,foaf:Person
+1342,reo:marica-de-vincenzi,MARICA-DE-VINCENZI,foaf:Person
+1343,reo:mariella-elisa,MARIELLA ELISA,foaf:Person
+1344,reo:marini-elena,MARINI Elena,foaf:Person
+1345,reo:marini-elisabetta,MARINI Elisabetta,foaf:Person
+1346,reo:marino-anna,MARINO ANNA,foaf:Person
+1347,reo:marino-gabriele,MARINO Gabriele,foaf:Person
+1348,reo:marino-gian-manuel,MARINO GIAN MANUEL,foaf:Person
+1349,reo:marino-segnan,Marino SEGNAN,foaf:Person
+1350,reo:mario-cataldi,Mario-Cataldi,foaf:Person
+1351,reo:mario-coppo,MARIO-COPPO,foaf:Person
+1352,reo:mario-gai,MARIO-GAI,foaf:Person
+1353,reo:mario-parena,Mario-Parena,foaf:Person
+1354,reo:mariotti-nicole,MARIOTTI NICOLE,foaf:Person
+1355,reo:maritato-chiara,MARITATO Chiara,foaf:Person
+1356,reo:maronati-camilla,MARONATI Camilla,foaf:Person
+1357,reo:maroncelli-silvia,MARONCELLI SILVIA,foaf:Person
+1358,reo:marras-anna-maria,MARRAS Anna Maria,foaf:Person
+1359,reo:marraudino-marilena,MARRAUDINO Marilena,foaf:Person
+1360,reo:marroccoli-giulia,MARROCCOLI GIULIA,foaf:Person
+1361,reo:marta-ferri,Marta-Ferri,foaf:Person
+1362,reo:martella-antonio,MARTELLA Antonio,foaf:Person
+1363,reo:martelli-alberto,MARTELLI Alberto,foaf:Person
+1364,reo:martelli-francesca,MARTELLI FRANCESCA,foaf:Person
+1365,reo:martellozzo-nicola,MARTELLOZZO NICOLA,foaf:Person
+1366,reo:martin-barbara,MARTIN Barbara,foaf:Person
+1367,reo:martin-maria,MARTIN Maria,foaf:Person
+1368,reo:martin-sanchez-luis-antonio,MARTIN SANCHEZ Luis Antonio,foaf:Person
+1369,reo:martina-m,MARTINA-M,foaf:Person
+1370,reo:martinelli-francesco,MARTINELLI FRANCESCO,foaf:Person
+1371,reo:martini,MARTINI,foaf:Person
+1372,reo:martini-mara,MARTINI Mara,foaf:Person
+1373,reo:martini-miriam,MARTINI Miriam,foaf:Person
+1374,reo:martinoglio-b,Martinoglio-B,foaf:Person
+1375,reo:martire-luca,MARTIRE Luca,foaf:Person
+1376,reo:martone-vittorio,MARTONE Vittorio,foaf:Person
+1377,reo:martra-gianmario,MARTRA Gianmario,foaf:Person
+1378,reo:marucco-arianna-maria-beatrice,MARUCCO Arianna Maria Beatrice,foaf:Person
+1379,reo:marucco-francesca,MARUCCO Francesca,foaf:Person
+1380,reo:maschio-lorenzo,MASCHIO Lorenzo,foaf:Person
+1381,reo:masciocco-luciano,MASCIOCCO Luciano,foaf:Person
+1382,reo:masera-massimo,MASERA Massimo,foaf:Person
+1383,reo:masino-andrea,MASINO Andrea,foaf:Person
+1384,reo:masla-alina,MASLA Alina,foaf:Person
+1385,reo:mason-eloheh,MASON ELOHEH,foaf:Person
+1386,reo:massariello-patrizia,MASSARIELLO PATRIZIA,foaf:Person
+1387,reo:massimiliano-de-pierro,MASSIMILIANO-DE-PIERRO,foaf:Person
+1388,reo:massimiliano-meneghin,Massimiliano-Meneghin,foaf:Person
+1389,reo:massimo-coppola,Massimo-Coppola,foaf:Person
+1390,reo:massimo-marchiori,Massimo-Marchiori,foaf:Person
+1391,reo:massimo-torquati,Massimo-Torquati,foaf:Person
+1392,reo:massimo-torquati-and-marco-vanneschi,Massimo-Torquati-and-Marco-Vanneschi,foaf:Person
+1393,reo:massini-giulia,MASSINI GIULIA,foaf:Person
+1394,reo:mastellone-giulia,MASTELLONE GIULIA,foaf:Person
+1395,reo:mastromarino-anna,MASTROMARINO Anna,foaf:Person
+1396,reo:masturzo-nicolò,MASTURZO Nicolò,foaf:Person
+1397,reo:matencio-duran-adrian,MATENCIO DURAN Adrian,foaf:Person
+1398,reo:matera-federica,MATERA FEDERICA,foaf:Person
+1399,reo:mathieu-jan,Mathieu-Jan,foaf:Person
+1400,reo:matta-karen,MATTA Karen,foaf:Person
+1401,reo:mattalia-martina,MATTALIA MARTINA,foaf:Person
+1402,reo:matteo-baldoni,Matteo BALDONI,foaf:Person
+1403,reo:matteo-sereno,Matteo SERENO,foaf:Person
+1404,reo:matteo-villa,Matteo-Villa,foaf:Person
+1405,reo:mattia-schirosa,Mattia-Schirosa,foaf:Person
+1406,reo:mattias-giada,MATTIAS GIADA,foaf:Person
+1407,reo:mattioda-maria-margherita,MATTIODA Maria Margherita,foaf:Person
+1408,reo:mattutino-claudio,MATTUTINO Claudio,foaf:Person
+1409,reo:maule-milena-maria,MAULE Milena Maria,foaf:Person
+1410,reo:maurino-valter,MAURINO Valter,foaf:Person
+1411,reo:maurizio-bruglieri,Maurizio-Bruglieri,foaf:Person
+1412,reo:maurizio-lucenteforte,Maurizio LUCENTEFORTE,foaf:Person
+1413,reo:mauro-alessandro,MAURO Alessandro,foaf:Person
+1414,reo:mauro-noemi,MAURO Noemi,foaf:Person
+1415,reo:mauro-piccolo,Mauro-Piccolo,foaf:Person
+1416,reo:mauthe-degerfeld-mitzy,MAUTHE DEGERFELD Mitzy,foaf:Person
+1417,reo:maza-carola,MAZA CAROLA,foaf:Person
+1418,reo:mazza-alessandro,MAZZA ALESSANDRO,foaf:Person
+1419,reo:mazzarella-teresa,MAZZARELLA TERESA,foaf:Person
+1420,reo:mazzei-alessandro,Alessandro MAZZEI,foaf:Person
+1421,reo:mazzeo-a,MAZZEO-A,foaf:Person
+1422,reo:mazzetti-simone,MAZZETTI SIMONE,foaf:Person
+1423,reo:mazzocca-n,MAZZOCCA-N,foaf:Person
+1424,reo:mazzoli-roberto,MAZZOLI Roberto,foaf:Person
+1425,reo:mazzucco-asya,MAZZUCCO ASYA,foaf:Person
+1426,reo:meandri-ilario,MEANDRI Ilario,foaf:Person
+1427,reo:medana-claudio,MEDANA Claudio,foaf:Person
+1428,reo:medic-doriana,Doriana MEDIC,foaf:Person
+1429,reo:medico-e,Medico-E,foaf:Person
+1430,reo:mehanovic-emina,Mehanovic Emina,foaf:Person
+1431,reo:meineri-giorgia,MEINERI Giorgia,foaf:Person
+1432,reo:melchionda-elena,MELCHIONDA ELENA,foaf:Person
+1433,reo:memoli-giulia,MEMOLI GIULIA,foaf:Person
+1434,reo:menga-alessio,MENGA Alessio,foaf:Person
+1435,reo:menotti-francesca,MENOTTI Francesca,foaf:Person
+1436,reo:mensa-enrico,Enrico MENSA,foaf:Person
+1437,reo:meo-m,MEO-M,foaf:Person
+1438,reo:meo-rosa,MEO Rosa,foaf:Person
+1439,reo:mercuri-eugenia,MERCURI EUGENIA,foaf:Person
+1440,reo:merighi-adalberto,MERIGHI Adalberto,foaf:Person
+1441,reo:merlin-pierpaolo,MERLIN Pierpaolo,foaf:Person
+1442,reo:merlino-marina,MERLINO Marina,foaf:Person
+1443,reo:merlo-giorgio,MERLO GIORGIO,foaf:Person
+1444,reo:merlo-giorgio-roberto,MERLO Giorgio Roberto,foaf:Person
+1445,reo:merlo-roberto,MERLO Roberto,foaf:Person
+1446,reo:merlone-ugo,MERLONE Ugo,foaf:Person
+1447,reo:meroni-raffaella,MERONI RAFFAELLA,foaf:Person
+1448,reo:messina-vito,MESSINA Vito,foaf:Person
+1449,reo:mezzalama-monica,MEZZALAMA Monica,foaf:Person
+1450,reo:mezzanotte-mariarosa,MEZZANOTTE MARIAROSA,foaf:Person
+1451,reo:micalizio-roberto,MICALIZIO Roberto,foaf:Person
+1452,reo:micalizzi-ester,MICALIZZI ESTER,foaf:Person
+1453,reo:miceli-matteo,MICELI MATTEO,foaf:Person
+1454,reo:michael-classen,Michael-Classen,foaf:Person
+1455,reo:michele-bugliesi,MICHELE-BUGLIESI,foaf:Person
+1456,reo:michele-paolo-bocca-garetto,Michele-Paolo BOCCA-GARETTO,foaf:Person
+1457,reo:michele-rossi,Michele-Rossi,foaf:Person
+1458,reo:micheletti-cremasco-margherita,MICHELETTI CREMASCO Margherita,foaf:Person
+1459,reo:migheli-matteo,MIGHELI Matteo,foaf:Person
+1460,reo:migliaccio-enrico,MIGLIACCIO Enrico,foaf:Person
+1461,reo:migliaretti-giuseppe,MIGLIARETTI Giuseppe,foaf:Person
+1462,reo:migliavacca-alessandro,MIGLIAVACCA Alessandro,foaf:Person
+1463,reo:miglietta-anna,MIGLIETTA Anna,foaf:Person
+1464,reo:miglietta-nicola,MIGLIETTA Nicola,foaf:Person
+1465,reo:miglio-gianluca,MIGLIO Gianluca,foaf:Person
+1466,reo:migliore-sandra,MIGLIORE Sandra,foaf:Person
+1467,reo:mika-klemettinen,Mika-Klemettinen,foaf:Person
+1468,reo:mike-guether,Mike-Guether,foaf:Person
+1469,reo:milani-lorena,MILANI Lorena,foaf:Person
+1470,reo:milani-matteo,MILANI Matteo,foaf:Person
+1471,reo:mina-giorgio,MINA GIORGIO,foaf:Person
+1472,reo:minella-marco,MINELLA Marco,foaf:Person
+1473,reo:minerdi-daniela,MINERDI Daniela,foaf:Person
+1474,reo:minero-claudio,MINERO Claudio,foaf:Person
+1475,reo:minutella-vincenza,MINUTELLA Vincenza,foaf:Person
+1476,reo:mioletti-silvia,MIOLETTI Silvia,foaf:Person
+1477,reo:miravalle-edoardo,MIRAVALLE EDOARDO,foaf:Person
+1478,reo:mirko-viroli,Mirko-Viroli,foaf:Person
+1479,reo:mirlisenna-ilaria,MIRLISENNA Ilaria,foaf:Person
+1480,reo:mittone-gianluca,MITTONE GIANLUCA,foaf:Person
+1481,reo:moccia-chiara,MOCCIA Chiara,foaf:Person
+1482,reo:modeo-s,MODEO-S,foaf:Person
+1483,reo:moggio-chiara,MOGGIO CHIARA,foaf:Person
+1484,reo:moglia-andrea,MOGLIA Andrea,foaf:Person
+1485,reo:mognetti-barbara,MOGNETTI Barbara,foaf:Person
+1486,reo:mohamed-radwan-ahmed-salem-maha,MOHAMED RADWAN AHMED SALEM Maha,foaf:Person
+1487,reo:mohammad-abido,Mohammad-Abido,foaf:Person
+1488,reo:moietta-marco,MOIETTA Marco,foaf:Person
+1489,reo:moiso-valentina,MOISO Valentina,foaf:Person
+1490,reo:molina-paola-fausta-maria,MOLINA Paola Fausta Maria,foaf:Person
+1491,reo:molinari-marianna,MOLINARI MARIANNA,foaf:Person
+1492,reo:molino-alessandra,MOLINO Alessandra,foaf:Person
+1493,reo:molino-g,MOLINO-G,foaf:Person
+1494,reo:molino-monica,MOLINO Monica,foaf:Person
+1495,reo:mollea-simone,MOLLEA SIMONE,foaf:Person
+1496,reo:monaci-sara,MONACI Sara,foaf:Person
+1497,reo:monasterolo-vittorio,MONASTEROLO Vittorio,foaf:Person
+1498,reo:monateri-valentina,MONATERI VALENTINA,foaf:Person
+1499,reo:monge-filippo,MONGE Filippo,foaf:Person
+1500,reo:montaldo-silvano,MONTALDO Silvano,foaf:Person
+1501,reo:montaldo-stefano,MONTALDO Stefano,foaf:Person
+1502,reo:montalvan-olivares-diango-manuel,MONTALVAN OLIVARES Diango Manuel,foaf:Person
+1503,reo:montani-s,MONTANI-S,foaf:Person
+1504,reo:montemagni-simonetta,Montemagni-Simonetta,foaf:Person
+1505,reo:monti-valeria,MONTI VALERIA,foaf:Person
+1506,reo:monticone-alessia,MONTICONE ALESSIA,foaf:Person
+1507,reo:monzon-ignacio-hector,MONZON Ignacio Hector,foaf:Person
+1508,reo:morabito-cristina,MORABITO CRISTINA,foaf:Person
+1509,reo:morandi-sara,MORANDI Sara,foaf:Person
+1510,reo:morelli-brigida,MORELLI BRIGIDA,foaf:Person
+1511,reo:morelli-federica,MORELLI Federica,foaf:Person
+1512,reo:morelli-umberto,MORELLI Umberto,foaf:Person
+1513,reo:morello-emanuela-maria,MORELLO Emanuela Maria,foaf:Person
+1514,reo:morello-virginia,MORELLO Virginia,foaf:Person
+1515,reo:moretti-riccardo,MORETTI Riccardo,foaf:Person
+1516,reo:moretti-viviana,MORETTI Viviana,foaf:Person
+1517,reo:mori-a,MORI-A,foaf:Person
+1518,reo:mori-maurizio,MORI Maurizio,foaf:Person
+1519,reo:moroni-alessia,MORONI ALESSIA,foaf:Person
+1520,reo:moroni-barbara,MORONI BARBARA,foaf:Person
+1521,reo:mosca-fabrizio,MOSCA Fabrizio,foaf:Person
+1522,reo:mosca-ivan,MOSCA IVAN,foaf:Person
+1523,reo:mosca-marta,MOSCA MARTA,foaf:Person
+1524,reo:moscato-vito,MOSCATO Vito,foaf:Person
+1525,reo:mosso-cristina-onesta,MOSSO Cristina Onesta,foaf:Person
+1526,reo:mota-gutierrez-jatziri,MOTA GUTIERREZ Jatziri,foaf:Person
+1527,reo:mottolese-m,Mottolese-M,foaf:Person
+1528,reo:mucciarelli-marco,MUCCIARELLI Marco,foaf:Person
+1529,reo:muggeo-giulia-francesca,MUGGEO Giulia Francesca,foaf:Person
+1530,reo:mula-jacopo,MULA JACOPO,foaf:Person
+1531,reo:mulas-giovannantonio,MULAS Giovannantonio,foaf:Person
+1532,reo:mulasso-anna,MULASSO Anna,foaf:Person
+1533,reo:munaron-luca-maria,MUNARON Luca Maria,foaf:Person
+1534,reo:murabito-alessandra,MURABITO ALESSANDRA,foaf:Person
+1535,reo:muratori-luisa,MURATORI Luisa,foaf:Person
+1536,reo:murgia-f,MURGIA-F,foaf:Person
+1537,reo:murru-nadir,MURRU Nadir,foaf:Person
+1538,reo:murtas-vittorio,MURTAS VITTORIO,foaf:Person
+1539,reo:mussa-valentina,MUSSA VALENTINA,foaf:Person
+1540,reo:mussat-sartor-rocco,MUSSAT SARTOR ROCCO,foaf:Person
+1541,reo:musumeci-rosy,MUSUMECI Rosy,foaf:Person
+1542,reo:mutti-donatella,MUTTI Donatella,foaf:Person
+1543,reo:nadia-ranaldo,Nadia-Ranaldo,foaf:Person
+1544,reo:nai-roberto,ROBERTO NAI,foaf:Person
+1545,reo:naldini-manuela,NALDINI Manuela,foaf:Person
+1546,reo:nasi-andrea,NASI ANDREA,foaf:Person
+1547,reo:natale-francesca,NATALE Francesca,foaf:Person
+1548,reo:natale-simone,NATALE Simone,foaf:Person
+1549,reo:natali-sabrina,NATALI SABRINA,foaf:Person
+1550,reo:natalia-stash,Natalia-Stash,foaf:Person
+1551,reo:natalie-currle-linde,Natalie-Currle-Linde,foaf:Person
+1552,reo:nave-elena,NAVE ELENA,foaf:Person
+1553,reo:nazio-tiziana,NAZIO Tiziana,foaf:Person
+1554,reo:ndiaye-youssou,NDIAYE YOUSSOU,foaf:Person
+1555,reo:negri-chiara,NEGRI CHIARA,foaf:Person
+1556,reo:nelva-daniela,NELVA Daniela,foaf:Person
+1557,reo:nepote-valentin-davide,NEPOTE VALENTIN DAVIDE,foaf:Person
+1558,reo:neppi-modona-marco,NEPPI MODONA Marco,foaf:Person
+1559,reo:neri-f,NERI-F,foaf:Person
+1560,reo:niccolai-arianna,NICCOLAI Arianna,foaf:Person
+1561,reo:nicola-olivetti,Nicola-Olivetti,foaf:Person
+1562,reo:nicola-silvana,NICOLA Silvana,foaf:Person
+1563,reo:nicola-tonellotto,Nicola-Tonellotto,foaf:Person
+1564,reo:nicoletti-giulia,nicoletti giulia,foaf:Person
+1565,reo:nicolotti-andrea,NICOLOTTI Andrea,foaf:Person
+1566,reo:nikfam-farzad,NIKFAM Farzad,foaf:Person
+1567,reo:nikolli-xhesika,NIKOLLI XHESIKA,foaf:Person
+1568,reo:nirchio-paola,NIRCHIO PAOLA,foaf:Person
+1569,reo:no,no,foaf:Person
+1570,reo:nobuko-yoshida,Nobuko-Yoshida,foaf:Person
+1571,reo:norscia-ivan,NORSCIA Ivan,foaf:Person
+1572,reo:nosari-sara,NOSARI Sara,foaf:Person
+1573,reo:nota-chiara,NOTA CHIARA,foaf:Person
+1574,reo:noto-giuseppe,NOTO Giuseppe,foaf:Person
+1575,reo:novaretti-simona,NOVARETTI Simona,foaf:Person
+1576,reo:novaria-paola,NOVARIA Paola,foaf:Person
+1577,reo:novelli-silvia,NOVELLI Silvia,foaf:Person
+1578,reo:novello-s,NOVELLO-S,foaf:Person
+1579,reo:novello-silvia,NOVELLO Silvia,foaf:Person
+1580,reo:nuciari-marina,NUCIARI Marina,foaf:Person
+1581,reo:nurra-nicola,NURRA Nicola,foaf:Person
+1582,reo:nuzzolese-emilio,NUZZOLESE Emilio,foaf:Person
+1583,reo:oberti-emanuela,OBERTI Emanuela,foaf:Person
+1584,reo:obertino-maria-margherita,OBERTINO Maria Margherita,foaf:Person
+1585,reo:occhibove-flavia,OCCHIBOVE Flavia,foaf:Person
+1586,reo:ocelli-pinheiro-raphael,OCELLI PINHEIRO Raphael,foaf:Person
+1587,reo:oddi-ludovica,ODDI Ludovica,foaf:Person
+1588,reo:odore-rosangela,ODORE Rosangela,foaf:Person
+1589,reo:oliva-cinzia,OLIVA CINZIA,foaf:Person
+1590,reo:olivero-luciano,OLIVERO Luciano,foaf:Person
+1591,reo:olivero-paolo,OLIVERO Paolo,foaf:Person
+1592,reo:olivero-sara,OLIVERO Sara,foaf:Person
+1593,reo:olivetta-eraldo,OLIVETTA Eraldo,foaf:Person
+1594,reo:oliviero-salvatore,OLIVIERO Salvatore,foaf:Person
+1595,reo:olmo-g,OLMO-G,foaf:Person
+1596,reo:omar-cortassa,OMAR-CORTASSA,foaf:Person
+1597,reo:onesti-cristina,ONESTI Cristina,foaf:Person
+1598,reo:onorato-miguel,ONORATO Miguel,foaf:Person
+1599,reo:oppioli-michele,OPPIOLI MICHELE,foaf:Person
+1600,reo:orrù-michael,ORRÙ MICHAEL,foaf:Person
+1601,reo:orso-francesca,ORSO FRANCESCA,foaf:Person
+1602,reo:orusa-tommaso,ORUSA TOMMASO,foaf:Person
+1603,reo:ossola-giovanni,OSSOLA Giovanni,foaf:Person
+1604,reo:ottonello-stefania,OTTONELLO Stefania,foaf:Person
+1605,reo:ottoz-elisabetta,OTTOZ Elisabetta,foaf:Person
+1606,reo:ozella-laura,OZELLA Laura,foaf:Person
+1607,reo:paccagnella-luciano,PACCAGNELLA Luciano,foaf:Person
+1608,reo:pace-vittorio,PACE Vittorio,foaf:Person
+1609,reo:padovan-dario,PADOVAN Dario,foaf:Person
+1610,reo:pagallo-ugo,PAGALLO Ugo,foaf:Person
+1611,reo:paganini-maria-cristina,PAGANINI Maria Cristina,foaf:Person
+1612,reo:palazzi-elisa,PALAZZI Elisa,foaf:Person
+1613,reo:palea-vera,PALEA Vera,foaf:Person
+1614,reo:palermiti-alice,PALERMITI ALICE,foaf:Person
+1615,reo:palermo-sara,PALERMO Sara,foaf:Person
+1616,reo:pallante-francesco,PALLANTE Francesco,foaf:Person
+1617,reo:palma-alberto-maria,PALMA ALBERTO MARIA,foaf:Person
+1618,reo:palmieri-silvia,PALMIERI SILVIA,foaf:Person
+1619,reo:palmieri-stefano,PALMIERI Stefano,foaf:Person
+1620,reo:palmisano-stefania,PALMISANO Stefania,foaf:Person
+1621,reo:palomba-mauro,PALOMBA MAURO,foaf:Person
+1622,reo:pamelin-diletta,PAMELIN Diletta,foaf:Person
+1623,reo:panella-claudio-simone-guido,PANELLA CLAUDIO SIMONE GUIDO,foaf:Person
+1624,reo:panic-jovana,PANIC JOVANA,foaf:Person
+1625,reo:panuzzo-cristina,PANUZZO Cristina,foaf:Person
+1626,reo:panzanelli-fratoni-maria-alessandra,PANZANELLI FRATONI Maria Alessandra,foaf:Person
+1627,reo:panzica-giancarlo,PANZICA Giancarlo,foaf:Person
+1628,reo:paola-giannini,PAOLA-GIANNINI,foaf:Person
+1629,reo:paolini-luca-luigi,Luca-Luigi PAOLINI,foaf:Person
+1630,reo:paolo-dal-checco,PAOLO DAL-CHECCO,foaf:Person
+1631,reo:paolo-pesciullesi,Paolo-Pesciullesi,foaf:Person
+1632,reo:paolo-terenziani,Paolo-Terenziani,foaf:Person
+1633,reo:paolo-teti,Paolo-Teti,foaf:Person
+1634,reo:papa-elena,PAPA Elena,foaf:Person
+1635,reo:paparelli-elisa,PAPARELLI ELISA,foaf:Person
+1636,reo:papasidero-marco,PAPASIDERO MARCO,foaf:Person
+1637,reo:paraboschi-s,PARABOSCHI-S,foaf:Person
+1638,reo:paradiso-federica,PARADISO Federica,foaf:Person
+1639,reo:pareti-germana,PARETI Germana,foaf:Person
+1640,reo:parini-ilaria,PARINI Ilaria,foaf:Person
+1641,reo:parisi-tania,PARISI Tania,foaf:Person
+1642,reo:parola-alberto,PAROLA Alberto,foaf:Person
+1643,reo:parola-carlotta,PAROLA CARLOTTA,foaf:Person
+1644,reo:paruzzo-francesca,PARUZZO FRANCESCA,foaf:Person
+1645,reo:paschetta-mauro,PASCHETTA Mauro,foaf:Person
+1646,reo:pasini-enrico,PASINI Enrico,foaf:Person
+1647,reo:pasquero-selina,PASQUERO SELINA,foaf:Person
+1648,reo:pasquini-dario,PASQUINI Dario,foaf:Person
+1649,reo:passalacqua-virginia,PASSALACQUA Virginia,foaf:Person
+1650,reo:passananti-monica,PASSANANTI Monica,foaf:Person
+1651,reo:pasteris-paolo,PASTERIS Paolo,foaf:Person
+1652,reo:pastero-linda,PASTERO Linda,foaf:Person
+1653,reo:patrizio-dazzi,Patrizio-Dazzi,foaf:Person
+1654,reo:patti-federica,PATTI Federica,foaf:Person
+1655,reo:patti-viviana,PATTI Viviana,foaf:Person
+1656,reo:paul-fleming,Paul-Fleming,foaf:Person
+1657,reo:pautasso-daniele,PAUTASSO DANIELE,foaf:Person
+1658,reo:pavan-marta,PAVAN MARTA,foaf:Person
+1659,reo:pavarino-gianna,PAVARINO GIANNA,foaf:Person
+1660,reo:pavese-alessandro,PAVESE Alessandro,foaf:Person
+1661,reo:pavese-vera,Pavese Vera,foaf:Person
+1662,reo:pavinato-lisa,PAVINATO LISA,foaf:Person
+1663,reo:peano-andrea,PEANO Andrea,foaf:Person
+1664,reo:peano-cristiana,PEANO Cristiana,foaf:Person
+1665,reo:pearce-s,PEARCE-S,foaf:Person
+1666,reo:pedro-linares,Pedro-Linares,foaf:Person
+1667,reo:pedros-shatarski-m,PEDROS-SHATARSKI-M,foaf:Person
+1668,reo:peila-patrizia,PEILA Patrizia,foaf:Person
+1669,reo:peira-elena,PEIRA Elena,foaf:Person
+1670,reo:peira-giovanni,PEIRA Giovanni,foaf:Person
+1671,reo:peiretti-federico,PEIRETTI Federico,foaf:Person
+1672,reo:peirone-dario,PEIRONE Dario,foaf:Person
+1673,reo:pelissero-alberto,PELISSERO Alberto,foaf:Person
+1674,reo:pellicelli-anna-claudia,PELLICELLI Anna Claudia,foaf:Person
+1675,reo:pellizzari-andrea,PELLIZZARI Andrea,foaf:Person
+1676,reo:pellizzari-patrizia,PELLIZZARI Patrizia,foaf:Person
+1677,reo:peng-l,PENG-L,foaf:Person
+1678,reo:penna-b,PENNA-B,foaf:Person
+1679,reo:penna-tullia,PENNA Tullia,foaf:Person
+1680,reo:pennacini-cecilia,PENNACINI Cecilia,foaf:Person
+1681,reo:pennesi-daniele,PENNESI Daniele,foaf:Person
+1682,reo:pensa-ruggero-gaetano,PENSA Ruggero Gaetano,foaf:Person
+1683,reo:pera-rebecca,PERA Rebecca,foaf:Person
+1684,reo:peretto-paolo-marcello,PERETTO Paolo Marcello,foaf:Person
+1685,reo:pergolizzi-barbara,PERGOLIZZI Barbara,foaf:Person
+1686,reo:perisic-olja,PERISIC Olja,foaf:Person
+1687,reo:perissinotto-alessandro,PERISSINOTTO Alessandro,foaf:Person
+1688,reo:pernagallo-giuseppe,PERNAGALLO Giuseppe,foaf:Person
+1689,reo:pernice-simone,PERNICE Simone,foaf:Person
+1690,reo:perona-giovanni,PERONA Giovanni,foaf:Person
+1691,reo:perona-silvia,PERONA Silvia,foaf:Person
+1692,reo:perona-sonia,PERONA SONIA,foaf:Person
+1693,reo:perotti-luigi,PEROTTI Luigi,foaf:Person
+1694,reo:perotto-gabriella,PEROTTO GABRIELLA,foaf:Person
+1695,reo:perrelli-andrea,PERRELLI ANDREA,foaf:Person
+1696,reo:perrone-giulia,PERRONE GIULIA,foaf:Person
+1697,reo:perugini-iolanda,PERUGINI Iolanda,foaf:Person
+1698,reo:pescarmona-isabella,PESCARMONA Isabella,foaf:Person
+1699,reo:pescitelli-claudia,PESCITELLI CLAUDIA,foaf:Person
+1700,reo:pessina-gianmaria-luigi,PESSINA Gianmaria Luigi,foaf:Person
+1701,reo:pessione-matteo-angelo-aldo,PESSIONE MATTEO ANGELO ALDO,foaf:Person
+1702,reo:petean-rossana,PETEAN Rossana,foaf:Person
+1703,reo:peter--kilpatrick,Peter--Kilpatrick,foaf:Person
+1704,reo:peter-kilpatrick,Peter-Kilpatrick,foaf:Person
+1705,reo:petriglieri-jasmine-rita,PETRIGLIERI Jasmine Rita,foaf:Person
+1706,reo:petrillo-sara,PETRILLO SARA,foaf:Person
+1707,reo:petrone-g,PETRONE-G,foaf:Person
+1708,reo:petrucci-federico-maria,PETRUCCI Federico Maria,foaf:Person
+1709,reo:pettenati-giacomo,PETTENATI Giacomo,foaf:Person
+1710,reo:pezzano-giacomo,PEZZANO Giacomo,foaf:Person
+1711,reo:philipp-classen,Philipp-Classen,foaf:Person
+1712,reo:pia-lorenzo,PIA Lorenzo,foaf:Person
+1713,reo:pia-patrizia,PIA Patrizia,foaf:Person
+1714,reo:piano-elena,PIANO Elena,foaf:Person
+1715,reo:pibiri-roberta,PIBIRI Roberta,foaf:Person
+1716,reo:picardi-claudia,Claudia PICARDI,foaf:Person
+1717,reo:picchio-silvia,PICCHIO Silvia,foaf:Person
+1718,reo:picciau-luca,PICCIAU Luca,foaf:Person
+1719,reo:piccini-irene,PICCINI IRENE,foaf:Person
+1720,reo:piccio-daniela-romée,PICCIO Daniela Romée,foaf:Person
+1721,reo:piccione-rosa-maria,PICCIONE Rosa Maria,foaf:Person
+1722,reo:picco-agnese,PICCO AGNESE,foaf:Person
+1723,reo:picco-g,Picco-G,foaf:Person
+1724,reo:piedimonte-alessandro,PIEDIMONTE Alessandro,foaf:Person
+1725,reo:piercarlo-rossi,Piercarlo-Rossi,foaf:Person
+1726,reo:pierfrancesco-zuccato,Pierfrancesco-Zuccato,foaf:Person
+1727,reo:pierpaolo-ciullo,Pierpaolo-Ciullo,foaf:Person
+1728,reo:pierre-hosteins,Pierre HOSTEINS,foaf:Person
+1729,reo:pierre-kuonen,Pierre-Kuonen,foaf:Person
+1730,reo:pietro-torasso,PIETRO-TORASSO,foaf:Person
+1731,reo:pignata-cristina,PIGNATA Cristina,foaf:Person
+1732,reo:pignata-irene,PIGNATA IRENE,foaf:Person
+1733,reo:pignatti-matteo,PIGNATTI Matteo,foaf:Person
+1734,reo:pignochino-ymera,PIGNOCHINO Ymera,foaf:Person
+1735,reo:pileggi-francesca,PILEGGI Francesca,foaf:Person
+1736,reo:pilello-giuseppe,PILELLO GIUSEPPE,foaf:Person
+1737,reo:piletta-massaro-andrea,PILETTA MASSARO Andrea,foaf:Person
+1738,reo:pinardi-stefano,PINARDI Stefano,foaf:Person
+1739,reo:piovano-alessandro,PIOVANO ALESSANDRO,foaf:Person
+1740,reo:piovano-luca,Piovano-Luca,foaf:Person
+1741,reo:pipitone-daniele,PIPITONE Daniele,foaf:Person
+1742,reo:pippione-agnese-chiara,PIPPIONE Agnese Chiara,foaf:Person
+1743,reo:piroi-margherita,PIROI MARGHERITA,foaf:Person
+1744,reo:pironti-marco,PIRONTI Marco,foaf:Person
+1745,reo:pirovano-donato,PIROVANO Donato,foaf:Person
+1746,reo:pisano-paola,PISANO Paola,foaf:Person
+1747,reo:pisciuneri-letizia,PISCIUNERI Letizia,foaf:Person
+1748,reo:pizzagalli-fabrizio,PIZZAGALLI Fabrizio,foaf:Person
+1749,reo:pizzarelli-chiara,PIZZARELLI CHIARA,foaf:Person
+1750,reo:pizzimenti-stefania,PIZZIMENTI Stefania,foaf:Person
+1751,reo:pizzo,Pizzo,foaf:Person
+1752,reo:pizzo-antonio,PIZZO Antonio,foaf:Person
+1753,reo:plazio-elisa,PLAZIO Elisa,foaf:Person
+1754,reo:plebani-matteo,PLEBANI Matteo,foaf:Person
+1755,reo:podvorica-leonora,PODVORICA Leonora,foaf:Person
+1756,reo:polato-mirko,Mirko POLATO,foaf:Person
+1757,reo:poles-karol,POLES KAROL,foaf:Person
+1758,reo:poli-tommaso,POLI Tommaso,foaf:Person
+1759,reo:poli-valeria,POLI Valeria,foaf:Person
+1760,reo:pollastro-irene,POLLASTRO Irene,foaf:Person
+1761,reo:pollo-alessandra,POLLO ALESSANDRA,foaf:Person
+1762,reo:pollone-matteo,POLLONE MATTEO,foaf:Person
+1763,reo:pomponiu-v,POMPONIU-V,foaf:Person
+1764,reo:ponsetto-paola,PONSETTO PAOLA,foaf:Person
+1765,reo:ponso-marzia,PONSO Marzia,foaf:Person
+1766,reo:pontremoli-alessandro-piero-mario,PONTREMOLI Alessandro Piero Mario,foaf:Person
+1767,reo:ponzio-silvia,PONZIO Silvia,foaf:Person
+1768,reo:ponzo-jenny,PONZO Jenny,foaf:Person
+1769,reo:ponzo-valentina,PONZO VALENTINA,foaf:Person
+1770,reo:popovic-maja,POPOVIC Maja,foaf:Person
+1771,reo:porcellana-valentina,PORCELLANA Valentina,foaf:Person
+1772,reo:porpiglia-francesco,PORPIGLIA Francesco,foaf:Person
+1773,reo:porporato-anna-maria,PORPORATO Anna Maria,foaf:Person
+1774,reo:porporato-marco,PORPORATO Marco,foaf:Person
+1775,reo:porretti-stefano,PORRETTI STEFANO,foaf:Person
+1776,reo:porrone-arianna,PORRONE ARIANNA,foaf:Person
+1777,reo:porta-massimo,PORTA Massimo,foaf:Person
+1778,reo:portinale-luigi,Portinale-Luigi,foaf:Person
+1779,reo:postiglione-rossella,POSTIGLIONE Rossella,foaf:Person
+1780,reo:poto-margherita-paola,POTO Margherita Paola,foaf:Person
+1781,reo:pozzato-gian--luca,Gian--Luca POZZATO,foaf:Person
+1782,reo:prandi-cristina,PRANDI Cristina,foaf:Person
+1783,reo:prashant-shenoy,Prashant-Shenoy,foaf:Person
+1784,reo:pravato,PRAVATO,foaf:Person
+1785,reo:pregel-paola,PREGEL Paola,foaf:Person
+1786,reo:presta-alberto,PRESTA ALBERTO,foaf:Person
+1787,reo:priano-lorenzo,PRIANO Lorenzo,foaf:Person
+1788,reo:prigione-valeria-paola,PRIGIONE Valeria Paola,foaf:Person
+1789,reo:priola-emanuele,PRIOLA Emanuele,foaf:Person
+1790,reo:priolo-calogero-giorgio,PRIOLO Calogero Giorgio,foaf:Person
+1791,reo:priori-eleonora,PRIORI ELEONORA,foaf:Person
+1792,reo:priotti-giulia,Priotti Giulia,foaf:Person
+1793,reo:pronzato-chiara-daniela,PRONZATO Chiara Daniela,foaf:Person
+1794,reo:provero-luigi,PROVERO Luigi,foaf:Person
+1795,reo:pugliese-massimo,PUGLIESE Massimo,foaf:Person
+1796,reo:pugliese-nadia,PUGLIESE NADIA,foaf:Person
+1797,reo:puliafito-a,PULIAFITO-A,foaf:Person
+1798,reo:pullano-verdiana,PULLANO VERDIANA,foaf:Person
+1799,reo:pulvirenti-marta,PULVIRENTI MARTA,foaf:Person
+1800,reo:pura-guil,PURA-GUIL,foaf:Person
+1801,reo:pyasik-maria,PYASIK MARIA,foaf:Person
+1802,reo:qi-y,QI-Y,foaf:Person
+1803,reo:quaglino-elena,QUAGLINO Elena,foaf:Person
+1804,reo:quaglino-pietro,QUAGLINO Pietro,foaf:Person
+1805,reo:quaranta-giuseppe,QUARANTA Giuseppe,foaf:Person
+1806,reo:quarta-alessandra,QUARTA Alessandra,foaf:Person
+1807,reo:quarta-alessandro,QUARTA ALESSANDRO,foaf:Person
+1808,reo:quatraro-francesco,QUATRARO Francesco,foaf:Person
+1809,reo:quattrone-giovanni,Giovanni QUATTRONE,foaf:Person
+1810,reo:querio-giulia,QUERIO GIULIA,foaf:Person
+1811,reo:rabaglietti-emanuela,RABAGLIETTI Emanuela,foaf:Person
+1812,reo:rabbito-rosita,RABBITO ROSITA,foaf:Person
+1813,reo:rabellino-s,Rabellino-S,foaf:Person
+1814,reo:rabellino-sergio,RABELLINO Sergio,foaf:Person
+1815,reo:racca-gabriella-margherita,RACCA Gabriella Margherita,foaf:Person
+1816,reo:radicioni-daniele-paolo,Daniele-Paolo RADICIONI,foaf:Person
+1817,reo:raffaele--pesenti,Raffaele--Pesenti,foaf:Person
+1818,reo:raffaele-a-calogero,Raffaele-A-Calogero,foaf:Person
+1819,reo:raffero-alberto,RAFFERO Alberto,foaf:Person
+1820,reo:ragaglia-beatrice,RAGAGLIA BEATRICE,foaf:Person
+1821,reo:raimo-hamalainen,Raimo-Hamalainen,foaf:Person
+1822,reo:rainero-christian,RAINERO Christian,foaf:Person
+1823,reo:rainoldi-alberto,RAINOLDI Alberto,foaf:Person
+1824,reo:rambozzi-luisa,RAMBOZZI Luisa,foaf:Person
+1825,reo:ramonda-viviana,RAMONDA VIVIANA,foaf:Person
+1826,reo:ramondetti-cristina,RAMONDETTI Cristina,foaf:Person
+1827,reo:rantsiou-kalliopi,RANTSIOU Kalliopi,foaf:Person
+1828,reo:rapp-amon,Amon RAPP,foaf:Person
+1829,reo:ras-ivan-nabil,RAS IVAN NABIL,foaf:Person
+1830,reo:rasool-umra,RASOOL UMRA,foaf:Person
+1831,reo:raspa-federica,RASPA Federica,foaf:Person
+1832,reo:raus-rachele,RAUS Rachele,foaf:Person
+1833,reo:ravarino-mauro,RAVARINO Mauro,foaf:Person
+1834,reo:ravetto-enri-lorenzo,RAVETTO ENRI LORENZO,foaf:Person
+1835,reo:re-alessandro,RE Alessandro,foaf:Person
+1836,reo:re-anna-maria,RE Anna Maria,foaf:Person
+1837,reo:re-giovanni,RE Giovanni,foaf:Person
+1838,reo:rea-antonio,REA ANTONIO,foaf:Person
+1839,reo:rei-matteo,REI Matteo,foaf:Person
+1840,reo:reineri-francesca,REINERI Francesca,foaf:Person
+1841,reo:reinhard-madlener,Reinhard-Madlener,foaf:Person
+1842,reo:remogna-sara,REMOGNA Sara,foaf:Person
+1843,reo:renzulli-riccardo,RENZULLI RICCARDO,foaf:Person
+1844,reo:repetto-manuela,REPETTO Manuela,foaf:Person
+1845,reo:resconi-andrea,RESCONI ANDREA,foaf:Person
+1846,reo:revelli-alberto,REVELLI Alberto,foaf:Person
+1847,reo:reyneri-di-lagnasco-amedeo,REYNERI DI LAGNASCO Amedeo,foaf:Person
+1848,reo:rezaei-mojtaba,REZAEI MOJTABA,foaf:Person
+1849,reo:ribaldone-davide-giuseppe,RIBALDONE Davide Giuseppe,foaf:Person
+1850,reo:ribaudo-m,RIBAUDO-M,foaf:Person
+1851,reo:riberi-mario,RIBERI Mario,foaf:Person
+1852,reo:ricaldone-daniele,RICALDONE DANIELE,foaf:Person
+1853,reo:ricardi-umberto,RICARDI Umberto,foaf:Person
+1854,reo:ricca-chiara,RICCA Chiara,foaf:Person
+1855,reo:riccardo-federica,RICCARDO Federica,foaf:Person
+1856,reo:ricceri-fulvio,RICCERI Fulvio,foaf:Person
+1857,reo:ricchiardi-gabriele,RICCHIARDI Gabriele,foaf:Person
+1858,reo:ricchiardi-paola,RICCHIARDI Paola,foaf:Person
+1859,reo:ricci-chiara,RICCI Chiara,foaf:Person
+1860,reo:ricci-raffaella-giovanna-nella,RICCI Raffaella Giovanna Nella,foaf:Person
+1861,reo:ricciardi-francesca,RICCIARDI Francesca,foaf:Person
+1862,reo:ricciardo-calderaro-michele,RICCIARDO CALDERARO Michele,foaf:Person
+1863,reo:richiardi-lorenzo,RICHIARDI Lorenzo,foaf:Person
+1864,reo:ricucci-roberta,RICUCCI Roberta,foaf:Person
+1865,reo:ricuperati-annalisa,RICUPERATI Annalisa,foaf:Person
+1866,reo:riganti-chiara,RIGANTI Chiara,foaf:Person
+1867,reo:righetti-matteo,RIGHETTI MATTEO,foaf:Person
+1868,reo:rigoni-francesco,RIGONI FRANCESCO,foaf:Person
+1869,reo:rinaudo-marta,RINAUDO MARTA,foaf:Person
+1870,reo:rivoira-luca,RIVOIRA Luca,foaf:Person
+1871,reo:rizzato-fabio,RIZZATO Fabio,foaf:Person
+1872,reo:rizzi-alessandro,RIZZI ALESSANDRO,foaf:Person
+1873,reo:rizzi-paola,RIZZI Paola,foaf:Person
+1874,reo:rizzo-gianluca,Gianluca RIZZO,foaf:Person
+1875,reo:rizzuti-alberto,RIZZUTI Alberto,foaf:Person
+1876,reo:roana-janira,ROANA Janira,foaf:Person
+1877,reo:roatta-silvestro,ROATTA Silvestro,foaf:Person
+1878,reo:roberta-meo,ROBERTA-MEO,foaf:Person
+1879,reo:roberti-marco,ROBERTI MARCO,foaf:Person
+1880,reo:roberto--aringhieri,Roberto--Aringhieri,foaf:Person
+1881,reo:roberto-aringhieri,Roberto ARINGHIERI,foaf:Person
+1882,reo:roberto-cordone,Roberto-Cordone,foaf:Person
+1883,reo:roberto-esposito,Roberto ESPOSITO,foaf:Person
+1884,reo:roberto-micalizio,Roberto MICALIZIO,foaf:Person
+1885,reo:roberto-ravazzolo,Roberto-Ravazzolo,foaf:Person
+1886,reo:roberto-tron,Roberto-Tron,foaf:Person
+1887,reo:roberto-zanetti,Roberto-Zanetti,foaf:Person
+1888,reo:robino-carlo,ROBINO Carlo,foaf:Person
+1889,reo:robino-patrizia-maria,ROBINO Patrizia Maria,foaf:Person
+1890,reo:robustelli-test-claudio,ROBUSTELLI TEST CLAUDIO,foaf:Person
+1891,reo:robutti-ornella,ROBUTTI Ornella,foaf:Person
+1892,reo:rocca-paola,ROCCA Paola,foaf:Person
+1893,reo:rocco-simone,ROCCO SIMONE,foaf:Person
+1894,reo:roccuzzo-gabriele,ROCCUZZO GABRIELE,foaf:Person
+1895,reo:rochas-fabio,ROCHAS Fabio,foaf:Person
+1896,reo:roetto-antonella,ROETTO Antonella,foaf:Person
+1897,reo:rolfo-alessandro,ROLFO Alessandro,foaf:Person
+1898,reo:rolla-simona,ROLLA Simona,foaf:Person
+1899,reo:rolle-luca-giorgio-carlo,ROLLE Luca Giorgio Carlo,foaf:Person
+1900,reo:roman-fabio,ROMAN FABIO,foaf:Person
+1901,reo:romano-antonio,ROMANO Antonio,foaf:Person
+1902,reo:romano-cappi-giulia,ROMANO CAPPI GIULIA,foaf:Person
+1903,reo:romeo-marcella,ROMEO Marcella,foaf:Person
+1904,reo:romolo-alessandra,ROMOLO ALESSANDRA,foaf:Person
+1905,reo:roncarolo-franca,RONCAROLO Franca,foaf:Person
+1906,reo:ronchi-della-rocca-simonetta,RONCHI DELLA ROCCA Simonetta,foaf:Person
+1907,reo:ronchi-giulia,RONCHI Giulia,foaf:Person
+1908,reo:ronco-daniela,RONCO Daniela,foaf:Person
+1909,reo:rondelli-alberto,RONDELLI ALBERTO,foaf:Person
+1910,reo:ronga-irene,RONGA Irene,foaf:Person
+1911,reo:roperto-carlo,ROPERTO Carlo,foaf:Person
+1912,reo:rosa-meo,Rosa MEO,foaf:Person
+1913,reo:ross-baldick,Ross-Baldick,foaf:Person
+1914,reo:rossana-damiano,ROSSANA-DAMIANO,foaf:Person
+1915,reo:rossano-gaeta,Rossano GAETA,foaf:Person
+1916,reo:rossano-schifanella,Rossano SCHIFANELLA,foaf:Person
+1917,reo:rossella-cancelliere,Rossella CANCELLIERE,foaf:Person
+1918,reo:rossi-delgado-cristina,ROSSI DELGADO CRISTINA,foaf:Person
+1919,reo:rossi-elisabetta,ROSSI ELISABETTA,foaf:Person
+1920,reo:rossi-mariacristina,ROSSI Mariacristina,foaf:Person
+1921,reo:rossi-sebastiano-alice,ROSSI SEBASTIANO ALICE,foaf:Person
+1922,reo:rossi-sebastiano-matteo,ROSSI SEBASTIANO MATTEO,foaf:Person
+1923,reo:rossin-daniela,ROSSIN DANIELA,foaf:Person
+1924,reo:rosso-elena,ROSSO ELENA,foaf:Person
+1925,reo:rosso-elisa,ROSSO Elisa,foaf:Person
+1926,reo:rosso-rachele,ROSSO RACHELE,foaf:Person
+1927,reo:rota-francesca-silvia,ROTA Francesca Silvia,foaf:Person
+1928,reo:rovera-cristina,ROVERA Cristina,foaf:Person
+1929,reo:roversi-luca,Luca ROVERSI,foaf:Person
+1930,reo:rubino-u,RUBINO-U,foaf:Person
+1931,reo:rubiola-selene,RUBIOLA Selene,foaf:Person
+1932,reo:rubiolo-patrizia,RUBIOLO Patrizia,foaf:Person
+1933,reo:ruco-valentina,RUCO VALENTINA,foaf:Person
+1934,reo:ruffini-giulia,RUFFINI GIULIA,foaf:Person
+1935,reo:ruffo-g,RUFFO-G,foaf:Person
+1936,reo:ruffo-giancarlo-francesco,RUFFO Giancarlo Francesco,foaf:Person
+1937,reo:ruggeri-alice,RUGGERI ALICE,foaf:Person
+1938,reo:ruggero-gaetano-pensa,Ruggero-Gaetano PENSA,foaf:Person
+1939,reo:ruggiero-matteo-luca,RUGGIERO Matteo Luca,foaf:Person
+1940,reo:ruiu-roberto,RUIU ROBERTO,foaf:Person
+1941,reo:ruozzi-elisa,RUOZZI Elisa,foaf:Person
+1942,reo:ruspa-marta,RUSPA Marta,foaf:Person
+1943,reo:russo-alessia,RUSSO ALESSIA,foaf:Person
+1944,reo:russo-m,Russo-M,foaf:Person
+1945,reo:russo-riccardo,RUSSO Riccardo,foaf:Person
+1946,reo:russo-s,RUSSO-S,foaf:Person
+1947,reo:ruzza-martina,RUZZA MARTINA,foaf:Person
+1948,reo:sabbatini-paolo,SABBATINI Paolo,foaf:Person
+1949,reo:sabena-cristina,SABENA Cristina,foaf:Person
+1950,reo:sacchet-matteo,SACCHET Matteo,foaf:Person
+1951,reo:sacchetti-benedetto,SACCHETTI Benedetto,foaf:Person
+1952,reo:sacchi-roberto,SACCHI Roberto,foaf:Person
+1953,reo:sacco-katiuscia,SACCO Katiuscia,foaf:Person
+1954,reo:saccoletto-marta,SACCOLETTO MARTA,foaf:Person
+1955,reo:sacerdote-laura-lea,SACERDOTE Laura Lea,foaf:Person
+1956,reo:sadeghi-jila,SADEGHI Jila,foaf:Person
+1957,reo:saha-a,SAHA-A,foaf:Person
+1958,reo:said-pullicino-daniel,SAID PULLICINO Daniel,foaf:Person
+1959,reo:sainas-stefano,SAINAS Stefano,foaf:Person
+1960,reo:salamone-alfonso,SALAMONE Alfonso,foaf:Person
+1961,reo:salatino-adriana,SALATINO ADRIANA,foaf:Person
+1962,reo:salehpour-shiva,SALEHPOUR SHIVA,foaf:Person
+1963,reo:salgarella-nicolò-ivan,SALGARELLA NICOLÒ IVAN,foaf:Person
+1964,reo:salis-matteo,SALIS MATTEO,foaf:Person
+1965,reo:salonidis-t,SALONIDIS-T,foaf:Person
+1966,reo:salvan-michele-giuseppe,SALVAN MICHELE GIUSEPPE,foaf:Person
+1967,reo:samarati-p,SAMARATI-P,foaf:Person
+1968,reo:samuel-vrech,Samuel-Vrech,foaf:Person
+1969,reo:sanasi-luigi,SANASI LUIGI,foaf:Person
+1970,reo:sanavia-tiziana,SANAVIA Tiziana,foaf:Person
+1971,reo:sanfilippo-marco,SANFILIPPO Marco,foaf:Person
+1972,reo:sanges-r,SANGES-R,foaf:Person
+1973,reo:sannino-emilia,SANNINO Emilia,foaf:Person
+1974,reo:sans-planell-oriol,SANS PLANELL ORIOL,foaf:Person
+1975,reo:santangelo-antonio-dante-maria,SANTANGELO Antonio Dante Maria,foaf:Person
+1976,reo:santanni-matteo,SANTANNI MATTEO,foaf:Person
+1977,reo:santoro-leonardo,SANTORO LEONARDO,foaf:Person
+1978,reo:santoro-licia,SANTORO Licia,foaf:Person
+1979,reo:santoro-veronica,SANTORO VERONICA,foaf:Person
+1980,reo:sapino-anna,SAPINO Anna,foaf:Person
+1981,reo:sapino-maria-luisa,Maria-Luisa SAPINO,foaf:Person
+1982,reo:sapino-roberta,SAPINO Roberta,foaf:Person
+1983,reo:sappino-emmanuele,SAPPINO EMMANUELE,foaf:Person
+1984,reo:sara-capecchi,Sara CAPECCHI,foaf:Person
+1985,reo:saraceni-astrid,SARACENI ASTRID,foaf:Person
+1986,reo:saracik-özgür,SARACIK ÖZGÜR,foaf:Person
+1987,reo:sartor-c,SARTOR-C,foaf:Person
+1988,reo:sartor-gabriele,SARTOR GABRIELE,foaf:Person
+1989,reo:sartore-bianchi-a,Sartore-Bianchi-A,foaf:Person
+1990,reo:sarvia-filippo,SARVIA FILIPPO,foaf:Person
+1991,reo:sarzotti-claudio,SARZOTTI Claudio,foaf:Person
+1992,reo:sau-lino,SAU Lino,foaf:Person
+1993,reo:saviozzi-s,SAVIOZZI-S,foaf:Person
+1994,reo:scaglione-federico,SCAGLIONE Federico,foaf:Person
+1995,reo:scaglione-frine-eleonora,SCAGLIONE Frine Eleonora,foaf:Person
+1996,reo:scagliotti-gv,SCAGLIOTTI-GV,foaf:Person
+1997,reo:scagnelli-simone-domenico,SCAGNELLI Simone Domenico,foaf:Person
+1998,reo:scagni-andrea,SCAGNI Andrea,foaf:Person
+1999,reo:scaioli-giacomo,SCAIOLI Giacomo,foaf:Person
+2000,reo:scalas-daniela,SCALAS Daniela,foaf:Person
+2001,reo:scaliti-eugenio,SCALITI EUGENIO,foaf:Person
+2002,reo:scamuzzi-sergio-bernardino,SCAMUZZI Sergio Bernardino,foaf:Person
+2003,reo:scanavino-b,SCANAVINO-B,foaf:Person
+2004,reo:scandiffio-rosaria,SCANDIFFIO Rosaria,foaf:Person
+2005,reo:scarcia-giulia,SCARCIA Giulia,foaf:Person
+2006,reo:scarpina-federica,SCARPINA Federica,foaf:Person
+2007,reo:scavarda-alice,SCAVARDA Alice,foaf:Person
+2008,reo:scelfo-francesco,SCELFO Francesco,foaf:Person
+2009,reo:schaefer-r,SCHAEFER-R,foaf:Person
+2010,reo:schiesari-r,SCHIESARI-R,foaf:Person
+2011,reo:schiesari-roberto,SCHIESARI Roberto,foaf:Person
+2012,reo:schifanella-claudio,Claudio SCHIFANELLA,foaf:Person
+2013,reo:schifanella-rossano,Rossano SCHIFANELLA,foaf:Person
+2014,reo:sciacca-mariafebronia,SCIACCA MARIAFEBRONIA,foaf:Person
+2015,reo:sciascia-savino,SCIASCIA Savino,foaf:Person
+2016,reo:sciullo-alessandro,SCIULLO Alessandro,foaf:Person
+2017,reo:scomparin-laura,SCOMPARIN Laura,foaf:Person
+2018,reo:scuotto-veronica,SCUOTTO Veronica,foaf:Person
+2019,reo:scutera-sara-agata-caterina,SCUTERA Sara Agata Caterina,foaf:Person
+2020,reo:sebastian-schaffert,Sebastian-Schaffert,foaf:Person
+2021,reo:secinaro-silvana-filomena,SECINARO Silvana Filomena,foaf:Person
+2022,reo:segnan-m,SEGNAN-M,foaf:Person
+2023,reo:segnan-marino,Marino SEGNAN,foaf:Person
+2024,reo:seif-zadeh-negin,SEIF ZADEH Negin,foaf:Person
+2025,reo:semeraro-alfonso,SEMERARO ALFONSO,foaf:Person
+2026,reo:semi-giovanni,SEMI Giovanni,foaf:Person
+2027,reo:sereno-matteo,Matteo SERENO,foaf:Person
+2028,reo:sergei-gorlatch,Sergei-Gorlatch,foaf:Person
+2029,reo:sergio-gusmeroli,Sergio-Gusmeroli,foaf:Person
+2030,reo:sergio-rabellino,Sergio RABELLINO,foaf:Person
+2031,reo:serio-marina,SERIO Marina,foaf:Person
+2032,reo:serrao-giuseppe,SERRAO GIUSEPPE,foaf:Person
+2033,reo:serravalle-francesca,SERRAVALLE Francesca,foaf:Person
+2034,reo:setten-elisa,SETTEN ELISA,foaf:Person
+2035,reo:sferra-chiara,SFERRA Chiara,foaf:Person
+2036,reo:sforzi-jacopo,SFORZI JACOPO,foaf:Person
+2037,reo:sgreccia-palma,SGRECCIA Palma,foaf:Person
+2038,reo:sgroi-mauro-francesco,SGROI Mauro Francesco,foaf:Person
+2039,reo:sguaizer-francesco,SGUAIZER FRANCESCO,foaf:Person
+2040,reo:sibille-giulia,SIBILLE GIULIA,foaf:Person
+2041,reo:sibio-carmelo,SIBIO Carmelo,foaf:Person
+2042,reo:sica-beatrice,SICA BEATRICE,foaf:Person
+2043,reo:sicuro-benedetto,SICURO Benedetto,foaf:Person
+2044,reo:siddi-nicola,SIDDI NICOLA,foaf:Person
+2045,reo:siena-s,Siena-S,foaf:Person
+2046,reo:signorino-elena,SIGNORINO ELENA,foaf:Person
+2047,reo:silva,SILVA,foaf:Person
+2048,reo:silvano-luigi,SILVANO Luigi,foaf:Person
+2049,reo:silvia-magini,Silvia-Magini,foaf:Person
+2050,reo:simi-maria,Simi-Maria,foaf:Person
+2051,reo:simona-ronchi-della-rocca,SIMONA-RONCHI-DELLA-ROCCA,foaf:Person
+2052,reo:simone-zezza,Simone-Zezza,foaf:Person
+2053,reo:siniscalco-maria-consolata,SINISCALCO Maria Consolata,foaf:Person
+2054,reo:siracusa-federico,SIRACUSA FEDERICO,foaf:Person
+2055,reo:siracusa-s,SIRACUSA-S,foaf:Person
+2056,reo:siragusa-giovanni,SIRAGUSA GIOVANNI,foaf:Person
+2057,reo:sirovich-roberta,SIROVICH Roberta,foaf:Person
+2058,reo:sisto-davide-giovanni-cesare,SISTO DAVIDE GIOVANNI CESARE,foaf:Person
+2059,reo:skorokhod-oleksii,SKOROKHOD Oleksii,foaf:Person
+2060,reo:skovronova-renata,SKOVRONOVA Renata,foaf:Person
+2061,reo:sobrino-giorgio-giuseppe,SOBRINO Giorgio Giuseppe,foaf:Person
+2062,reo:soccini-agata-marta,Agata-Marta SOCCINI,foaf:Person
+2063,reo:soda-g,SODA-G,foaf:Person
+2064,reo:soddu-paolo,SODDU Paolo,foaf:Person
+2065,reo:sofia-adriano,SOFIA ADRIANO,foaf:Person
+2066,reo:sogari-alberto,SOGARI ALBERTO,foaf:Person
+2067,reo:soglia-dominga,SOGLIA Dominga,foaf:Person
+2068,reo:sola-valentina,SOLA Valentina,foaf:Person
+2069,reo:soldano-carlotta,SOLDANO Carlotta,foaf:Person
+2070,reo:solera-cristina,SOLERA Cristina,foaf:Person
+2071,reo:sonia-campa,Sonia-Campa,foaf:Person
+2072,reo:sonzogni-chiara,SONZOGNI Chiara,foaf:Person
+2073,reo:sophia-drossopoulou,SOPHIA-DROSSOPOULOU,foaf:Person
+2074,reo:sorano-enrico,SORANO Enrico,foaf:Person
+2075,reo:sorbini-monica,SORBINI MONICA,foaf:Person
+2076,reo:sordella-silvia,Sordella Silvia,foaf:Person
+2077,reo:sordello-fabrizio,SORDELLO Fabrizio,foaf:Person
+2078,reo:sorge-matteo,SORGE MATTEO,foaf:Person
+2079,reo:sozzo-sara,SOZZO SARA,foaf:Person
+2080,reo:spadaro-davide-carmelo,SPADARO Davide Carmelo,foaf:Person
+2081,reo:spadaro-gabriele,SPADARO GABRIELE,foaf:Person
+2082,reo:spadoni-gian-luca,SPADONI GIAN LUCA,foaf:Person
+2083,reo:spagnolo-andrea,SPAGNOLO Andrea,foaf:Person
+2084,reo:specchio-anna,SPECCHIO Anna,foaf:Person
+2085,reo:spina-federica,SPINA Federica,foaf:Person
+2086,reo:spinazzola-matteo,SPINAZZOLA MATTEO,foaf:Person
+2087,reo:spiteri-cynthianne,SPITERI CYNTHIANNE,foaf:Person
+2088,reo:sprenger-jan-michael,SPRENGER Jan Michael,foaf:Person
+2089,reo:sproston-jeremy-james,Jeremy-James SPROSTON,foaf:Person
+2090,reo:spyrakis-francesca,SPYRAKIS Francesca,foaf:Person
+2091,reo:squillacioti-giulia,SQUILLACIOTI Giulia,foaf:Person
+2092,reo:stafutti-stefania,STAFUTTI Stefania,foaf:Person
+2093,reo:stanchi-silvia,STANCHI Silvia,foaf:Person
+2094,reo:stanga-serena,STANGA Serena,foaf:Person
+2095,reo:stano-simona,STANO Simona,foaf:Person
+2096,reo:stecca-stefania,STECCA Stefania,foaf:Person
+2097,reo:stefan-weinzierl,Stefan-Weinzierl,foaf:Person
+2098,reo:stefania-montani,Stefania-Montani,foaf:Person
+2099,reo:stefania-rachele,STEFANIA Rachele,foaf:Person
+2100,reo:stefanini-irene,STEFANINI Irene,foaf:Person
+2101,reo:stefano-berardi,STEFANO-BERARDI,foaf:Person
+2102,reo:stefano-rosso,Stefano-Rosso,foaf:Person
+2103,reo:steffen-van-bakel,Steffen-Van-Bakel,foaf:Person
+2104,reo:steila-daniela,STEILA Daniela,foaf:Person
+2105,reo:stenta-jeshua,STENTA Jeshua,foaf:Person
+2106,reo:stephan-weibelzahl,STEPHAN-WEIBELZAHL,foaf:Person
+2107,reo:storta-elena,STORTA ELENA,foaf:Person
+2108,reo:storto-silvana,STORTO SILVANA,foaf:Person
+2109,reo:straffon-díaz-sara,STRAFFON DÍAZ SARA,foaf:Person
+2110,reo:stranisci-marco-antonio,Marco-Antonio STRANISCI,foaf:Person
+2111,reo:streito-lidia-mislin,STREITO LIDIA MISLIN,foaf:Person
+2112,reo:stroppa-luca,STROPPA LUCA,foaf:Person
+2113,reo:stura-ilaria,STURA Ilaria,foaf:Person
+2114,reo:sturari-sofia,STURARI Sofia,foaf:Person
+2115,reo:succio-stefania,SUCCIO STEFANIA,foaf:Person
+2116,reo:sulis-emilio,Emilio SULIS,foaf:Person
+2117,reo:surace-bruno,SURACE Bruno,foaf:Person
+2118,reo:susanna-donatelli,Susanna DONATELLI,foaf:Person
+2119,reo:tabasso-silvia,TABASSO Silvia,foaf:Person
+2120,reo:tabor-davide,TABOR DAVIDE,foaf:Person
+2121,reo:tachis-elena,TACHIS ELENA,foaf:Person
+2122,reo:taddeo-gabriella,TADDEO Gabriella,foaf:Person
+2123,reo:taffuri-andrea,TAFFURI ANDREA,foaf:Person
+2124,reo:tagliabue-lavinia-chiara,TAGLIABUE Lavinia Chiara,foaf:Person
+2125,reo:talarico-melania,TALARICO Melania,foaf:Person
+2126,reo:tammam-tillo,Tammam-Tillo,foaf:Person
+2127,reo:taragna-antonella,TARAGNA Antonella,foaf:Person
+2128,reo:taranto-eugenia,TARANTO EUGENIA,foaf:Person
+2129,reo:tarantola-martina,TARANTOLA Martina,foaf:Person
+2130,reo:tarditi-claudio,TARDITI CLAUDIO,foaf:Person
+2131,reo:tarone-lidia,TARONE LIDIA,foaf:Person
+2132,reo:tartaglione-enzo,TARTAGLIONE Enzo,foaf:Person
+2133,reo:tavella-chiara,TAVELLA CHIARA,foaf:Person
+2134,reo:taverna-daniela,TAVERNA Daniela,foaf:Person
+2135,reo:tecco-nadia,TECCO Nadia,foaf:Person
+2136,reo:tedeschi-rosemarie,TEDESCHI Rosemarie,foaf:Person
+2137,reo:tedeschi-stefano,TEDESCHI STEFANO,foaf:Person
+2138,reo:tema-evdokia,TEMA Evdokia,foaf:Person
+2139,reo:terenziani-p,TERENZIANI-P,foaf:Person
+2140,reo:terigi-letizia,TERIGI Letizia,foaf:Person
+2141,reo:terracini-lea,TERRACINI Lea,foaf:Person
+2142,reo:terracini-susanna,TERRACINI Susanna,foaf:Person
+2143,reo:terranova-francesca,TERRANOVA FRANCESCA,foaf:Person
+2144,reo:terreno-enzo,TERRENO Enzo,foaf:Person
+2145,reo:terrone-irene,TERRONE IRENE,foaf:Person
+2146,reo:terzolo-massimo,TERZOLO Massimo,foaf:Person
+2147,reo:tesauri-beatrice,TESAURI BEATRICE,foaf:Person
+2148,reo:testa-marco,TESTA MARCO,foaf:Person
+2149,reo:thierry-vidal,Thierry-Vidal,foaf:Person
+2150,reo:thomas-bruckner,Thomas-Bruckner,foaf:Person
+2151,reo:ticali-pierfrancesco,TICALI PIERFRANCESCO,foaf:Person
+2152,reo:tillo-t,TILLO-T,foaf:Person
+2153,reo:tinti-carla,TINTI Carla,foaf:Person
+2154,reo:tinti-davide,TINTI Davide,foaf:Person
+2155,reo:tipaldo-giuseppe,TIPALDO Giuseppe,foaf:Person
+2156,reo:tirassa-maurizio,TIRASSA Maurizio,foaf:Person
+2157,reo:toldo-alessia,TOLDO Alessia,foaf:Person
+2158,reo:tolosano-emanuela,TOLOSANO Emanuela,foaf:Person
+2159,reo:tom-weyman-jones,Tom-Weyman-Jones,foaf:Person
+2160,reo:tomassone-laura,TOMASSONE Laura,foaf:Person
+2161,reo:tomatis-francesca,TOMATIS FRANCESCA,foaf:Person
+2162,reo:tonet-tommaso,TONET TOMMASO,foaf:Person
+2163,reo:tonon-marco-davide,TONON Marco Davide,foaf:Person
+2164,reo:torasso-p,TORASSO-P,foaf:Person
+2165,reo:torasso-pietro,Torasso-Pietro,foaf:Person
+2166,reo:torchio-m,TORCHIO-M,foaf:Person
+2167,reo:torre-emanuela-maria-teresa,TORRE Emanuela Maria Teresa,foaf:Person
+2168,reo:torre-i,TORRE-I,foaf:Person
+2169,reo:torrente-giovanni,TORRENTE Giovanni,foaf:Person
+2170,reo:torrielli-federico,TORRIELLI FEDERICO,foaf:Person
+2171,reo:torrioni-paola-maria,TORRIONI Paola Maria,foaf:Person
+2172,reo:torta-g,TORTA-G,foaf:Person
+2173,reo:torta-gianluca,Gianluca TORTA,foaf:Person
+2174,reo:torta-maria-chiara,TORTA Maria Chiara,foaf:Person
+2175,reo:torti-francesca,TORTI Francesca,foaf:Person
+2176,reo:torti-valeria,TORTI VALERIA,foaf:Person
+2177,reo:tortia-cristina,TORTIA Cristina,foaf:Person
+2178,reo:tortola-cinzia,TORTOLA CINZIA,foaf:Person
+2179,reo:tortoreto-andrea,TORTORETO ANDREA,foaf:Person
+2180,reo:toschi-paola,TOSCHI Paola,foaf:Person
+2181,reo:tosi-simone,TOSI Simone,foaf:Person
+2182,reo:towsley-d,TOWSLEY-D,foaf:Person
+2183,reo:tradori-vania,TRADORI Vania,foaf:Person
+2184,reo:tran-cao-son,Tran-Cao-Son,foaf:Person
+2185,reo:traversi-deborah,TRAVERSI Deborah,foaf:Person
+2186,reo:trento-marina,TRENTO Marina,foaf:Person
+2187,reo:trianni-alberta,TRIANNI Alberta,foaf:Person
+2188,reo:trifirò-linda,TRIFIRÒ LINDA,foaf:Person
+2189,reo:triki-nesrine,TRIKI Nesrine,foaf:Person
+2190,reo:trinchero-cristina,TRINCHERO Cristina,foaf:Person
+2191,reo:trioli-francesca,TRIOLI FRANCESCA,foaf:Person
+2192,reo:tripodi-paolo,TRIPODI Paolo,foaf:Person
+2193,reo:tripodi-vera,TRIPODI Vera,foaf:Person
+2194,reo:trombetta-antonella,TROMBETTA Antonella,foaf:Person
+2195,reo:trotta-francesco,TROTTA Francesco,foaf:Person
+2196,reo:truant-elisa,TRUANT Elisa,foaf:Person
+2197,reo:tullio-viviana-cristina,TULLIO Viviana Cristina,foaf:Person
+2198,reo:tumino-donata,TUMINO Donata,foaf:Person
+2199,reo:turbil-alessandro,TURBIL ALESSANDRO,foaf:Person
+2200,reo:turci-francesco,TURCI Francesco,foaf:Person
+2201,reo:turco-federica,TURCO FEDERICA,foaf:Person
+2202,reo:turco-francesca,TURCO Francesca,foaf:Person
+2203,reo:turri-maria-grazia,TURRI MARIA GRAZIA,foaf:Person
+2204,reo:tursi-fabrizio,TURSI Fabrizio,foaf:Person
+2205,reo:tursi-massimiliano,TURSI Massimiliano,foaf:Person
+2206,reo:uberti-mariacristina,UBERTI Mariacristina,foaf:Person
+2207,reo:ugazio-elena,UGAZIO Elena,foaf:Person
+2208,reo:ughetto-corsa-giorgia,UGHETTO CORSA GIORGIA,foaf:Person
+2209,reo:ugliengo-piero,UGLIENGO Piero,foaf:Person
+2210,reo:ulrich-silvia,ULRICH Silvia,foaf:Person
+2211,reo:umili-gessica,UMILI Gessica,foaf:Person
+2212,reo:urbinati-alessandra,URBINATI ALESSANDRA,foaf:Person
+2213,reo:vacha-damiano,VACHA DAMIANO,foaf:Person
+2214,reo:vaglietti-serena,vaglietti serena,foaf:Person
+2215,reo:valdembri-donatella,VALDEMBRI Donatella,foaf:Person
+2216,reo:valente-daria,VALENTE Daria,foaf:Person
+2217,reo:valenti-sofia,VALENTI SOFIA,foaf:Person
+2218,reo:valentina-gliozzi,Valentina GLIOZZI,foaf:Person
+2219,reo:valentini-margherita,VALENTINI MARGHERITA,foaf:Person
+2220,reo:valenzano-mario,VALENZANO Mario,foaf:Person
+2221,reo:valerio-basile,Valerio BASILE,foaf:Person
+2222,reo:valerio-bioglio,Valerio BIOGLIO,foaf:Person
+2223,reo:valetti-alessandro,VALETTI ALESSANDRO,foaf:Person
+2224,reo:valetti-francesca,VALETTI Francesca,foaf:Person
+2225,reo:valle-andrea,VALLE Andrea,foaf:Person
+2226,reo:valle-carlotta,VALLE CARLOTTA,foaf:Person
+2227,reo:vallero-maria-beatrice,VALLERO MARIA BEATRICE,foaf:Person
+2228,reo:valtorta-e,Valtorta-E,foaf:Person
+2229,reo:van-bakel-steffen,VAN-BAKEL-STEFFEN,foaf:Person
+2230,reo:van-der-torre-l,VAN-DER-TORRE-L,foaf:Person
+2231,reo:vannoni-davide,VANNONI Davide,foaf:Person
+2232,reo:vanolo-alberto,VANOLO Alberto,foaf:Person
+2233,reo:varese-erica,VARESE Erica,foaf:Person
+2234,reo:varese-giovanna-cristina,VARESE Giovanna Cristina,foaf:Person
+2235,reo:varvello-francesca,VARVELLO Francesca,foaf:Person
+2236,reo:varzandi-amir-reza,VARZANDI AMIR REZA,foaf:Person
+2237,reo:vassallo-christian,VASSALLO Christian,foaf:Person
+2238,reo:veggi-sara,VEGGI Sara,foaf:Person
+2239,reo:vella-gioacchino,VELLA Gioacchino,foaf:Person
+2240,reo:venturini-alessandra,VENTURINI Alessandra,foaf:Person
+2241,reo:venturoli-sofia,VENTUROLI Sofia,foaf:Person
+2242,reo:vercelli-alessandro,VERCELLI Alessandro,foaf:Person
+2243,reo:vercelli-cristina,VERCELLI Cristina,foaf:Person
+2244,reo:vercellin-ermanno,VERCELLIN Ermanno,foaf:Person
+2245,reo:vernero-fabiana,Fabiana VERNERO,foaf:Person
+2246,reo:vernone-a,VERNONE-A,foaf:Person
+2247,reo:vernone-annamaria,VERNONE Annamaria,foaf:Person
+2248,reo:veronese-barbara,VERONESE BARBARA,foaf:Person
+2249,reo:veronese-s,Veronese-S,foaf:Person
+2250,reo:verri-alessia,VERRI ALESSIA,foaf:Person
+2251,reo:vesce-enrica,VESCE Enrica,foaf:Person
+2252,reo:vesco-antonio,VESCO Antonio,foaf:Person
+2253,reo:viani-cristina,VIANI CRISTINA,foaf:Person
+2254,reo:viano-cristina,VIANO CRISTINA,foaf:Person
+2255,reo:viano-cristina-maria-dorina,VIANO CRISTINA MARIA DORINA,foaf:Person
+2256,reo:viassone-milena,VIASSONE Milena,foaf:Person
+2257,reo:vigani-gianpiero,VIGANI Gianpiero,foaf:Person
+2258,reo:vigliaturo-ruggero,VIGLIATURO Ruggero,foaf:Person
+2259,reo:vignati-anna,VIGNATI Anna,foaf:Person
+2260,reo:vilella-salvatore,VILELLA SALVATORE,foaf:Person
+2261,reo:villa-maria-chiara,VILLA MARIA-CHIARA,foaf:Person
+2262,reo:villata-serena,Villata-Serena,foaf:Person
+2263,reo:vinai-nikolaj,VINAI NIKOLAJ,foaf:Person
+2264,reo:vindigni-floriana,VINDIGNI Floriana,foaf:Person
+2265,reo:viola-gabriella,VIOLA Gabriella,foaf:Person
+2266,reo:viola-irene,VIOLA IRENE,foaf:Person
+2267,reo:viola-marco,VIOLA MARCO,foaf:Person
+2268,reo:vione-davide--vittorio,VIONE Davide  Vittorio,foaf:Person
+2269,reo:virgilio-eleonora,VIRGILIO Eleonora,foaf:Person
+2270,reo:viscardi-guido,VISCARDI Guido,foaf:Person
+2271,reo:visentin-luca,Visentin Luca,foaf:Person
+2272,reo:visentin-sonia,VISENTIN Sonia,foaf:Person
+2273,reo:vissio-gabriele,VISSIO GABRIELE,foaf:Person
+2274,reo:vita-l,VITA-L,foaf:Person
+2275,reo:vitale-benedetta,VITALE BENEDETTA,foaf:Person
+2276,reo:vitale-nicoletta,VITALE NICOLETTA,foaf:Person
+2277,reo:vittone-ettore,VITTONE Ettore,foaf:Person
+2278,reo:vittoz-marie-berthe,VITTOZ Marie Berthe,foaf:Person
+2279,reo:vitturini-davide,VITTURINI DAVIDE,foaf:Person
+2280,reo:vivarelli-maurizio,VIVARELLI Maurizio,foaf:Person
+2281,reo:viviana-bono,VIVIANA-BONO,foaf:Person
+2282,reo:viviana-patti,Viviana PATTI,foaf:Person
+2283,reo:vladimiro-miranda,Vladimiro-Miranda,foaf:Person
+2284,reo:voena-claudia,VOENA Claudia,foaf:Person
+2285,reo:volpatto-daniela,VOLPATTO DANIELA,foaf:Person
+2286,reo:volpe-veronica,VOLPE Veronica,foaf:Person
+2287,reo:volpino-valeria,VOLPINO VALERIA,foaf:Person
+2288,reo:vomera-angelica,VOMERA ANGELICA,foaf:Person
+2289,reo:voto-cristina,VOTO Cristina,foaf:Person
+2290,reo:votta-cristina,VOTTA Cristina,foaf:Person
+2291,reo:voyron-samuele,VOYRON Samuele,foaf:Person
+2292,reo:vozzo-vanessa,VOZZO Vanessa,foaf:Person
+2293,reo:wietze-lise,Wietze-Lise,foaf:Person
+2294,reo:william-rosehart,William-Rosehart,foaf:Person
+2295,reo:wojciech-borczyk,Wojciech-Borczyk,foaf:Person
+2296,reo:yan-qi,YAN-QI,foaf:Person
+2297,reo:yari-melzani,Yari-Melzani,foaf:Person
+2298,reo:yatsuk-oleh,YATSUK Oleh,foaf:Person
+2299,reo:yiwen-wang,Yiwen-Wang,foaf:Person
+2300,reo:yoriyuki-yamagata,Yoriyuki-Yamagata,foaf:Person
+2301,reo:yves-smeers,Yves-Smeers,foaf:Person
+2302,reo:zabbia-marino,ZABBIA Marino,foaf:Person
+2303,reo:zaffino-marco,ZAFFINO MARCO,foaf:Person
+2304,reo:zagni-luca-matteo,ZAGNI LUCA MATTEO,foaf:Person
+2305,reo:zaharia-laurentiu-jr-marius,ZAHARIA LAURENTIU JR MARIUS,foaf:Person
+2306,reo:zambella-domenico,ZAMBELLA Domenico,foaf:Person
+2307,reo:zamengo-federico,ZAMENGO Federico,foaf:Person
+2308,reo:zampese-carlotta,ZAMPESE CARLOTTA,foaf:Person
+2309,reo:zanella-elena,ZANELLA Elena,foaf:Person
+2310,reo:zanet-stefania,ZANET Stefania,foaf:Person
+2311,reo:zanetti-marco,ZANETTI Marco,foaf:Person
+2312,reo:zanker-m,ZANKER-M,foaf:Person
+2313,reo:zanoli-anna,ZANOLI Anna,foaf:Person
+2314,reo:zanutto-francesca,ZANUTTO Francesca,foaf:Person
+2315,reo:zanzotto-maria,ZANZOTTO MARIA,foaf:Person
+2316,reo:zara-georgia,ZARA Georgia,foaf:Person
+2317,reo:zavattaro-laura,ZAVATTARO Laura,foaf:Person
+2318,reo:zennaro-alessandro,ZENNARO Alessandro,foaf:Person
+2319,reo:zeppa-giuseppe,ZEPPA Giuseppe,foaf:Person
+2320,reo:zibetti-maurizio,ZIBETTI Maurizio,foaf:Person
+2321,reo:zingaro-sandra,ZINGARO SANDRA,foaf:Person
+2322,reo:zola-lia-emilia,ZOLA Lia Emilia,foaf:Person
+2323,reo:zoppi-marta,ZOPPI Marta,foaf:Person
+2324,reo:zotti-roberto,ZOTTI Roberto,foaf:Person
+2325,reo:zottola-angela,ZOTTOLA Angela,foaf:Person
+2326,reo:zucca-cristina,ZUCCA Cristina,foaf:Person
+2327,reo:zucca-stefano,ZUCCA Stefano,foaf:Person

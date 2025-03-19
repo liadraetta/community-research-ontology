@@ -1,0 +1,7 @@
+faiss_id,entity,label,type
+0,reo:altre-attività,Altre attività,reo:ProjectType
+1,reo:finanziamenti-di-ateneo,Finanziamenti di Ateneo,reo:ProjectType
+2,reo:esteri-pubblici-o-privati,Finanziamenti da bandi europei e internazionali/esteri pubblici o privati,reo:ProjectType
+3,reo:finanziamenti-da-bandi-regionali-comunali-ed-enti-locali,Finanziamenti da bandi regionali comunali ed enti locali,reo:ProjectType
+4,reo:finanziamenti-da-bandi-nazionali-ministeriali-e-altri-eepp-no-regione-no-enti-locali,Finanziamenti da bandi nazionali Ministeriali e altri EEPP no Regione no Enti locali,reo:ProjectType
+5,reo:finanziamenti-da-privati-italiani,Finanziamenti da privati italiani,reo:ProjectType

@@ -1,0 +1,41 @@
+faiss_id,entity,label,type
+0,reo:agro-innova,AGRO-INNOVA,org:Department
+1,reo:area-sostenibilità,Area Sostenibilità,org:Department
+2,reo:area-trasferimento-tecnologico-e-della-conoscenza,Area Trasferimento Tecnologico e della Conoscenza,org:Department
+3,reo:area-valorizzazione-impatto-e-public-engagement,Area Valorizzazione Impatto e Public Engagement,org:Department
+4,reo:biotecnologie-molecolari-e-scienze-per-la-salute,BIOTECNOLOGIE MOLECOLARI E SCIENZE PER LA SALUTE,org:Department
+5,reo:centro-interdipartimentale-di-ricerca-per-le-biotecnologie-molecolari---mbc,CENTRO INTERDIPARTIMENTALE DI RICERCA PER LE BIOTECNOLOGIE MOLECOLARI - MBC,org:Department
+6,reo:centro-interdipartimentale-sulle-superfici-ed-interfasi-nanostrutturate,Centro Interdipartimentale sulle Superfici ed Interfasi Nanostrutturate,org:Department
+7,reo:chimica,CHIMICA,org:Department
+8,reo:cla-unito---centro-linguistico-di-ateneo,CLA UNITO - Centro Linguistico di Ateneo,org:Department
+9,reo:direzione-affari-generali-e-patrimonio-culturale,Direzione Affari Generali e Patrimonio Culturale,org:Department
+10,reo:direzione-bilancio-contabilità-e-tesoreria,Direzione Bilancio Contabilità e Tesoreria,org:Department
+11,reo:direzione-generale,Direzione Generale,org:Department
+12,reo:direzione-innovazione-e-internazionalizzazione,Direzione Innovazione e Internazionalizzazione,org:Department
+13,reo:direzione-ricerca,Direzione Ricerca,org:Department
+14,reo:direzione-sicurezza-patrimonio-e-facility-management,Direzione Sicurezza Patrimonio e Facility Management,org:Department
+15,reo:direzione-sviluppo-organizzativo-innovazione-e-servizi-bibliotecari,Direzione Sviluppo Organizzativo Innovazione e Servizi Bibliotecari,org:Department
+16,reo:economia-e-statistica--cognetti-de-martiis-,ECONOMIA E STATISTICA -COGNETTI DE MARTIIS-,org:Department
+17,reo:fisica,FISICA,org:Department
+18,reo:giurisprudenza,GIURISPRUDENZA,org:Department
+19,reo:informatica,INFORMATICA,org:Department
+20,reo:informatica-department,INFORMATICA,org:Department
+21,reo:interateneo-di-scienze-progetto-e-politiche-del-territorio,INTERATENEO DI SCIENZE PROGETTO E POLITICHE DEL TERRITORIO,org:Department
+22,reo:lingue-e-letterature-straniere-e-culture-moderne,LINGUE E LETTERATURE STRANIERE E CULTURE MODERNE,org:Department
+23,reo:management--valter-cantino-,MANAGEMENT -VALTER CANTINO-,org:Department
+24,reo:matematica--giuseppe-peano-,MATEMATICA -GIUSEPPE PEANO-,org:Department
+25,reo:neuroscienze--rita-levi-montalcini-,NEUROSCIENZE -RITA LEVI MONTALCINI-,org:Department
+26,reo:oncologia,ONCOLOGIA,org:Department
+27,reo:psicologia,PSICOLOGIA,org:Department
+28,reo:scienza-e-tecnologia-del-farmaco,SCIENZA E TECNOLOGIA DEL FARMACO,org:Department
+29,reo:scienze-agrarie-forestali-e-alimentari,SCIENZE AGRARIE FORESTALI E ALIMENTARI,org:Department
+30,reo:scienze-chirurgiche,SCIENZE CHIRURGICHE,org:Department
+31,reo:scienze-cliniche-e-biologiche,SCIENZE CLINICHE E BIOLOGICHE,org:Department
+32,reo:scienze-della-terra,SCIENZE DELLA TERRA,org:Department
+33,reo:scienze-della-vita-e-biologia-dei-sistemi,SCIENZE DELLA VITA E BIOLOGIA DEI SISTEMI,org:Department
+34,reo:scienze-economico-sociali-e-matematico-statistiche,SCIENZE ECONOMICO-SOCIALI E MATEMATICO-STATISTICHE,org:Department
+35,reo:scienze-mediche,SCIENZE MEDICHE,org:Department
+36,reo:scienze-veterinarie,SCIENZE VETERINARIE,org:Department
+37,reo:sistema-museale-di-ateneo,Sistema Museale di Ateneo,org:Department
+38,reo:studi-storici,STUDI STORICI,org:Department
+39,reo:studi-umanistici,STUDI UMANISTICI,org:Department
