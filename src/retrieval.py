@@ -1,7 +1,10 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch, json
 
-model_name = "numind/NuExtract-1.5-smol"
+#/Users/liadraetta/Desktop/wlkg/path/to/venv/bin/python /Users/liadraetta/Desktop/community-research-ontology/src/retrieval.py
+
+
+model_name = "numind/NuExtract-1.5-tiny"
 device = "mps"
 model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16, trust_remote_code=True).to(
     device).eval()
@@ -16,47 +19,40 @@ def predict_NuExtract(prompt, template, model=model, tokenizer=tokenizer, max_le
 
     return output.split("<|output|>")[1]
 
-texts = {
-    "text1": "Trova tutti gli articoli su rivista  pubblicati dal dipartimento di informatica nel 2024 che hanno tra le keyword Natural language processing",
-    "text2": "Trova sono tutti i progetti finanziati dall'organizzazione unione europea vinti dal dipartimento di informatica nell’anno 2024",
-    "text3": "Trova tutte le pubblicazioni di tipo conference proceedings pubblicate nell'ambito del progetto Talkidz",
-    "text4": "Trova tutti i progetti finanziati dall'unione Europea",
-    "Text5": "Quali sono tutte le pubblicazione del dipartimento di informatica in cui la prima autrice è una persona di genre femminile?",
-    "text6": "Trova tutte le pubblicazioni di tipo articolo su rivista delle persone nel dipartimento di informatica che hanno ruolo di Professore Associato",
-    "text7": "Trova tutte le pubblicazione di Rossana Damiano con keyword Emotions"
-}
+#text = """Trova tutte le pubblicazioni di tipo articolo su rivista  pubblicati dal dipartimento di informatica nel 2024 che hanno tra le keyword Natural language processing"""
+#text = """Find all the Journal article published by the computer science department in 2024 that have "Natural language processing" as keyword"""
+
+# text2: "Trova sono tutti i progetti finanziati dall'organizzazione unione europea vinti dal dipartimento di informatica nell’anno 2024"
+# text3: "Trova tutte le pubblicazioni di tipo conference proceedings pubblicate nell'ambito del progetto Talkidz"
+# text4: "Trova tutti i progetti finanziati dall'unione Europea"
+# Text5: "Quali sono tutte le pubblicazione del dipartimento di informatica in cui la prima autrice è una persona di genre femminile?"
+# text6: "Trova tutte le pubblicazioni di tipo articolo su rivista delle persone nel dipartimento di informatica che hanno ruolo di Professore Associato"
+# text7: "Trova tutte le pubblicazione di Rossana Damiano con keyword Emotions"
+text = """Find all the journal articles published by the person Rossana Damiano having "Emotions" as keyword"""
+
 
 template = {
     "QuestionPronoun": "",
     "EntityTypes": {
-        "Type": {
-            "OrganizationType": [],
-            "ProjectType": [],
-            "WorkType": [],
-            "PublicEngagementType": [],
-        },
-        "Topic": {
-            "Keyword": [],
-            "ERC Panel": [],
-            "Tematic Area": []
-        },
-        "year": [],
-        "Organization": {
-            "University": "",
-            "Department": "",
-            "Other": ""
-          },
-        "Person": [],
-        "Project": [],
-        "Work": [],
-        "Role": [],
-        "Author": []
+    "OrganizationType": [],
+    "ProjectType": [],
+    "WorkType": [],
+    "PublicEngagementType": [],
+    "Keyword": [],
+    # "ERC Panel": [],
+    # "Tematic Area": [],
+    # "Organization": {
+    #     "University": "",
+    #     "Department": "",
+    #     "Other": ""
+    #       },
+     "Author": []
+    # "Project": [],
+    # "Work": [],
+    # "Role": [],
     }
 }
 
-predictions = {}
-for key, text in texts.items():
-    predictions[key] = predict_NuExtract(text, template)
+prediction = predict_NuExtract(text,template)
 
-for key, prediction in predictions.items():
-    print(f"Prediction for {key}: {prediction}")
+print(prediction)

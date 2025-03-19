@@ -1,8 +1,10 @@
 import subprocess
 
+# Script che restituisce output in formato .nt
 #inserire path completo!
-query_path = "/Users/liadraetta/Desktop/community-research-ontology/queries/work_query.sparql"
-output_path = "/Users/liadraetta/Desktop/community-research-ontology/output/nt_output/pubblications.ttl"
+query_path = "/Users/liadraetta/Desktop/community-research-ontology/queries/author_query.sparql"
+print(query_path)
+output_path = "/output/nt_data/person.ttl"
 jar_path = "../sparql-anything.jar"
 
 command = [
@@ -13,3 +15,4 @@ command = [
 ]
 
 result = subprocess.run(command, capture_output=True, text=True)
+
